@@ -1,6 +1,6 @@
 ﻿namespace NP_UNIP
 {
-    partial class CADASTRO
+    partial class Cadastro
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CADASTRO));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastro));
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -67,6 +67,9 @@
             this.Cadastrar = new System.Windows.Forms.Button();
             this.Voltar = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.btimprimir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -394,7 +397,7 @@
             this.Cadastrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Cadastrar.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cadastrar.ForeColor = System.Drawing.Color.Black;
-            this.Cadastrar.Location = new System.Drawing.Point(299, 459);
+            this.Cadastrar.Location = new System.Drawing.Point(226, 461);
             this.Cadastrar.Name = "Cadastrar";
             this.Cadastrar.Size = new System.Drawing.Size(159, 33);
             this.Cadastrar.TabIndex = 76;
@@ -408,7 +411,7 @@
             this.Voltar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Voltar.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Voltar.ForeColor = System.Drawing.Color.Black;
-            this.Voltar.Location = new System.Drawing.Point(490, 459);
+            this.Voltar.Location = new System.Drawing.Point(420, 461);
             this.Voltar.Name = "Voltar";
             this.Voltar.Size = new System.Drawing.Size(159, 33);
             this.Voltar.TabIndex = 77;
@@ -421,19 +424,49 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(370, 122);
+            this.label18.Location = new System.Drawing.Point(363, 122);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(188, 23);
             this.label18.TabIndex = 78;
             this.label18.Text = "Cadastro de pacientes";
             // 
-            // CADASTRO
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage_1);
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            this.printPreviewDialog1.Load += new System.EventHandler(this.printPreviewDialog1_Load);
+            // 
+            // btimprimir
+            // 
+            this.btimprimir.BackColor = System.Drawing.SystemColors.Window;
+            this.btimprimir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btimprimir.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btimprimir.ForeColor = System.Drawing.Color.Black;
+            this.btimprimir.Location = new System.Drawing.Point(614, 461);
+            this.btimprimir.Name = "btimprimir";
+            this.btimprimir.Size = new System.Drawing.Size(159, 33);
+            this.btimprimir.TabIndex = 79;
+            this.btimprimir.Text = "Imprimir";
+            this.btimprimir.UseVisualStyleBackColor = false;
+            this.btimprimir.Click += new System.EventHandler(this.btimprimir_Click);
+            // 
+            // Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(914, 523);
+            this.Controls.Add(this.btimprimir);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.Voltar);
             this.Controls.Add(this.Cadastrar);
@@ -473,9 +506,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "CADASTRO";
+            this.Name = "Cadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CADASTRO";
+            this.Load += new System.EventHandler(this.CADASTRO_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -522,5 +556,8 @@
         private System.Windows.Forms.Button Cadastrar;
         private System.Windows.Forms.Button Voltar;
         private System.Windows.Forms.Label label18;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.Button btimprimir;
     }
 }

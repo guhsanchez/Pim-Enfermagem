@@ -54,6 +54,12 @@
     <Compile Include="AreaUsuario.Designer.cs">
       <DependentUpon>AreaUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="AreaUsuario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaUsuario2.Designer.cs">
+      <DependentUpon>AreaUsuario2.cs</DependentUpon>
+    </Compile>
     <Compile Include="CADASTRO.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AreaUsuario.resx">
       <DependentUpon>AreaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreaUsuario2.resx">
+      <DependentUpon>AreaUsuario2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CADASTRO.resx">
       <DependentUpon>CADASTRO.cs</DependentUpon>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NP_UNIP
 {
-    public partial class CADASTRO : Form
+    public partial class Cadastro : Form
     {
-        public CADASTRO()
+        public Cadastro()
         {
             InitializeComponent();
         }
@@ -38,6 +38,31 @@ namespace NP_UNIP
         private void Cadastrar_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Cadastrado com sucesso!");
+        }
+
+        private void CADASTRO_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+
+        }
+
+        private void btimprimir_Click(object sender, EventArgs e)
+        {
+            printPreviewDialog1.ShowDialog();
+        }
+
+        private void printPreviewDialog1_Load(object sender, EventArgs e)
+        {
+            printPreviewDialog1.WindowState = FormWindowState.Maximized;
+        }
+
+        private void printDocument1_PrintPage_1(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            Font fonte = new Font("Arial", 30, FontStyle.Bold, GraphicsUnit.Pixel);
         }
     }
 }

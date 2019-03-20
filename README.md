@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pim-Enfermagem
 Projeto do Pim
 
@@ -7,3 +8,4 @@ Integrantes do Projeto:
     Kaique Luciano
     Paulo Henrique
     Reinaldo
+    

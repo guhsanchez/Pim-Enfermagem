@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AreaUsuario));
             this.label18 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -42,6 +43,12 @@
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.btImprimir = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.data = new System.Windows.Forms.Label();
+            this.hora = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +58,7 @@
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(400, 90);
+            this.label18.Location = new System.Drawing.Point(402, 90);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(137, 23);
             this.label18.TabIndex = 80;
@@ -157,7 +164,7 @@
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(468, 141);
+            this.button4.Location = new System.Drawing.Point(369, 141);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(197, 28);
             this.button4.TabIndex = 90;
@@ -175,7 +182,7 @@
             // 
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(243, 141);
+            this.button5.Location = new System.Drawing.Point(125, 141);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(197, 28);
             this.button5.TabIndex = 92;
@@ -183,12 +190,73 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // btImprimir
+            // 
+            this.btImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btImprimir.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btImprimir.Location = new System.Drawing.Point(611, 141);
+            this.btImprimir.Name = "btImprimir";
+            this.btImprimir.Size = new System.Drawing.Size(197, 28);
+            this.btImprimir.TabIndex = 93;
+            this.btImprimir.Text = "Imprimir Formulário";
+            this.btImprimir.UseVisualStyleBackColor = true;
+            this.btImprimir.Click += new System.EventHandler(this.btImprimir_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            this.printPreviewDialog1.Load += new System.EventHandler(this.printPreviewDialog1_Load);
+            // 
+            // data
+            // 
+            this.data.AutoSize = true;
+            this.data.BackColor = System.Drawing.Color.Transparent;
+            this.data.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.data.ForeColor = System.Drawing.Color.White;
+            this.data.Location = new System.Drawing.Point(667, 544);
+            this.data.Name = "data";
+            this.data.Size = new System.Drawing.Size(52, 22);
+            this.data.TabIndex = 94;
+            this.data.Text = "Data";
+            this.data.Click += new System.EventHandler(this.data_Click);
+            // 
+            // hora
+            // 
+            this.hora.AutoSize = true;
+            this.hora.BackColor = System.Drawing.Color.Transparent;
+            this.hora.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hora.ForeColor = System.Drawing.Color.White;
+            this.hora.Location = new System.Drawing.Point(764, 544);
+            this.hora.Name = "hora";
+            this.hora.Size = new System.Drawing.Size(54, 22);
+            this.hora.TabIndex = 95;
+            this.hora.Text = "Hora";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
+            // 
             // AreaUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(914, 592);
+            this.Controls.Add(this.hora);
+            this.Controls.Add(this.data);
+            this.Controls.Add(this.btImprimir);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
@@ -204,8 +272,9 @@
             this.Controls.Add(this.label18);
             this.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AreaUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AreaUsuario";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -228,5 +297,11 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btImprimir;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.Label data;
+        private System.Windows.Forms.Label hora;
+        private System.Windows.Forms.Timer timer1;
     }
 }

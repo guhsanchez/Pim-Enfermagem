@@ -39,8 +39,8 @@ namespace NP_UNIP
 
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CADASTRO _c1;
-            _c1 = new CADASTRO();
+            Cadastro _c1;
+            _c1 = new Cadastro();
             _c1.Show();
             Hide();
         }

@@ -16,7 +16,7 @@ namespace NP_UNIP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SITE());
+            Application.Run(new frmPrincipal());
         }
     }
 }

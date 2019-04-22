@@ -10,31 +10,11 @@ using System.Windows.Forms;
 
 namespace NP_UNIP
 {
-    public partial class SITE : Form
+    public partial class frmPrincipal : Form
     {
-        public SITE()
+        public frmPrincipal()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-
-        }
-
-        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-        
         }
 
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -45,7 +25,7 @@ namespace NP_UNIP
             Hide();
         }
 
-        private void Cadastrar_Click(object sender, EventArgs e)
+        private void BtnCadastrar_Click(object sender, EventArgs e)
         {
             CadastroUsuario _CU1;
             _CU1 = new CadastroUsuario();
@@ -53,12 +33,7 @@ namespace NP_UNIP
             Hide();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Entrar_Click(object sender, EventArgs e)
+        private void BtnEntrar_Click(object sender, EventArgs e)
         {
             AreaUsuario _AU1;
             _AU1 = new AreaUsuario();

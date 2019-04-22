@@ -17,14 +17,6 @@ namespace NP_UNIP
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Cadastro _CA1;
-            _CA1 = new Cadastro();
-            _CA1.Show();
-            Hide();
-        }
-
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             Font fonte = new Font("Arial", 30, FontStyle.Bold, GraphicsUnit.Pixel);
@@ -33,11 +25,6 @@ namespace NP_UNIP
         private void printPreviewDialog1_Load(object sender, EventArgs e)
         {
             printPreviewDialog1.WindowState = FormWindowState.Maximized;
-        }
-
-        private void btImprimir_Click(object sender, EventArgs e)
-        {
-            printPreviewDialog1.ShowDialog();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -59,6 +46,47 @@ namespace NP_UNIP
         {
             hora.Text = DateTime.Now.ToString("HH:mm:ss");
 
+        }
+
+        private void BtnCadPac_Au1_Click(object sender, EventArgs e)
+        {
+            Cadastro _CA1;
+            _CA1 = new Cadastro();
+            _CA1.Show();
+            Hide();
+        }
+
+        private void BtnAltDados_Au1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnImprimir_Au1_Click(object sender, EventArgs e)
+        {
+            printPreviewDialog1.ShowDialog();
+        }
+
+        private void BtnPesqPac_Au1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnMarCons_Au1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnRemCons_Au1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnSair_Au1_Click(object sender, EventArgs e)
+        {
+            frmPrincipal _U1;
+            _U1 = new frmPrincipal();
+            _U1.Show();
+            Hide();
         }
     }
 }

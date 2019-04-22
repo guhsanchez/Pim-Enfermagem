@@ -17,42 +17,9 @@ namespace NP_UNIP
             InitializeComponent();
         }
 
-        private void label16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Voltar_Click(object sender, EventArgs e)
-        {
-            SITE _U1;
-            _U1 = new SITE();
-            _U1.Show();
-            Hide();
-        }
-
-        private void Cadastrar_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Cadastrado com sucesso!");
-        }
-
-        private void CADASTRO_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
 
-        }
-
-        private void btimprimir_Click(object sender, EventArgs e)
-        {
-            printPreviewDialog1.ShowDialog();
         }
 
         private void printPreviewDialog1_Load(object sender, EventArgs e)
@@ -63,6 +30,24 @@ namespace NP_UNIP
         private void printDocument1_PrintPage_1(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             Font fonte = new Font("Arial", 30, FontStyle.Bold, GraphicsUnit.Pixel);
+        }
+
+        private void BtnCadastrarPac_Cadastro_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Cadastrado com sucesso!");
+        }
+
+        private void BtnVoltar_Cad_Click(object sender, EventArgs e)
+        {
+            AreaUsuario _AU1;
+            _AU1 = new AreaUsuario();
+            _AU1.Show();
+            Hide();
+        }
+
+        private void BtnImprimir_Cad_Click(object sender, EventArgs e)
+        {
+            printPreviewDialog1.ShowDialog();
         }
     }
 }

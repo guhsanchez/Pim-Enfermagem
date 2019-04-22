@@ -17,14 +17,17 @@ namespace NP_UNIP
             InitializeComponent();
         }
 
-        private void CadastroUsuario_Load(object sender, EventArgs e)
+        private void BtnCadastrarUser_CadUser_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Cadastrado com sucesso!");
         }
 
-        private void textBox14_TextChanged(object sender, EventArgs e)
+        private void BtnVoltar_CadUser_Click(object sender, EventArgs e)
         {
-
+            frmPrincipal _U1;
+            _U1 = new frmPrincipal();
+            _U1.Show();
+            Hide();
         }
     }
 }

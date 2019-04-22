@@ -29,404 +29,432 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastro));
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.lblBairro = new System.Windows.Forms.Label();
+            this.Cep = new System.Windows.Forms.Label();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.lblCidade = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.lblEndereco = new System.Windows.Forms.Label();
+            this.lblFalarCom = new System.Windows.Forms.Label();
+            this.lblCelular = new System.Windows.Forms.Label();
+            this.lblSexo = new System.Windows.Forms.Label();
+            this.lblTrabalho = new System.Windows.Forms.Label();
+            this.lblTelefone = new System.Windows.Forms.Label();
+            this.lblEscolari = new System.Windows.Forms.Label();
+            this.lblIdade = new System.Windows.Forms.Label();
+            this.lblEstCivil = new System.Windows.Forms.Label();
+            this.lblDataNasc = new System.Windows.Forms.Label();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.txbNome_Cad = new System.Windows.Forms.TextBox();
+            this.txbEscol_Cad = new System.Windows.Forms.TextBox();
+            this.txbEnder_Cad = new System.Windows.Forms.TextBox();
+            this.txbBairro_Cad = new System.Windows.Forms.TextBox();
+            this.txbEstado_Cad = new System.Windows.Forms.TextBox();
+            this.txbCit_Cad = new System.Windows.Forms.TextBox();
+            this.txbEstCiv_Cad = new System.Windows.Forms.TextBox();
+            this.txbJob_Cad = new System.Windows.Forms.TextBox();
+            this.txbTalk_Cad = new System.Windows.Forms.TextBox();
+            this.txbNum_Cad = new System.Windows.Forms.TextBox();
+            this.txbCep_Cad = new System.Windows.Forms.TextBox();
+            this.txbIdade_Cad = new System.Windows.Forms.TextBox();
+            this.txbSexo_Cad = new System.Windows.Forms.TextBox();
+            this.txbCel_Cad = new System.Windows.Forms.TextBox();
+            this.txbTel_Cad = new System.Windows.Forms.TextBox();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.txbEmail_Cad = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Cadastrar = new System.Windows.Forms.Button();
-            this.Voltar = new System.Windows.Forms.Button();
+            this.btnCadastrarPac_Cadastro = new System.Windows.Forms.Button();
+            this.btnVoltar_Cad = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-            this.btimprimir = new System.Windows.Forms.Button();
+            this.btnImprimir_Cad = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(16, 352);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(65, 23);
-            this.label16.TabIndex = 56;
-            this.label16.Text = "Bairro:";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(486, 353);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(47, 23);
-            this.label15.TabIndex = 55;
-            this.label15.Text = "CEP:";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(486, 389);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 23);
-            this.label14.TabIndex = 54;
-            this.label14.Text = "Estado:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(16, 386);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(70, 23);
-            this.label11.TabIndex = 53;
-            this.label11.Text = "Cidade:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(486, 318);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(82, 23);
-            this.label12.TabIndex = 52;
-            this.label12.Text = "Número:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(16, 315);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(91, 23);
-            this.label13.TabIndex = 51;
-            this.label13.Text = "Endereço:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(486, 280);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(93, 23);
-            this.label10.TabIndex = 50;
-            this.label10.Text = "Falar com:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(486, 245);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 23);
-            this.label9.TabIndex = 49;
-            this.label9.Text = "Celular:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(748, 208);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 23);
-            this.label8.TabIndex = 48;
-            this.label8.Text = "Sexo:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(486, 210);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 23);
-            this.label7.TabIndex = 47;
-            this.label7.Text = "Trabalho:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(16, 279);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 23);
-            this.label5.TabIndex = 46;
-            this.label5.Text = "Telefone:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(16, 244);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(127, 23);
-            this.label6.TabIndex = 45;
-            this.label6.Text = "Escolariedade:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(748, 173);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 23);
-            this.label4.TabIndex = 44;
-            this.label4.Text = "Idade:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(486, 174);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 23);
-            this.label3.TabIndex = 43;
-            this.label3.Text = "Estado Civíl:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(16, 208);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(174, 23);
-            this.label2.TabIndex = 42;
-            this.label2.Text = "Data de nascimento:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(16, 173);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 23);
-            this.label1.TabIndex = 41;
-            this.label1.Text = "Nome:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(121, 173);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(337, 22);
-            this.textBox1.TabIndex = 57;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(182, 244);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(276, 22);
-            this.textBox2.TabIndex = 58;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(147, 315);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(311, 22);
-            this.textBox3.TabIndex = 59;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(147, 350);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(311, 22);
-            this.textBox4.TabIndex = 60;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(614, 385);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(115, 22);
-            this.textBox5.TabIndex = 61;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(147, 386);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(311, 22);
-            this.textBox6.TabIndex = 62;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(614, 172);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(115, 22);
-            this.textBox7.TabIndex = 63;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(614, 209);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(115, 22);
-            this.textBox8.TabIndex = 64;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(614, 280);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(188, 22);
-            this.textBox9.TabIndex = 65;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(614, 316);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(115, 22);
-            this.textBox10.TabIndex = 66;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(614, 351);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(115, 22);
-            this.textBox11.TabIndex = 67;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(826, 172);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(74, 22);
-            this.textBox12.TabIndex = 68;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(826, 207);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(74, 22);
-            this.textBox13.TabIndex = 69;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(614, 244);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(188, 22);
-            this.textBox14.TabIndex = 70;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(147, 279);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(311, 22);
-            this.textBox15.TabIndex = 71;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(226, 209);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(232, 22);
-            this.textBox16.TabIndex = 72;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(16, 422);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(65, 23);
-            this.label17.TabIndex = 73;
-            this.label17.Text = "E-mail:";
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(147, 422);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(311, 22);
-            this.textBox17.TabIndex = 74;
+            // lblBairro
+            // 
+            this.lblBairro.AutoSize = true;
+            this.lblBairro.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBairro.ForeColor = System.Drawing.Color.White;
+            this.lblBairro.Location = new System.Drawing.Point(12, 286);
+            this.lblBairro.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblBairro.Name = "lblBairro";
+            this.lblBairro.Size = new System.Drawing.Size(52, 18);
+            this.lblBairro.TabIndex = 56;
+            this.lblBairro.Text = "Bairro:";
+            // 
+            // Cep
+            // 
+            this.Cep.AutoSize = true;
+            this.Cep.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cep.ForeColor = System.Drawing.Color.White;
+            this.Cep.Location = new System.Drawing.Point(364, 287);
+            this.Cep.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cep.Name = "Cep";
+            this.Cep.Size = new System.Drawing.Size(36, 18);
+            this.Cep.TabIndex = 55;
+            this.Cep.Text = "CEP:";
+            // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.ForeColor = System.Drawing.Color.White;
+            this.lblEstado.Location = new System.Drawing.Point(364, 316);
+            this.lblEstado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(54, 18);
+            this.lblEstado.TabIndex = 54;
+            this.lblEstado.Text = "Estado:";
+            // 
+            // lblCidade
+            // 
+            this.lblCidade.AutoSize = true;
+            this.lblCidade.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCidade.ForeColor = System.Drawing.Color.White;
+            this.lblCidade.Location = new System.Drawing.Point(12, 314);
+            this.lblCidade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCidade.Name = "lblCidade";
+            this.lblCidade.Size = new System.Drawing.Size(55, 18);
+            this.lblCidade.TabIndex = 53;
+            this.lblCidade.Text = "Cidade:";
+            // 
+            // lblNumero
+            // 
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.ForeColor = System.Drawing.Color.White;
+            this.lblNumero.Location = new System.Drawing.Point(364, 258);
+            this.lblNumero.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(64, 18);
+            this.lblNumero.TabIndex = 52;
+            this.lblNumero.Text = "Número:";
+            // 
+            // lblEndereco
+            // 
+            this.lblEndereco.AutoSize = true;
+            this.lblEndereco.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEndereco.ForeColor = System.Drawing.Color.White;
+            this.lblEndereco.Location = new System.Drawing.Point(12, 256);
+            this.lblEndereco.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEndereco.Name = "lblEndereco";
+            this.lblEndereco.Size = new System.Drawing.Size(73, 18);
+            this.lblEndereco.TabIndex = 51;
+            this.lblEndereco.Text = "Endereço:";
+            // 
+            // lblFalarCom
+            // 
+            this.lblFalarCom.AutoSize = true;
+            this.lblFalarCom.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFalarCom.ForeColor = System.Drawing.Color.White;
+            this.lblFalarCom.Location = new System.Drawing.Point(364, 228);
+            this.lblFalarCom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFalarCom.Name = "lblFalarCom";
+            this.lblFalarCom.Size = new System.Drawing.Size(73, 18);
+            this.lblFalarCom.TabIndex = 50;
+            this.lblFalarCom.Text = "Falar com:";
+            // 
+            // lblCelular
+            // 
+            this.lblCelular.AutoSize = true;
+            this.lblCelular.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCelular.ForeColor = System.Drawing.Color.White;
+            this.lblCelular.Location = new System.Drawing.Point(364, 199);
+            this.lblCelular.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCelular.Name = "lblCelular";
+            this.lblCelular.Size = new System.Drawing.Size(57, 18);
+            this.lblCelular.TabIndex = 49;
+            this.lblCelular.Text = "Celular:";
+            // 
+            // lblSexo
+            // 
+            this.lblSexo.AutoSize = true;
+            this.lblSexo.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSexo.ForeColor = System.Drawing.Color.White;
+            this.lblSexo.Location = new System.Drawing.Point(561, 169);
+            this.lblSexo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSexo.Name = "lblSexo";
+            this.lblSexo.Size = new System.Drawing.Size(44, 18);
+            this.lblSexo.TabIndex = 48;
+            this.lblSexo.Text = "Sexo:";
+            // 
+            // lblTrabalho
+            // 
+            this.lblTrabalho.AutoSize = true;
+            this.lblTrabalho.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrabalho.ForeColor = System.Drawing.Color.White;
+            this.lblTrabalho.Location = new System.Drawing.Point(364, 171);
+            this.lblTrabalho.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTrabalho.Name = "lblTrabalho";
+            this.lblTrabalho.Size = new System.Drawing.Size(67, 18);
+            this.lblTrabalho.TabIndex = 47;
+            this.lblTrabalho.Text = "Trabalho:";
+            // 
+            // lblTelefone
+            // 
+            this.lblTelefone.AutoSize = true;
+            this.lblTelefone.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefone.ForeColor = System.Drawing.Color.White;
+            this.lblTelefone.Location = new System.Drawing.Point(12, 227);
+            this.lblTelefone.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTelefone.Name = "lblTelefone";
+            this.lblTelefone.Size = new System.Drawing.Size(68, 18);
+            this.lblTelefone.TabIndex = 46;
+            this.lblTelefone.Text = "Telefone:";
+            // 
+            // lblEscolari
+            // 
+            this.lblEscolari.AutoSize = true;
+            this.lblEscolari.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEscolari.ForeColor = System.Drawing.Color.White;
+            this.lblEscolari.Location = new System.Drawing.Point(12, 198);
+            this.lblEscolari.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEscolari.Name = "lblEscolari";
+            this.lblEscolari.Size = new System.Drawing.Size(101, 18);
+            this.lblEscolari.TabIndex = 45;
+            this.lblEscolari.Text = "Escolariedade:";
+            // 
+            // lblIdade
+            // 
+            this.lblIdade.AutoSize = true;
+            this.lblIdade.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIdade.ForeColor = System.Drawing.Color.White;
+            this.lblIdade.Location = new System.Drawing.Point(561, 141);
+            this.lblIdade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblIdade.Name = "lblIdade";
+            this.lblIdade.Size = new System.Drawing.Size(47, 18);
+            this.lblIdade.TabIndex = 44;
+            this.lblIdade.Text = "Idade:";
+            // 
+            // lblEstCivil
+            // 
+            this.lblEstCivil.AutoSize = true;
+            this.lblEstCivil.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstCivil.ForeColor = System.Drawing.Color.White;
+            this.lblEstCivil.Location = new System.Drawing.Point(364, 141);
+            this.lblEstCivil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEstCivil.Name = "lblEstCivil";
+            this.lblEstCivil.Size = new System.Drawing.Size(84, 18);
+            this.lblEstCivil.TabIndex = 43;
+            this.lblEstCivil.Text = "Estado Civíl:";
+            // 
+            // lblDataNasc
+            // 
+            this.lblDataNasc.AutoSize = true;
+            this.lblDataNasc.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataNasc.ForeColor = System.Drawing.Color.White;
+            this.lblDataNasc.Location = new System.Drawing.Point(12, 169);
+            this.lblDataNasc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDataNasc.Name = "lblDataNasc";
+            this.lblDataNasc.Size = new System.Drawing.Size(136, 18);
+            this.lblDataNasc.TabIndex = 42;
+            this.lblDataNasc.Text = "Data de nascimento:";
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.ForeColor = System.Drawing.Color.White;
+            this.lblNome.Location = new System.Drawing.Point(12, 141);
+            this.lblNome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(50, 18);
+            this.lblNome.TabIndex = 41;
+            this.lblNome.Text = "Nome:";
+            // 
+            // txbNome_Cad
+            // 
+            this.txbNome_Cad.Location = new System.Drawing.Point(91, 141);
+            this.txbNome_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbNome_Cad.Name = "txbNome_Cad";
+            this.txbNome_Cad.Size = new System.Drawing.Size(254, 20);
+            this.txbNome_Cad.TabIndex = 57;
+            // 
+            // txbEscol_Cad
+            // 
+            this.txbEscol_Cad.Location = new System.Drawing.Point(136, 198);
+            this.txbEscol_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEscol_Cad.Name = "txbEscol_Cad";
+            this.txbEscol_Cad.Size = new System.Drawing.Size(208, 20);
+            this.txbEscol_Cad.TabIndex = 58;
+            // 
+            // txbEnder_Cad
+            // 
+            this.txbEnder_Cad.Location = new System.Drawing.Point(110, 256);
+            this.txbEnder_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEnder_Cad.Name = "txbEnder_Cad";
+            this.txbEnder_Cad.Size = new System.Drawing.Size(234, 20);
+            this.txbEnder_Cad.TabIndex = 59;
+            // 
+            // txbBairro_Cad
+            // 
+            this.txbBairro_Cad.Location = new System.Drawing.Point(110, 284);
+            this.txbBairro_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbBairro_Cad.Name = "txbBairro_Cad";
+            this.txbBairro_Cad.Size = new System.Drawing.Size(234, 20);
+            this.txbBairro_Cad.TabIndex = 60;
+            // 
+            // txbEstado_Cad
+            // 
+            this.txbEstado_Cad.Location = new System.Drawing.Point(460, 313);
+            this.txbEstado_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEstado_Cad.Name = "txbEstado_Cad";
+            this.txbEstado_Cad.Size = new System.Drawing.Size(87, 20);
+            this.txbEstado_Cad.TabIndex = 61;
+            // 
+            // txbCit_Cad
+            // 
+            this.txbCit_Cad.Location = new System.Drawing.Point(110, 314);
+            this.txbCit_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbCit_Cad.Name = "txbCit_Cad";
+            this.txbCit_Cad.Size = new System.Drawing.Size(234, 20);
+            this.txbCit_Cad.TabIndex = 62;
+            // 
+            // txbEstCiv_Cad
+            // 
+            this.txbEstCiv_Cad.Location = new System.Drawing.Point(460, 140);
+            this.txbEstCiv_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEstCiv_Cad.Name = "txbEstCiv_Cad";
+            this.txbEstCiv_Cad.Size = new System.Drawing.Size(87, 20);
+            this.txbEstCiv_Cad.TabIndex = 63;
+            // 
+            // txbJob_Cad
+            // 
+            this.txbJob_Cad.Location = new System.Drawing.Point(460, 170);
+            this.txbJob_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbJob_Cad.Name = "txbJob_Cad";
+            this.txbJob_Cad.Size = new System.Drawing.Size(87, 20);
+            this.txbJob_Cad.TabIndex = 64;
+            // 
+            // txbTalk_Cad
+            // 
+            this.txbTalk_Cad.Location = new System.Drawing.Point(460, 228);
+            this.txbTalk_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbTalk_Cad.Name = "txbTalk_Cad";
+            this.txbTalk_Cad.Size = new System.Drawing.Size(142, 20);
+            this.txbTalk_Cad.TabIndex = 65;
+            // 
+            // txbNum_Cad
+            // 
+            this.txbNum_Cad.Location = new System.Drawing.Point(460, 257);
+            this.txbNum_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbNum_Cad.Name = "txbNum_Cad";
+            this.txbNum_Cad.Size = new System.Drawing.Size(87, 20);
+            this.txbNum_Cad.TabIndex = 66;
+            // 
+            // txbCep_Cad
+            // 
+            this.txbCep_Cad.Location = new System.Drawing.Point(460, 285);
+            this.txbCep_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbCep_Cad.Name = "txbCep_Cad";
+            this.txbCep_Cad.Size = new System.Drawing.Size(87, 20);
+            this.txbCep_Cad.TabIndex = 67;
+            // 
+            // txbIdade_Cad
+            // 
+            this.txbIdade_Cad.Location = new System.Drawing.Point(620, 140);
+            this.txbIdade_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbIdade_Cad.Name = "txbIdade_Cad";
+            this.txbIdade_Cad.Size = new System.Drawing.Size(56, 20);
+            this.txbIdade_Cad.TabIndex = 68;
+            // 
+            // txbSexo_Cad
+            // 
+            this.txbSexo_Cad.Location = new System.Drawing.Point(620, 168);
+            this.txbSexo_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbSexo_Cad.Name = "txbSexo_Cad";
+            this.txbSexo_Cad.Size = new System.Drawing.Size(56, 20);
+            this.txbSexo_Cad.TabIndex = 69;
+            // 
+            // txbCel_Cad
+            // 
+            this.txbCel_Cad.Location = new System.Drawing.Point(460, 198);
+            this.txbCel_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbCel_Cad.Name = "txbCel_Cad";
+            this.txbCel_Cad.Size = new System.Drawing.Size(142, 20);
+            this.txbCel_Cad.TabIndex = 70;
+            // 
+            // txbTel_Cad
+            // 
+            this.txbTel_Cad.Location = new System.Drawing.Point(110, 227);
+            this.txbTel_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbTel_Cad.Name = "txbTel_Cad";
+            this.txbTel_Cad.Size = new System.Drawing.Size(234, 20);
+            this.txbTel_Cad.TabIndex = 71;
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.ForeColor = System.Drawing.Color.White;
+            this.lblEmail.Location = new System.Drawing.Point(12, 343);
+            this.lblEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(51, 18);
+            this.lblEmail.TabIndex = 73;
+            this.lblEmail.Text = "E-mail:";
+            // 
+            // txbEmail_Cad
+            // 
+            this.txbEmail_Cad.Location = new System.Drawing.Point(110, 343);
+            this.txbEmail_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEmail_Cad.Name = "txbEmail_Cad";
+            this.txbEmail_Cad.Size = new System.Drawing.Size(234, 20);
+            this.txbEmail_Cad.TabIndex = 74;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(277, 22);
+            this.pictureBox1.Location = new System.Drawing.Point(208, 18);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(360, 87);
+            this.pictureBox1.Size = new System.Drawing.Size(270, 71);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 75;
             this.pictureBox1.TabStop = false;
             // 
-            // Cadastrar
+            // btnCadastrarPac_Cadastro
             // 
-            this.Cadastrar.BackColor = System.Drawing.SystemColors.Window;
-            this.Cadastrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.Cadastrar.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cadastrar.ForeColor = System.Drawing.Color.Black;
-            this.Cadastrar.Location = new System.Drawing.Point(226, 461);
-            this.Cadastrar.Name = "Cadastrar";
-            this.Cadastrar.Size = new System.Drawing.Size(159, 33);
-            this.Cadastrar.TabIndex = 76;
-            this.Cadastrar.Text = "Cadastrar";
-            this.Cadastrar.UseVisualStyleBackColor = false;
-            this.Cadastrar.Click += new System.EventHandler(this.Cadastrar_Click);
+            this.btnCadastrarPac_Cadastro.BackColor = System.Drawing.SystemColors.Window;
+            this.btnCadastrarPac_Cadastro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCadastrarPac_Cadastro.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarPac_Cadastro.ForeColor = System.Drawing.Color.Black;
+            this.btnCadastrarPac_Cadastro.Location = new System.Drawing.Point(170, 375);
+            this.btnCadastrarPac_Cadastro.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCadastrarPac_Cadastro.Name = "btnCadastrarPac_Cadastro";
+            this.btnCadastrarPac_Cadastro.Size = new System.Drawing.Size(119, 27);
+            this.btnCadastrarPac_Cadastro.TabIndex = 76;
+            this.btnCadastrarPac_Cadastro.Text = "Cadastrar";
+            this.btnCadastrarPac_Cadastro.UseVisualStyleBackColor = false;
+            this.btnCadastrarPac_Cadastro.Click += new System.EventHandler(this.BtnCadastrarPac_Cadastro_Click);
             // 
-            // Voltar
+            // btnVoltar_Cad
             // 
-            this.Voltar.BackColor = System.Drawing.SystemColors.Window;
-            this.Voltar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.Voltar.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Voltar.ForeColor = System.Drawing.Color.Black;
-            this.Voltar.Location = new System.Drawing.Point(420, 461);
-            this.Voltar.Name = "Voltar";
-            this.Voltar.Size = new System.Drawing.Size(159, 33);
-            this.Voltar.TabIndex = 77;
-            this.Voltar.Text = "Voltar";
-            this.Voltar.UseVisualStyleBackColor = false;
-            this.Voltar.Click += new System.EventHandler(this.Voltar_Click);
+            this.btnVoltar_Cad.BackColor = System.Drawing.SystemColors.Window;
+            this.btnVoltar_Cad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnVoltar_Cad.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar_Cad.ForeColor = System.Drawing.Color.Black;
+            this.btnVoltar_Cad.Location = new System.Drawing.Point(315, 375);
+            this.btnVoltar_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVoltar_Cad.Name = "btnVoltar_Cad";
+            this.btnVoltar_Cad.Size = new System.Drawing.Size(119, 27);
+            this.btnVoltar_Cad.TabIndex = 77;
+            this.btnVoltar_Cad.Text = "Voltar";
+            this.btnVoltar_Cad.UseVisualStyleBackColor = false;
+            this.btnVoltar_Cad.Click += new System.EventHandler(this.BtnVoltar_Cad_Click);
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(363, 122);
+            this.label18.Location = new System.Drawing.Point(272, 99);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(188, 23);
+            this.label18.Size = new System.Drawing.Size(146, 18);
             this.label18.TabIndex = 78;
             this.label18.Text = "Cadastro de pacientes";
             // 
@@ -445,71 +473,80 @@
             this.printPreviewDialog1.Visible = false;
             this.printPreviewDialog1.Load += new System.EventHandler(this.printPreviewDialog1_Load);
             // 
-            // btimprimir
+            // btnImprimir_Cad
             // 
-            this.btimprimir.BackColor = System.Drawing.SystemColors.Window;
-            this.btimprimir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btimprimir.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btimprimir.ForeColor = System.Drawing.Color.Black;
-            this.btimprimir.Location = new System.Drawing.Point(614, 461);
-            this.btimprimir.Name = "btimprimir";
-            this.btimprimir.Size = new System.Drawing.Size(159, 33);
-            this.btimprimir.TabIndex = 79;
-            this.btimprimir.Text = "Imprimir";
-            this.btimprimir.UseVisualStyleBackColor = false;
-            this.btimprimir.Click += new System.EventHandler(this.btimprimir_Click);
+            this.btnImprimir_Cad.BackColor = System.Drawing.SystemColors.Window;
+            this.btnImprimir_Cad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnImprimir_Cad.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImprimir_Cad.ForeColor = System.Drawing.Color.Black;
+            this.btnImprimir_Cad.Location = new System.Drawing.Point(460, 375);
+            this.btnImprimir_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.btnImprimir_Cad.Name = "btnImprimir_Cad";
+            this.btnImprimir_Cad.Size = new System.Drawing.Size(119, 27);
+            this.btnImprimir_Cad.TabIndex = 79;
+            this.btnImprimir_Cad.Text = "Imprimir";
+            this.btnImprimir_Cad.UseVisualStyleBackColor = false;
+            this.btnImprimir_Cad.Click += new System.EventHandler(this.BtnImprimir_Cad_Click);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(153, 168);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(78, 20);
+            this.dateTimePicker1.TabIndex = 80;
             // 
             // Cadastro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(914, 523);
-            this.Controls.Add(this.btimprimir);
+            this.ClientSize = new System.Drawing.Size(686, 425);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.btnImprimir_Cad);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.Voltar);
-            this.Controls.Add(this.Cadastrar);
+            this.Controls.Add(this.btnVoltar_Cad);
+            this.Controls.Add(this.btnCadastrarPac_Cadastro);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txbEmail_Cad);
+            this.Controls.Add(this.lblEmail);
+            this.Controls.Add(this.txbTel_Cad);
+            this.Controls.Add(this.txbCel_Cad);
+            this.Controls.Add(this.txbSexo_Cad);
+            this.Controls.Add(this.txbIdade_Cad);
+            this.Controls.Add(this.txbCep_Cad);
+            this.Controls.Add(this.txbNum_Cad);
+            this.Controls.Add(this.txbTalk_Cad);
+            this.Controls.Add(this.txbJob_Cad);
+            this.Controls.Add(this.txbEstCiv_Cad);
+            this.Controls.Add(this.txbCit_Cad);
+            this.Controls.Add(this.txbEstado_Cad);
+            this.Controls.Add(this.txbBairro_Cad);
+            this.Controls.Add(this.txbEnder_Cad);
+            this.Controls.Add(this.txbEscol_Cad);
+            this.Controls.Add(this.txbNome_Cad);
+            this.Controls.Add(this.lblBairro);
+            this.Controls.Add(this.Cep);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.lblCidade);
+            this.Controls.Add(this.lblNumero);
+            this.Controls.Add(this.lblEndereco);
+            this.Controls.Add(this.lblFalarCom);
+            this.Controls.Add(this.lblCelular);
+            this.Controls.Add(this.lblSexo);
+            this.Controls.Add(this.lblTrabalho);
+            this.Controls.Add(this.lblTelefone);
+            this.Controls.Add(this.lblEscolari);
+            this.Controls.Add(this.lblIdade);
+            this.Controls.Add(this.lblEstCivil);
+            this.Controls.Add(this.lblDataNasc);
+            this.Controls.Add(this.lblNome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Cadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CADASTRO";
-            this.Load += new System.EventHandler(this.CADASTRO_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -518,46 +555,46 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.Label lblBairro;
+        private System.Windows.Forms.Label Cep;
+        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.Label lblCidade;
+        private System.Windows.Forms.Label lblNumero;
+        private System.Windows.Forms.Label lblEndereco;
+        private System.Windows.Forms.Label lblFalarCom;
+        private System.Windows.Forms.Label lblCelular;
+        private System.Windows.Forms.Label lblSexo;
+        private System.Windows.Forms.Label lblTrabalho;
+        private System.Windows.Forms.Label lblTelefone;
+        private System.Windows.Forms.Label lblEscolari;
+        private System.Windows.Forms.Label lblIdade;
+        private System.Windows.Forms.Label lblEstCivil;
+        private System.Windows.Forms.Label lblDataNasc;
+        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.TextBox txbNome_Cad;
+        private System.Windows.Forms.TextBox txbEscol_Cad;
+        private System.Windows.Forms.TextBox txbEnder_Cad;
+        private System.Windows.Forms.TextBox txbBairro_Cad;
+        private System.Windows.Forms.TextBox txbEstado_Cad;
+        private System.Windows.Forms.TextBox txbCit_Cad;
+        private System.Windows.Forms.TextBox txbEstCiv_Cad;
+        private System.Windows.Forms.TextBox txbJob_Cad;
+        private System.Windows.Forms.TextBox txbTalk_Cad;
+        private System.Windows.Forms.TextBox txbNum_Cad;
+        private System.Windows.Forms.TextBox txbCep_Cad;
+        private System.Windows.Forms.TextBox txbIdade_Cad;
+        private System.Windows.Forms.TextBox txbSexo_Cad;
+        private System.Windows.Forms.TextBox txbCel_Cad;
+        private System.Windows.Forms.TextBox txbTel_Cad;
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.TextBox txbEmail_Cad;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button Cadastrar;
-        private System.Windows.Forms.Button Voltar;
+        private System.Windows.Forms.Button btnCadastrarPac_Cadastro;
+        private System.Windows.Forms.Button btnVoltar_Cad;
         private System.Windows.Forms.Label label18;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
-        private System.Windows.Forms.Button btimprimir;
+        private System.Windows.Forms.Button btnImprimir_Cad;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

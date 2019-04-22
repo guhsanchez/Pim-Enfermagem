@@ -16,5 +16,38 @@ namespace NP_UNIP
         {
             InitializeComponent();
         }
+
+        private void BtnCadPac_A2_Click(object sender, EventArgs e)
+        {
+            Cadastro _CA1;
+            _CA1 = new Cadastro();
+            _CA1.Show();
+            Hide();
+        }
+
+        private void BtnImprimir_A2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void BtnAltDados_A2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnPesqPac_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnMarCon_A2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnRemarCon_A2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

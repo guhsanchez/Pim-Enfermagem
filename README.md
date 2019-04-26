@@ -8,4 +8,5 @@ Integrantes do Projeto:
     Kaique Luciano
     Paulo Henrique
     Reinaldo
+    Adriel Machado
     

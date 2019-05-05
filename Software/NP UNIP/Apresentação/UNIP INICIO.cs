@@ -40,5 +40,39 @@ namespace NP_UNIP
             _AU1.Show();
             Hide();
         }
+
+        private void TxbLogin_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetter(e.KeyChar) || char.IsControl(e.KeyChar)))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void TxbSenha_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsDigit(e.KeyChar) || char.IsControl(e.KeyChar)))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Linksite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                VisitLink();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open link that was clicked.");
+            }
+        }
+
+        private void VisitLink()
+        {
+            linksite.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://www.unip.br/portal.aspx");
+        }
     }
 }

@@ -54,12 +54,8 @@
             this.txbEstCiv_Cad = new System.Windows.Forms.TextBox();
             this.txbJob_Cad = new System.Windows.Forms.TextBox();
             this.txbTalk_Cad = new System.Windows.Forms.TextBox();
-            this.txbNum_Cad = new System.Windows.Forms.TextBox();
-            this.txbCep_Cad = new System.Windows.Forms.TextBox();
             this.txbIdade_Cad = new System.Windows.Forms.TextBox();
             this.txbSexo_Cad = new System.Windows.Forms.TextBox();
-            this.txbCel_Cad = new System.Windows.Forms.TextBox();
-            this.txbTel_Cad = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
             this.txbEmail_Cad = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -69,7 +65,11 @@
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.btnImprimir_Cad = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.txbNum_Cad = new System.Windows.Forms.TextBox();
+            this.mktCep_Cad = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,7 +78,7 @@
             this.lblBairro.AutoSize = true;
             this.lblBairro.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBairro.ForeColor = System.Drawing.Color.White;
-            this.lblBairro.Location = new System.Drawing.Point(12, 286);
+            this.lblBairro.Location = new System.Drawing.Point(239, 302);
             this.lblBairro.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBairro.Name = "lblBairro";
             this.lblBairro.Size = new System.Drawing.Size(52, 18);
@@ -90,7 +90,7 @@
             this.Cep.AutoSize = true;
             this.Cep.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cep.ForeColor = System.Drawing.Color.White;
-            this.Cep.Location = new System.Drawing.Point(364, 287);
+            this.Cep.Location = new System.Drawing.Point(123, 275);
             this.Cep.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Cep.Name = "Cep";
             this.Cep.Size = new System.Drawing.Size(36, 18);
@@ -102,7 +102,7 @@
             this.lblEstado.AutoSize = true;
             this.lblEstado.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstado.ForeColor = System.Drawing.Color.White;
-            this.lblEstado.Location = new System.Drawing.Point(364, 316);
+            this.lblEstado.Location = new System.Drawing.Point(448, 335);
             this.lblEstado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(54, 18);
@@ -114,7 +114,7 @@
             this.lblCidade.AutoSize = true;
             this.lblCidade.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCidade.ForeColor = System.Drawing.Color.White;
-            this.lblCidade.Location = new System.Drawing.Point(12, 314);
+            this.lblCidade.Location = new System.Drawing.Point(95, 335);
             this.lblCidade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCidade.Name = "lblCidade";
             this.lblCidade.Size = new System.Drawing.Size(55, 18);
@@ -126,7 +126,7 @@
             this.lblNumero.AutoSize = true;
             this.lblNumero.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumero.ForeColor = System.Drawing.Color.White;
-            this.lblNumero.Location = new System.Drawing.Point(364, 258);
+            this.lblNumero.Location = new System.Drawing.Point(95, 302);
             this.lblNumero.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(64, 18);
@@ -138,7 +138,7 @@
             this.lblEndereco.AutoSize = true;
             this.lblEndereco.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEndereco.ForeColor = System.Drawing.Color.White;
-            this.lblEndereco.Location = new System.Drawing.Point(12, 256);
+            this.lblEndereco.Location = new System.Drawing.Point(237, 274);
             this.lblEndereco.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEndereco.Name = "lblEndereco";
             this.lblEndereco.Size = new System.Drawing.Size(73, 18);
@@ -150,7 +150,7 @@
             this.lblFalarCom.AutoSize = true;
             this.lblFalarCom.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFalarCom.ForeColor = System.Drawing.Color.White;
-            this.lblFalarCom.Location = new System.Drawing.Point(364, 228);
+            this.lblFalarCom.Location = new System.Drawing.Point(361, 216);
             this.lblFalarCom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFalarCom.Name = "lblFalarCom";
             this.lblFalarCom.Size = new System.Drawing.Size(73, 18);
@@ -162,7 +162,7 @@
             this.lblCelular.AutoSize = true;
             this.lblCelular.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCelular.ForeColor = System.Drawing.Color.White;
-            this.lblCelular.Location = new System.Drawing.Point(364, 199);
+            this.lblCelular.Location = new System.Drawing.Point(194, 217);
             this.lblCelular.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCelular.Name = "lblCelular";
             this.lblCelular.Size = new System.Drawing.Size(57, 18);
@@ -174,7 +174,7 @@
             this.lblSexo.AutoSize = true;
             this.lblSexo.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSexo.ForeColor = System.Drawing.Color.White;
-            this.lblSexo.Location = new System.Drawing.Point(561, 169);
+            this.lblSexo.Location = new System.Drawing.Point(560, 163);
             this.lblSexo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSexo.Name = "lblSexo";
             this.lblSexo.Size = new System.Drawing.Size(44, 18);
@@ -186,7 +186,7 @@
             this.lblTrabalho.AutoSize = true;
             this.lblTrabalho.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTrabalho.ForeColor = System.Drawing.Color.White;
-            this.lblTrabalho.Location = new System.Drawing.Point(364, 171);
+            this.lblTrabalho.Location = new System.Drawing.Point(361, 190);
             this.lblTrabalho.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTrabalho.Name = "lblTrabalho";
             this.lblTrabalho.Size = new System.Drawing.Size(67, 18);
@@ -198,7 +198,7 @@
             this.lblTelefone.AutoSize = true;
             this.lblTelefone.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefone.ForeColor = System.Drawing.Color.White;
-            this.lblTelefone.Location = new System.Drawing.Point(12, 227);
+            this.lblTelefone.Location = new System.Drawing.Point(12, 217);
             this.lblTelefone.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTelefone.Name = "lblTelefone";
             this.lblTelefone.Size = new System.Drawing.Size(68, 18);
@@ -210,7 +210,7 @@
             this.lblEscolari.AutoSize = true;
             this.lblEscolari.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEscolari.ForeColor = System.Drawing.Color.White;
-            this.lblEscolari.Location = new System.Drawing.Point(12, 198);
+            this.lblEscolari.Location = new System.Drawing.Point(12, 188);
             this.lblEscolari.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEscolari.Name = "lblEscolari";
             this.lblEscolari.Size = new System.Drawing.Size(101, 18);
@@ -222,7 +222,7 @@
             this.lblIdade.AutoSize = true;
             this.lblIdade.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIdade.ForeColor = System.Drawing.Color.White;
-            this.lblIdade.Location = new System.Drawing.Point(561, 141);
+            this.lblIdade.Location = new System.Drawing.Point(237, 160);
             this.lblIdade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblIdade.Name = "lblIdade";
             this.lblIdade.Size = new System.Drawing.Size(47, 18);
@@ -234,7 +234,7 @@
             this.lblEstCivil.AutoSize = true;
             this.lblEstCivil.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstCivil.ForeColor = System.Drawing.Color.White;
-            this.lblEstCivil.Location = new System.Drawing.Point(364, 141);
+            this.lblEstCivil.Location = new System.Drawing.Point(364, 161);
             this.lblEstCivil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEstCivil.Name = "lblEstCivil";
             this.lblEstCivil.Size = new System.Drawing.Size(84, 18);
@@ -246,7 +246,7 @@
             this.lblDataNasc.AutoSize = true;
             this.lblDataNasc.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDataNasc.ForeColor = System.Drawing.Color.White;
-            this.lblDataNasc.Location = new System.Drawing.Point(12, 169);
+            this.lblDataNasc.Location = new System.Drawing.Point(12, 159);
             this.lblDataNasc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDataNasc.Name = "lblDataNasc";
             this.lblDataNasc.Size = new System.Drawing.Size(136, 18);
@@ -258,7 +258,7 @@
             this.lblNome.AutoSize = true;
             this.lblNome.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNome.ForeColor = System.Drawing.Color.White;
-            this.lblNome.Location = new System.Drawing.Point(12, 141);
+            this.lblNome.Location = new System.Drawing.Point(12, 131);
             this.lblNome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(50, 18);
@@ -267,130 +267,122 @@
             // 
             // txbNome_Cad
             // 
-            this.txbNome_Cad.Location = new System.Drawing.Point(91, 141);
+            this.txbNome_Cad.Location = new System.Drawing.Point(66, 131);
             this.txbNome_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbNome_Cad.MaxLength = 50;
             this.txbNome_Cad.Name = "txbNome_Cad";
-            this.txbNome_Cad.Size = new System.Drawing.Size(254, 20);
-            this.txbNome_Cad.TabIndex = 57;
+            this.txbNome_Cad.Size = new System.Drawing.Size(277, 20);
+            this.txbNome_Cad.TabIndex = 1;
+            this.txbNome_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbNome_Cad_KeyPress);
             // 
             // txbEscol_Cad
             // 
-            this.txbEscol_Cad.Location = new System.Drawing.Point(136, 198);
+            this.txbEscol_Cad.Location = new System.Drawing.Point(117, 188);
             this.txbEscol_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEscol_Cad.MaxLength = 40;
             this.txbEscol_Cad.Name = "txbEscol_Cad";
-            this.txbEscol_Cad.Size = new System.Drawing.Size(208, 20);
-            this.txbEscol_Cad.TabIndex = 58;
+            this.txbEscol_Cad.Size = new System.Drawing.Size(226, 20);
+            this.txbEscol_Cad.TabIndex = 4;
+            this.txbEscol_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbEscol_Cad_KeyPress);
             // 
             // txbEnder_Cad
             // 
-            this.txbEnder_Cad.Location = new System.Drawing.Point(110, 256);
+            this.txbEnder_Cad.Location = new System.Drawing.Point(314, 274);
             this.txbEnder_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEnder_Cad.MaxLength = 50;
             this.txbEnder_Cad.Name = "txbEnder_Cad";
-            this.txbEnder_Cad.Size = new System.Drawing.Size(234, 20);
-            this.txbEnder_Cad.TabIndex = 59;
+            this.txbEnder_Cad.Size = new System.Drawing.Size(246, 20);
+            this.txbEnder_Cad.TabIndex = 13;
+            this.txbEnder_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbEnder_Cad_KeyPress);
             // 
             // txbBairro_Cad
             // 
-            this.txbBairro_Cad.Location = new System.Drawing.Point(110, 284);
+            this.txbBairro_Cad.Location = new System.Drawing.Point(299, 301);
             this.txbBairro_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbBairro_Cad.MaxLength = 40;
             this.txbBairro_Cad.Name = "txbBairro_Cad";
-            this.txbBairro_Cad.Size = new System.Drawing.Size(234, 20);
-            this.txbBairro_Cad.TabIndex = 60;
+            this.txbBairro_Cad.Size = new System.Drawing.Size(245, 20);
+            this.txbBairro_Cad.TabIndex = 15;
+            this.txbBairro_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbBairro_Cad_KeyPress);
             // 
             // txbEstado_Cad
             // 
-            this.txbEstado_Cad.Location = new System.Drawing.Point(460, 313);
+            this.txbEstado_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txbEstado_Cad.Location = new System.Drawing.Point(515, 334);
             this.txbEstado_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEstado_Cad.MaxLength = 2;
             this.txbEstado_Cad.Name = "txbEstado_Cad";
-            this.txbEstado_Cad.Size = new System.Drawing.Size(87, 20);
-            this.txbEstado_Cad.TabIndex = 61;
+            this.txbEstado_Cad.Size = new System.Drawing.Size(29, 20);
+            this.txbEstado_Cad.TabIndex = 17;
+            this.txbEstado_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbEstado_Cad_KeyPress);
             // 
             // txbCit_Cad
             // 
-            this.txbCit_Cad.Location = new System.Drawing.Point(110, 314);
+            this.txbCit_Cad.Location = new System.Drawing.Point(160, 335);
             this.txbCit_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbCit_Cad.MaxLength = 40;
             this.txbCit_Cad.Name = "txbCit_Cad";
-            this.txbCit_Cad.Size = new System.Drawing.Size(234, 20);
-            this.txbCit_Cad.TabIndex = 62;
+            this.txbCit_Cad.Size = new System.Drawing.Size(248, 20);
+            this.txbCit_Cad.TabIndex = 16;
+            this.txbCit_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbCit_Cad_KeyPress);
             // 
             // txbEstCiv_Cad
             // 
-            this.txbEstCiv_Cad.Location = new System.Drawing.Point(460, 140);
+            this.txbEstCiv_Cad.Location = new System.Drawing.Point(460, 160);
             this.txbEstCiv_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEstCiv_Cad.MaxLength = 20;
             this.txbEstCiv_Cad.Name = "txbEstCiv_Cad";
             this.txbEstCiv_Cad.Size = new System.Drawing.Size(87, 20);
-            this.txbEstCiv_Cad.TabIndex = 63;
+            this.txbEstCiv_Cad.TabIndex = 8;
+            this.txbEstCiv_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbEstCiv_Cad_KeyPress);
             // 
             // txbJob_Cad
             // 
-            this.txbJob_Cad.Location = new System.Drawing.Point(460, 170);
+            this.txbJob_Cad.Location = new System.Drawing.Point(432, 189);
             this.txbJob_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbJob_Cad.MaxLength = 40;
             this.txbJob_Cad.Name = "txbJob_Cad";
-            this.txbJob_Cad.Size = new System.Drawing.Size(87, 20);
-            this.txbJob_Cad.TabIndex = 64;
+            this.txbJob_Cad.Size = new System.Drawing.Size(243, 20);
+            this.txbJob_Cad.TabIndex = 10;
+            this.txbJob_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbJob_Cad_KeyPress);
             // 
             // txbTalk_Cad
             // 
-            this.txbTalk_Cad.Location = new System.Drawing.Point(460, 228);
+            this.txbTalk_Cad.Location = new System.Drawing.Point(441, 217);
             this.txbTalk_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbTalk_Cad.MaxLength = 40;
             this.txbTalk_Cad.Name = "txbTalk_Cad";
-            this.txbTalk_Cad.Size = new System.Drawing.Size(142, 20);
-            this.txbTalk_Cad.TabIndex = 65;
-            // 
-            // txbNum_Cad
-            // 
-            this.txbNum_Cad.Location = new System.Drawing.Point(460, 257);
-            this.txbNum_Cad.Margin = new System.Windows.Forms.Padding(2);
-            this.txbNum_Cad.Name = "txbNum_Cad";
-            this.txbNum_Cad.Size = new System.Drawing.Size(87, 20);
-            this.txbNum_Cad.TabIndex = 66;
-            // 
-            // txbCep_Cad
-            // 
-            this.txbCep_Cad.Location = new System.Drawing.Point(460, 285);
-            this.txbCep_Cad.Margin = new System.Windows.Forms.Padding(2);
-            this.txbCep_Cad.Name = "txbCep_Cad";
-            this.txbCep_Cad.Size = new System.Drawing.Size(87, 20);
-            this.txbCep_Cad.TabIndex = 67;
+            this.txbTalk_Cad.Size = new System.Drawing.Size(235, 20);
+            this.txbTalk_Cad.TabIndex = 11;
+            this.txbTalk_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbTalk_Cad_KeyPress);
             // 
             // txbIdade_Cad
             // 
-            this.txbIdade_Cad.Location = new System.Drawing.Point(620, 140);
+            this.txbIdade_Cad.Location = new System.Drawing.Point(288, 159);
             this.txbIdade_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbIdade_Cad.MaxLength = 3;
             this.txbIdade_Cad.Name = "txbIdade_Cad";
             this.txbIdade_Cad.Size = new System.Drawing.Size(56, 20);
-            this.txbIdade_Cad.TabIndex = 68;
+            this.txbIdade_Cad.TabIndex = 3;
+            this.txbIdade_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbIdade_Cad_KeyPress);
             // 
             // txbSexo_Cad
             // 
-            this.txbSexo_Cad.Location = new System.Drawing.Point(620, 168);
+            this.txbSexo_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txbSexo_Cad.Location = new System.Drawing.Point(608, 161);
             this.txbSexo_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbSexo_Cad.MaxLength = 9;
             this.txbSexo_Cad.Name = "txbSexo_Cad";
-            this.txbSexo_Cad.Size = new System.Drawing.Size(56, 20);
-            this.txbSexo_Cad.TabIndex = 69;
-            // 
-            // txbCel_Cad
-            // 
-            this.txbCel_Cad.Location = new System.Drawing.Point(460, 198);
-            this.txbCel_Cad.Margin = new System.Windows.Forms.Padding(2);
-            this.txbCel_Cad.Name = "txbCel_Cad";
-            this.txbCel_Cad.Size = new System.Drawing.Size(142, 20);
-            this.txbCel_Cad.TabIndex = 70;
-            // 
-            // txbTel_Cad
-            // 
-            this.txbTel_Cad.Location = new System.Drawing.Point(110, 227);
-            this.txbTel_Cad.Margin = new System.Windows.Forms.Padding(2);
-            this.txbTel_Cad.Name = "txbTel_Cad";
-            this.txbTel_Cad.Size = new System.Drawing.Size(234, 20);
-            this.txbTel_Cad.TabIndex = 71;
+            this.txbSexo_Cad.Size = new System.Drawing.Size(68, 20);
+            this.txbSexo_Cad.TabIndex = 9;
+            this.txbSexo_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbSexo_Cad_KeyPress);
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.ForeColor = System.Drawing.Color.White;
-            this.lblEmail.Location = new System.Drawing.Point(12, 343);
+            this.lblEmail.Location = new System.Drawing.Point(364, 132);
             this.lblEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(51, 18);
@@ -399,11 +391,13 @@
             // 
             // txbEmail_Cad
             // 
-            this.txbEmail_Cad.Location = new System.Drawing.Point(110, 343);
+            this.txbEmail_Cad.Location = new System.Drawing.Point(421, 132);
             this.txbEmail_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEmail_Cad.MaxLength = 50;
             this.txbEmail_Cad.Name = "txbEmail_Cad";
-            this.txbEmail_Cad.Size = new System.Drawing.Size(234, 20);
-            this.txbEmail_Cad.TabIndex = 74;
+            this.txbEmail_Cad.Size = new System.Drawing.Size(255, 20);
+            this.txbEmail_Cad.TabIndex = 7;
+            this.txbEmail_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbEmail_Cad_KeyPress);
             // 
             // pictureBox1
             // 
@@ -426,7 +420,7 @@
             this.btnCadastrarPac_Cadastro.Margin = new System.Windows.Forms.Padding(2);
             this.btnCadastrarPac_Cadastro.Name = "btnCadastrarPac_Cadastro";
             this.btnCadastrarPac_Cadastro.Size = new System.Drawing.Size(119, 27);
-            this.btnCadastrarPac_Cadastro.TabIndex = 76;
+            this.btnCadastrarPac_Cadastro.TabIndex = 18;
             this.btnCadastrarPac_Cadastro.Text = "Cadastrar";
             this.btnCadastrarPac_Cadastro.UseVisualStyleBackColor = false;
             this.btnCadastrarPac_Cadastro.Click += new System.EventHandler(this.BtnCadastrarPac_Cadastro_Click);
@@ -441,7 +435,7 @@
             this.btnVoltar_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.btnVoltar_Cad.Name = "btnVoltar_Cad";
             this.btnVoltar_Cad.Size = new System.Drawing.Size(119, 27);
-            this.btnVoltar_Cad.TabIndex = 77;
+            this.btnVoltar_Cad.TabIndex = 19;
             this.btnVoltar_Cad.Text = "Voltar";
             this.btnVoltar_Cad.UseVisualStyleBackColor = false;
             this.btnVoltar_Cad.Click += new System.EventHandler(this.BtnVoltar_Cad_Click);
@@ -483,18 +477,53 @@
             this.btnImprimir_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.btnImprimir_Cad.Name = "btnImprimir_Cad";
             this.btnImprimir_Cad.Size = new System.Drawing.Size(119, 27);
-            this.btnImprimir_Cad.TabIndex = 79;
+            this.btnImprimir_Cad.TabIndex = 20;
             this.btnImprimir_Cad.Text = "Imprimir";
             this.btnImprimir_Cad.UseVisualStyleBackColor = false;
             this.btnImprimir_Cad.Click += new System.EventHandler(this.BtnImprimir_Cad_Click);
             // 
-            // dateTimePicker1
+            // maskedTextBox1
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(153, 168);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(78, 20);
-            this.dateTimePicker1.TabIndex = 80;
+            this.maskedTextBox1.Location = new System.Drawing.Point(256, 216);
+            this.maskedTextBox1.Mask = "(99) 00000-0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(87, 20);
+            this.maskedTextBox1.TabIndex = 6;
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Location = new System.Drawing.Point(153, 158);
+            this.maskedTextBox2.Mask = "00/00/0000";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(64, 20);
+            this.maskedTextBox2.TabIndex = 2;
+            this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
+            // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.Location = new System.Drawing.Point(85, 216);
+            this.maskedTextBox3.Mask = "(00) 0000-0000";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(83, 20);
+            this.maskedTextBox3.TabIndex = 5;
+            // 
+            // txbNum_Cad
+            // 
+            this.txbNum_Cad.Location = new System.Drawing.Point(163, 301);
+            this.txbNum_Cad.Margin = new System.Windows.Forms.Padding(2);
+            this.txbNum_Cad.MaxLength = 6;
+            this.txbNum_Cad.Name = "txbNum_Cad";
+            this.txbNum_Cad.Size = new System.Drawing.Size(58, 20);
+            this.txbNum_Cad.TabIndex = 14;
+            this.txbNum_Cad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbNum_Cad_KeyPress);
+            // 
+            // mktCep_Cad
+            // 
+            this.mktCep_Cad.Location = new System.Drawing.Point(164, 274);
+            this.mktCep_Cad.Mask = "00000-000";
+            this.mktCep_Cad.Name = "mktCep_Cad";
+            this.mktCep_Cad.Size = new System.Drawing.Size(58, 20);
+            this.mktCep_Cad.TabIndex = 12;
             // 
             // Cadastro
             // 
@@ -503,7 +532,10 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(686, 425);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.mktCep_Cad);
+            this.Controls.Add(this.maskedTextBox3);
+            this.Controls.Add(this.maskedTextBox2);
+            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.btnImprimir_Cad);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.btnVoltar_Cad);
@@ -511,11 +543,8 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txbEmail_Cad);
             this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.txbTel_Cad);
-            this.Controls.Add(this.txbCel_Cad);
             this.Controls.Add(this.txbSexo_Cad);
             this.Controls.Add(this.txbIdade_Cad);
-            this.Controls.Add(this.txbCep_Cad);
             this.Controls.Add(this.txbNum_Cad);
             this.Controls.Add(this.txbTalk_Cad);
             this.Controls.Add(this.txbJob_Cad);
@@ -580,12 +609,8 @@
         private System.Windows.Forms.TextBox txbEstCiv_Cad;
         private System.Windows.Forms.TextBox txbJob_Cad;
         private System.Windows.Forms.TextBox txbTalk_Cad;
-        private System.Windows.Forms.TextBox txbNum_Cad;
-        private System.Windows.Forms.TextBox txbCep_Cad;
         private System.Windows.Forms.TextBox txbIdade_Cad;
         private System.Windows.Forms.TextBox txbSexo_Cad;
-        private System.Windows.Forms.TextBox txbCel_Cad;
-        private System.Windows.Forms.TextBox txbTel_Cad;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox txbEmail_Cad;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -595,6 +620,10 @@
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
         private System.Windows.Forms.Button btnImprimir_Cad;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.TextBox txbNum_Cad;
+        private System.Windows.Forms.MaskedTextBox mktCep_Cad;
     }
 }

@@ -48,51 +48,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AreaUsuario.cs">
+    <Compile Include="Apresentação\AreaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AreaUsuario.Designer.cs">
+    <Compile Include="Apresentação\AreaUsuario.Designer.cs">
       <DependentUpon>AreaUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="AreaUsuario2.cs">
+    <Compile Include="Apresentação\AreaUsuario2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AreaUsuario2.Designer.cs">
+    <Compile Include="Apresentação\AreaUsuario2.Designer.cs">
       <DependentUpon>AreaUsuario2.cs</DependentUpon>
     </Compile>
-    <Compile Include="CADASTRO.cs">
+    <Compile Include="Apresentação\CADASTRO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CADASTRO.Designer.cs">
+    <Compile Include="Apresentação\CADASTRO.Designer.cs">
       <DependentUpon>CADASTRO.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastroUsuario.cs">
+    <Compile Include="Apresentação\CadastroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroUsuario.Designer.cs">
+    <Compile Include="Apresentação\CadastroUsuario.Designer.cs">
       <DependentUpon>CadastroUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="UNIP INICIO.cs">
+    <Compile Include="Apresentação\UNIP INICIO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UNIP INICIO.Designer.cs">
+    <Compile Include="Apresentação\UNIP INICIO.Designer.cs">
       <DependentUpon>UNIP INICIO.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AreaUsuario.resx">
+    <EmbeddedResource Include="Apresentação\AreaUsuario.resx">
       <DependentUpon>AreaUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AreaUsuario2.resx">
+    <EmbeddedResource Include="Apresentação\AreaUsuario2.resx">
       <DependentUpon>AreaUsuario2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CADASTRO.resx">
+    <EmbeddedResource Include="Apresentação\CADASTRO.resx">
       <DependentUpon>CADASTRO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroUsuario.resx">
+    <EmbeddedResource Include="Apresentação\CadastroUsuario.resx">
       <DependentUpon>CadastroUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UNIP INICIO.resx">
+    <EmbeddedResource Include="Apresentação\UNIP INICIO.resx">
       <DependentUpon>UNIP INICIO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -118,7 +118,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Apresentação\" />
     <Folder Include="Modelo\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

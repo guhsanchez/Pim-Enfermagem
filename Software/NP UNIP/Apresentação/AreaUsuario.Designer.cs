@@ -95,7 +95,7 @@
             this.btnPesqPac_Au1.Location = new System.Drawing.Point(671, 187);
             this.btnPesqPac_Au1.Name = "btnPesqPac_Au1";
             this.btnPesqPac_Au1.Size = new System.Drawing.Size(197, 28);
-            this.btnPesqPac_Au1.TabIndex = 83;
+            this.btnPesqPac_Au1.TabIndex = 7;
             this.btnPesqPac_Au1.Text = "Pesquisar paciente";
             this.btnPesqPac_Au1.UseVisualStyleBackColor = true;
             this.btnPesqPac_Au1.Click += new System.EventHandler(this.BtnPesqPac_Au1_Click);
@@ -119,7 +119,7 @@
             this.checkedListBox1.Location = new System.Drawing.Point(243, 187);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(137, 24);
-            this.checkedListBox1.TabIndex = 85;
+            this.checkedListBox1.TabIndex = 5;
             // 
             // lblMarcCons_Au1
             // 
@@ -138,7 +138,7 @@
             this.pnlMarCons_Au1.Location = new System.Drawing.Point(185, 444);
             this.pnlMarCons_Au1.Name = "pnlMarCons_Au1";
             this.pnlMarCons_Au1.Size = new System.Drawing.Size(455, 100);
-            this.pnlMarCons_Au1.TabIndex = 87;
+            this.pnlMarCons_Au1.TabIndex = 8;
             // 
             // btnMarCons_Au1
             // 
@@ -147,7 +147,7 @@
             this.btnMarCons_Au1.Location = new System.Drawing.Point(671, 444);
             this.btnMarCons_Au1.Name = "btnMarCons_Au1";
             this.btnMarCons_Au1.Size = new System.Drawing.Size(197, 28);
-            this.btnMarCons_Au1.TabIndex = 88;
+            this.btnMarCons_Au1.TabIndex = 9;
             this.btnMarCons_Au1.Text = "Marcar consulta";
             this.btnMarCons_Au1.UseVisualStyleBackColor = true;
             this.btnMarCons_Au1.Click += new System.EventHandler(this.BtnMarCons_Au1_Click);
@@ -159,7 +159,7 @@
             this.btnRemCons_Au1.Location = new System.Drawing.Point(671, 478);
             this.btnRemCons_Au1.Name = "btnRemCons_Au1";
             this.btnRemCons_Au1.Size = new System.Drawing.Size(197, 28);
-            this.btnRemCons_Au1.TabIndex = 89;
+            this.btnRemCons_Au1.TabIndex = 10;
             this.btnRemCons_Au1.Text = "Remarcar consulta";
             this.btnRemCons_Au1.UseVisualStyleBackColor = true;
             this.btnRemCons_Au1.Click += new System.EventHandler(this.BtnRemCons_Au1_Click);
@@ -171,7 +171,7 @@
             this.btnAltDados_Au1.Location = new System.Drawing.Point(301, 138);
             this.btnAltDados_Au1.Name = "btnAltDados_Au1";
             this.btnAltDados_Au1.Size = new System.Drawing.Size(197, 28);
-            this.btnAltDados_Au1.TabIndex = 90;
+            this.btnAltDados_Au1.TabIndex = 2;
             this.btnAltDados_Au1.Text = "Alterar dados";
             this.btnAltDados_Au1.UseVisualStyleBackColor = true;
             this.btnAltDados_Au1.Click += new System.EventHandler(this.BtnAltDados_Au1_Click);
@@ -181,7 +181,7 @@
             this.txbPesPasc_Au1.Location = new System.Drawing.Point(387, 187);
             this.txbPesPasc_Au1.Name = "txbPesPasc_Au1";
             this.txbPesPasc_Au1.Size = new System.Drawing.Size(278, 25);
-            this.txbPesPasc_Au1.TabIndex = 91;
+            this.txbPesPasc_Au1.TabIndex = 6;
             // 
             // btnCadPac_Au1
             // 
@@ -190,7 +190,7 @@
             this.btnCadPac_Au1.Location = new System.Drawing.Point(39, 138);
             this.btnCadPac_Au1.Name = "btnCadPac_Au1";
             this.btnCadPac_Au1.Size = new System.Drawing.Size(197, 28);
-            this.btnCadPac_Au1.TabIndex = 92;
+            this.btnCadPac_Au1.TabIndex = 1;
             this.btnCadPac_Au1.Text = "Cadastrar paciente";
             this.btnCadPac_Au1.UseVisualStyleBackColor = true;
             this.btnCadPac_Au1.Click += new System.EventHandler(this.BtnCadPac_Au1_Click);
@@ -202,7 +202,7 @@
             this.btnImprimir_Au1.Location = new System.Drawing.Point(552, 138);
             this.btnImprimir_Au1.Name = "btnImprimir_Au1";
             this.btnImprimir_Au1.Size = new System.Drawing.Size(197, 28);
-            this.btnImprimir_Au1.TabIndex = 93;
+            this.btnImprimir_Au1.TabIndex = 3;
             this.btnImprimir_Au1.Text = "Imprimir Formulário";
             this.btnImprimir_Au1.UseVisualStyleBackColor = true;
             this.btnImprimir_Au1.Click += new System.EventHandler(this.BtnImprimir_Au1_Click);
@@ -260,7 +260,7 @@
             this.btnSair_Au1.Location = new System.Drawing.Point(816, 138);
             this.btnSair_Au1.Name = "btnSair_Au1";
             this.btnSair_Au1.Size = new System.Drawing.Size(52, 28);
-            this.btnSair_Au1.TabIndex = 96;
+            this.btnSair_Au1.TabIndex = 4;
             this.btnSair_Au1.Text = "Sair";
             this.btnSair_Au1.UseVisualStyleBackColor = true;
             this.btnSair_Au1.Click += new System.EventHandler(this.BtnSair_Au1_Click);

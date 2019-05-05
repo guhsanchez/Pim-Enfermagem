@@ -55,7 +55,7 @@
             this.btnEntrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(119, 27);
-            this.btnEntrar.TabIndex = 0;
+            this.btnEntrar.TabIndex = 3;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = false;
             this.btnEntrar.Click += new System.EventHandler(this.BtnEntrar_Click);
@@ -67,13 +67,15 @@
             this.linksite.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linksite.ForeColor = System.Drawing.Color.DimGray;
             this.linksite.LinkColor = System.Drawing.Color.WhiteSmoke;
-            this.linksite.Location = new System.Drawing.Point(393, 399);
+            this.linksite.Location = new System.Drawing.Point(378, 398);
             this.linksite.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linksite.Name = "linksite";
             this.linksite.Size = new System.Drawing.Size(292, 18);
-            this.linksite.TabIndex = 3;
+            this.linksite.TabIndex = 5;
             this.linksite.TabStop = true;
             this.linksite.Text = "CLIQUE AQUI PARA ACESSAR O SITE DA UNIP";
+            this.linksite.VisitedLinkColor = System.Drawing.Color.White;
+            this.linksite.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Linksite_LinkClicked);
             // 
             // pictureBox1
             // 
@@ -107,9 +109,12 @@
             this.txbSenha.ForeColor = System.Drawing.SystemColors.Window;
             this.txbSenha.Location = new System.Drawing.Point(381, 184);
             this.txbSenha.Margin = new System.Windows.Forms.Padding(2);
+            this.txbSenha.MaxLength = 15;
             this.txbSenha.Name = "txbSenha";
+            this.txbSenha.PasswordChar = '*';
             this.txbSenha.Size = new System.Drawing.Size(210, 20);
-            this.txbSenha.TabIndex = 7;
+            this.txbSenha.TabIndex = 2;
+            this.txbSenha.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbSenha_KeyPress);
             // 
             // lblLogin
             // 
@@ -128,12 +133,15 @@
             // 
             this.txbLogin.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txbLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txbLogin.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.txbLogin.ForeColor = System.Drawing.SystemColors.Window;
             this.txbLogin.Location = new System.Drawing.Point(381, 145);
             this.txbLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.txbLogin.MaxLength = 15;
             this.txbLogin.Name = "txbLogin";
             this.txbLogin.Size = new System.Drawing.Size(210, 20);
-            this.txbLogin.TabIndex = 9;
+            this.txbLogin.TabIndex = 1;
+            this.txbLogin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxbLogin_KeyPress);
             // 
             // btnCadastrar
             // 
@@ -147,7 +155,7 @@
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(119, 27);
-            this.btnCadastrar.TabIndex = 10;
+            this.btnCadastrar.TabIndex = 4;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.BtnCadastrar_Click);

@@ -36,14 +36,10 @@
             this.btnPesqPac_Au1 = new System.Windows.Forms.Button();
             this.grpDatePasc_Au1 = new System.Windows.Forms.GroupBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.lblMarcCons_Au1 = new System.Windows.Forms.Label();
-            this.pnlMarCons_Au1 = new System.Windows.Forms.Panel();
-            this.btnMarCons_Au1 = new System.Windows.Forms.Button();
-            this.btnRemCons_Au1 = new System.Windows.Forms.Button();
             this.btnAltDados_Au1 = new System.Windows.Forms.Button();
             this.txbPesPasc_Au1 = new System.Windows.Forms.TextBox();
             this.btnCadPac_Au1 = new System.Windows.Forms.Button();
-            this.btnImprimir_Au1 = new System.Windows.Forms.Button();
+            this.btnHistorico_Au1 = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.data = new System.Windows.Forms.Label();
@@ -98,13 +94,12 @@
             this.btnPesqPac_Au1.TabIndex = 7;
             this.btnPesqPac_Au1.Text = "Pesquisar paciente";
             this.btnPesqPac_Au1.UseVisualStyleBackColor = true;
-            this.btnPesqPac_Au1.Click += new System.EventHandler(this.BtnPesqPac_Au1_Click);
             // 
             // grpDatePasc_Au1
             // 
             this.grpDatePasc_Au1.Location = new System.Drawing.Point(40, 234);
             this.grpDatePasc_Au1.Name = "grpDatePasc_Au1";
-            this.grpDatePasc_Au1.Size = new System.Drawing.Size(828, 191);
+            this.grpDatePasc_Au1.Size = new System.Drawing.Size(828, 284);
             this.grpDatePasc_Au1.TabIndex = 84;
             this.grpDatePasc_Au1.TabStop = false;
             this.grpDatePasc_Au1.Text = "Dados do paciente:";
@@ -121,49 +116,6 @@
             this.checkedListBox1.Size = new System.Drawing.Size(137, 24);
             this.checkedListBox1.TabIndex = 5;
             // 
-            // lblMarcCons_Au1
-            // 
-            this.lblMarcCons_Au1.AutoSize = true;
-            this.lblMarcCons_Au1.BackColor = System.Drawing.Color.Transparent;
-            this.lblMarcCons_Au1.Font = new System.Drawing.Font("Candara", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMarcCons_Au1.ForeColor = System.Drawing.Color.White;
-            this.lblMarcCons_Au1.Location = new System.Drawing.Point(36, 443);
-            this.lblMarcCons_Au1.Name = "lblMarcCons_Au1";
-            this.lblMarcCons_Au1.Size = new System.Drawing.Size(114, 18);
-            this.lblMarcCons_Au1.TabIndex = 86;
-            this.lblMarcCons_Au1.Text = "Marcar consulta:";
-            // 
-            // pnlMarCons_Au1
-            // 
-            this.pnlMarCons_Au1.Location = new System.Drawing.Point(185, 444);
-            this.pnlMarCons_Au1.Name = "pnlMarCons_Au1";
-            this.pnlMarCons_Au1.Size = new System.Drawing.Size(455, 100);
-            this.pnlMarCons_Au1.TabIndex = 8;
-            // 
-            // btnMarCons_Au1
-            // 
-            this.btnMarCons_Au1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMarCons_Au1.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMarCons_Au1.Location = new System.Drawing.Point(671, 444);
-            this.btnMarCons_Au1.Name = "btnMarCons_Au1";
-            this.btnMarCons_Au1.Size = new System.Drawing.Size(197, 28);
-            this.btnMarCons_Au1.TabIndex = 9;
-            this.btnMarCons_Au1.Text = "Marcar consulta";
-            this.btnMarCons_Au1.UseVisualStyleBackColor = true;
-            this.btnMarCons_Au1.Click += new System.EventHandler(this.BtnMarCons_Au1_Click);
-            // 
-            // btnRemCons_Au1
-            // 
-            this.btnRemCons_Au1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRemCons_Au1.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemCons_Au1.Location = new System.Drawing.Point(671, 478);
-            this.btnRemCons_Au1.Name = "btnRemCons_Au1";
-            this.btnRemCons_Au1.Size = new System.Drawing.Size(197, 28);
-            this.btnRemCons_Au1.TabIndex = 10;
-            this.btnRemCons_Au1.Text = "Remarcar consulta";
-            this.btnRemCons_Au1.UseVisualStyleBackColor = true;
-            this.btnRemCons_Au1.Click += new System.EventHandler(this.BtnRemCons_Au1_Click);
-            // 
             // btnAltDados_Au1
             // 
             this.btnAltDados_Au1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -174,7 +126,6 @@
             this.btnAltDados_Au1.TabIndex = 2;
             this.btnAltDados_Au1.Text = "Alterar dados";
             this.btnAltDados_Au1.UseVisualStyleBackColor = true;
-            this.btnAltDados_Au1.Click += new System.EventHandler(this.BtnAltDados_Au1_Click);
             // 
             // txbPesPasc_Au1
             // 
@@ -195,17 +146,17 @@
             this.btnCadPac_Au1.UseVisualStyleBackColor = true;
             this.btnCadPac_Au1.Click += new System.EventHandler(this.BtnCadPac_Au1_Click);
             // 
-            // btnImprimir_Au1
+            // btnHistorico_Au1
             // 
-            this.btnImprimir_Au1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnImprimir_Au1.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImprimir_Au1.Location = new System.Drawing.Point(552, 138);
-            this.btnImprimir_Au1.Name = "btnImprimir_Au1";
-            this.btnImprimir_Au1.Size = new System.Drawing.Size(197, 28);
-            this.btnImprimir_Au1.TabIndex = 3;
-            this.btnImprimir_Au1.Text = "Imprimir Formulário";
-            this.btnImprimir_Au1.UseVisualStyleBackColor = true;
-            this.btnImprimir_Au1.Click += new System.EventHandler(this.BtnImprimir_Au1_Click);
+            this.btnHistorico_Au1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnHistorico_Au1.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistorico_Au1.Location = new System.Drawing.Point(552, 138);
+            this.btnHistorico_Au1.Name = "btnHistorico_Au1";
+            this.btnHistorico_Au1.Size = new System.Drawing.Size(197, 28);
+            this.btnHistorico_Au1.TabIndex = 3;
+            this.btnHistorico_Au1.Text = "Histórico Paciente";
+            this.btnHistorico_Au1.UseVisualStyleBackColor = true;
+            this.btnHistorico_Au1.Click += new System.EventHandler(this.btnHistorico_Au1_Click);
             // 
             // printDocument1
             // 
@@ -233,7 +184,6 @@
             this.data.Size = new System.Drawing.Size(40, 18);
             this.data.TabIndex = 94;
             this.data.Text = "Data";
-            this.data.Click += new System.EventHandler(this.data_Click);
             // 
             // hora
             // 
@@ -274,14 +224,10 @@
             this.Controls.Add(this.btnSair_Au1);
             this.Controls.Add(this.hora);
             this.Controls.Add(this.data);
-            this.Controls.Add(this.btnImprimir_Au1);
+            this.Controls.Add(this.btnHistorico_Au1);
             this.Controls.Add(this.btnCadPac_Au1);
             this.Controls.Add(this.txbPesPasc_Au1);
             this.Controls.Add(this.btnAltDados_Au1);
-            this.Controls.Add(this.btnRemCons_Au1);
-            this.Controls.Add(this.btnMarCons_Au1);
-            this.Controls.Add(this.pnlMarCons_Au1);
-            this.Controls.Add(this.lblMarcCons_Au1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.grpDatePasc_Au1);
             this.Controls.Add(this.btnPesqPac_Au1);
@@ -293,7 +239,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AreaUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AreaUsuario";
+            this.Text = "Area do Usuario";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -308,14 +254,10 @@
         private System.Windows.Forms.Button btnPesqPac_Au1;
         private System.Windows.Forms.GroupBox grpDatePasc_Au1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Label lblMarcCons_Au1;
-        private System.Windows.Forms.Panel pnlMarCons_Au1;
-        private System.Windows.Forms.Button btnMarCons_Au1;
-        private System.Windows.Forms.Button btnRemCons_Au1;
         private System.Windows.Forms.Button btnAltDados_Au1;
         private System.Windows.Forms.TextBox txbPesPasc_Au1;
         private System.Windows.Forms.Button btnCadPac_Au1;
-        private System.Windows.Forms.Button btnImprimir_Au1;
+        private System.Windows.Forms.Button btnHistorico_Au1;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
         private System.Windows.Forms.Label data;

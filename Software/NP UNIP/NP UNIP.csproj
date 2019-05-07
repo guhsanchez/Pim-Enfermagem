@@ -54,12 +54,6 @@
     <Compile Include="Apresentação\AreaUsuario.Designer.cs">
       <DependentUpon>AreaUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Apresentação\AreaUsuario2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Apresentação\AreaUsuario2.Designer.cs">
-      <DependentUpon>AreaUsuario2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Apresentação\CADASTRO.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,25 +66,36 @@
     <Compile Include="Apresentação\CadastroUsuario.Designer.cs">
       <DependentUpon>CadastroUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Apresentação\Historico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\Historico.Designer.cs">
+      <DependentUpon>Historico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Apresentação\UNIP INICIO.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Apresentação\UNIP INICIO.Designer.cs">
       <DependentUpon>UNIP INICIO.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Apresentação\AreaUsuario.resx">
       <DependentUpon>AreaUsuario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Apresentação\AreaUsuario2.resx">
-      <DependentUpon>AreaUsuario2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentação\CADASTRO.resx">
       <DependentUpon>CADASTRO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentação\CadastroUsuario.resx">
       <DependentUpon>CadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\Historico.resx">
+      <DependentUpon>Historico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentação\UNIP INICIO.resx">
       <DependentUpon>UNIP INICIO.cs</DependentUpon>
@@ -104,6 +109,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -64,7 +64,6 @@
             this.label18 = new System.Windows.Forms.Label();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-            this.btnImprimir_Cad = new System.Windows.Forms.Button();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
@@ -267,6 +266,7 @@
             // 
             // txbNome_Cad
             // 
+            this.txbNome_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbNome_Cad.Location = new System.Drawing.Point(66, 131);
             this.txbNome_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.txbNome_Cad.MaxLength = 50;
@@ -277,6 +277,7 @@
             // 
             // txbEscol_Cad
             // 
+            this.txbEscol_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbEscol_Cad.Location = new System.Drawing.Point(117, 188);
             this.txbEscol_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.txbEscol_Cad.MaxLength = 40;
@@ -287,6 +288,7 @@
             // 
             // txbEnder_Cad
             // 
+            this.txbEnder_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbEnder_Cad.Location = new System.Drawing.Point(314, 274);
             this.txbEnder_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.txbEnder_Cad.MaxLength = 50;
@@ -297,6 +299,7 @@
             // 
             // txbBairro_Cad
             // 
+            this.txbBairro_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbBairro_Cad.Location = new System.Drawing.Point(299, 301);
             this.txbBairro_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.txbBairro_Cad.MaxLength = 40;
@@ -318,6 +321,7 @@
             // 
             // txbCit_Cad
             // 
+            this.txbCit_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbCit_Cad.Location = new System.Drawing.Point(160, 335);
             this.txbCit_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.txbCit_Cad.MaxLength = 40;
@@ -328,6 +332,7 @@
             // 
             // txbEstCiv_Cad
             // 
+            this.txbEstCiv_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbEstCiv_Cad.Location = new System.Drawing.Point(460, 160);
             this.txbEstCiv_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.txbEstCiv_Cad.MaxLength = 20;
@@ -338,6 +343,7 @@
             // 
             // txbJob_Cad
             // 
+            this.txbJob_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbJob_Cad.Location = new System.Drawing.Point(432, 189);
             this.txbJob_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.txbJob_Cad.MaxLength = 40;
@@ -348,6 +354,7 @@
             // 
             // txbTalk_Cad
             // 
+            this.txbTalk_Cad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbTalk_Cad.Location = new System.Drawing.Point(441, 217);
             this.txbTalk_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.txbTalk_Cad.MaxLength = 40;
@@ -416,7 +423,7 @@
             this.btnCadastrarPac_Cadastro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnCadastrarPac_Cadastro.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarPac_Cadastro.ForeColor = System.Drawing.Color.Black;
-            this.btnCadastrarPac_Cadastro.Location = new System.Drawing.Point(170, 375);
+            this.btnCadastrarPac_Cadastro.Location = new System.Drawing.Point(224, 375);
             this.btnCadastrarPac_Cadastro.Margin = new System.Windows.Forms.Padding(2);
             this.btnCadastrarPac_Cadastro.Name = "btnCadastrarPac_Cadastro";
             this.btnCadastrarPac_Cadastro.Size = new System.Drawing.Size(119, 27);
@@ -431,7 +438,7 @@
             this.btnVoltar_Cad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnVoltar_Cad.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar_Cad.ForeColor = System.Drawing.Color.Black;
-            this.btnVoltar_Cad.Location = new System.Drawing.Point(315, 375);
+            this.btnVoltar_Cad.Location = new System.Drawing.Point(369, 375);
             this.btnVoltar_Cad.Margin = new System.Windows.Forms.Padding(2);
             this.btnVoltar_Cad.Name = "btnVoltar_Cad";
             this.btnVoltar_Cad.Size = new System.Drawing.Size(119, 27);
@@ -466,21 +473,6 @@
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             this.printPreviewDialog1.Load += new System.EventHandler(this.printPreviewDialog1_Load);
-            // 
-            // btnImprimir_Cad
-            // 
-            this.btnImprimir_Cad.BackColor = System.Drawing.SystemColors.Window;
-            this.btnImprimir_Cad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnImprimir_Cad.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImprimir_Cad.ForeColor = System.Drawing.Color.Black;
-            this.btnImprimir_Cad.Location = new System.Drawing.Point(460, 375);
-            this.btnImprimir_Cad.Margin = new System.Windows.Forms.Padding(2);
-            this.btnImprimir_Cad.Name = "btnImprimir_Cad";
-            this.btnImprimir_Cad.Size = new System.Drawing.Size(119, 27);
-            this.btnImprimir_Cad.TabIndex = 20;
-            this.btnImprimir_Cad.Text = "Imprimir";
-            this.btnImprimir_Cad.UseVisualStyleBackColor = false;
-            this.btnImprimir_Cad.Click += new System.EventHandler(this.BtnImprimir_Cad_Click);
             // 
             // maskedTextBox1
             // 
@@ -536,7 +528,6 @@
             this.Controls.Add(this.maskedTextBox3);
             this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.btnImprimir_Cad);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.btnVoltar_Cad);
             this.Controls.Add(this.btnCadastrarPac_Cadastro);
@@ -575,7 +566,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Cadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CADASTRO";
+            this.Text = "Castro de Paciente";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -619,7 +610,6 @@
         private System.Windows.Forms.Label label18;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
-        private System.Windows.Forms.Button btnImprimir_Cad;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.MaskedTextBox maskedTextBox3;

@@ -27,21 +27,6 @@ namespace NP_UNIP
             printPreviewDialog1.WindowState = FormWindowState.Maximized;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void data_Click(object sender, EventArgs e)
-        {
-            data.Text = DateTime.Now.ToString("dd/MM/yyyy");
-        }
-
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             hora.Text = DateTime.Now.ToString("HH:mm:ss");
@@ -56,36 +41,19 @@ namespace NP_UNIP
             Hide();
         }
 
-        private void BtnAltDados_Au1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnImprimir_Au1_Click(object sender, EventArgs e)
-        {
-            printPreviewDialog1.ShowDialog();
-        }
-
-        private void BtnPesqPac_Au1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnMarCons_Au1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnRemCons_Au1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnSair_Au1_Click(object sender, EventArgs e)
         {
             frmPrincipal _U1;
             _U1 = new frmPrincipal();
             _U1.Show();
+            Hide();
+        }
+
+        private void btnHistorico_Au1_Click(object sender, EventArgs e)
+        {
+            Apresentação.frmHistorico _H1;
+            _H1 = new Apresentação.frmHistorico();
+            _H1.Show();
             Hide();
         }
     }

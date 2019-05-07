@@ -133,7 +133,7 @@
             // 
             this.txbLogin.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txbLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txbLogin.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
+            this.txbLogin.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbLogin.ForeColor = System.Drawing.SystemColors.Window;
             this.txbLogin.Location = new System.Drawing.Point(381, 145);
             this.txbLogin.Margin = new System.Windows.Forms.Padding(2);
@@ -164,10 +164,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(9, 11);
+            this.pictureBox2.Location = new System.Drawing.Point(4, 11);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(666, 496);
+            this.pictureBox2.Size = new System.Drawing.Size(666, 450);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
@@ -192,7 +192,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UNIP V.1.0.5";
+            this.Text = "UNIP ENFERMAGEM";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

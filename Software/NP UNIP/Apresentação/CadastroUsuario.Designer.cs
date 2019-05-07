@@ -219,6 +219,7 @@
             // 
             // txbLogin_CadUser
             // 
+            this.txbLogin_CadUser.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbLogin_CadUser.Location = new System.Drawing.Point(152, 366);
             this.txbLogin_CadUser.MaxLength = 15;
             this.txbLogin_CadUser.Name = "txbLogin_CadUser";
@@ -240,6 +241,7 @@
             // 
             // txbNome_CadUser
             // 
+            this.txbNome_CadUser.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbNome_CadUser.Location = new System.Drawing.Point(83, 163);
             this.txbNome_CadUser.MaxLength = 50;
             this.txbNome_CadUser.Name = "txbNome_CadUser";
@@ -258,6 +260,7 @@
             // 
             // txbBairro_CadUser
             // 
+            this.txbBairro_CadUser.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbBairro_CadUser.Location = new System.Drawing.Point(484, 274);
             this.txbBairro_CadUser.MaxLength = 30;
             this.txbBairro_CadUser.Name = "txbBairro_CadUser";
@@ -267,6 +270,7 @@
             // 
             // txbEnder_CadUser
             // 
+            this.txbEnder_CadUser.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbEnder_CadUser.Location = new System.Drawing.Point(484, 238);
             this.txbEnder_CadUser.MaxLength = 50;
             this.txbEnder_CadUser.Name = "txbEnder_CadUser";
@@ -276,6 +280,7 @@
             // 
             // txbFuncao_CadUser
             // 
+            this.txbFuncao_CadUser.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbFuncao_CadUser.Location = new System.Drawing.Point(484, 202);
             this.txbFuncao_CadUser.MaxLength = 30;
             this.txbFuncao_CadUser.Name = "txbFuncao_CadUser";
@@ -297,6 +302,7 @@
             // 
             // txbCit_CadUser
             // 
+            this.txbCit_CadUser.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbCit_CadUser.Location = new System.Drawing.Point(83, 235);
             this.txbCit_CadUser.MaxLength = 30;
             this.txbCit_CadUser.Name = "txbCit_CadUser";
@@ -306,6 +312,7 @@
             // 
             // txbRegFunc_CadUser
             // 
+            this.txbRegFunc_CadUser.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txbRegFunc_CadUser.Location = new System.Drawing.Point(643, 163);
             this.txbRegFunc_CadUser.MaxLength = 30;
             this.txbRegFunc_CadUser.Name = "txbRegFunc_CadUser";

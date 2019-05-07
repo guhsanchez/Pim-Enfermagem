@@ -28,94 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.cblEscol = new System.Windows.Forms.CheckedListBox();
+            this.clbFatRisc = new System.Windows.Forms.CheckedListBox();
             this.grpFatRisc = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox5 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox8 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox7 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkedListBox11 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox10 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox9 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox6 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox4 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.groupBox17 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox15 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox14 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox18 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox16 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox20 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.checkedListBox18 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox19 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox17 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox13 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox12 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox21 = new System.Windows.Forms.GroupBox();
-            this.groupBox23 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox20 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox22 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox19 = new System.Windows.Forms.CheckedListBox();
+            this.lblFatRisc = new System.Windows.Forms.Label();
+            this.txbFatRisc = new System.Windows.Forms.TextBox();
+            this.grpEscol = new System.Windows.Forms.GroupBox();
+            this.grpCabPec = new System.Windows.Forms.GroupBox();
+            this.grpMucosa = new System.Windows.Forms.GroupBox();
+            this.cblMucosa = new System.Windows.Forms.CheckedListBox();
+            this.grpBoca = new System.Windows.Forms.GroupBox();
+            this.cblBoca = new System.Windows.Forms.CheckedListBox();
+            this.grpOuvido = new System.Windows.Forms.GroupBox();
+            this.cblOuvido = new System.Windows.Forms.CheckedListBox();
+            this.grpPescoco = new System.Windows.Forms.GroupBox();
+            this.lblPescoco = new System.Windows.Forms.Label();
+            this.txbPescoco = new System.Windows.Forms.TextBox();
+            this.cblPescoco = new System.Windows.Forms.CheckedListBox();
+            this.grpVisao = new System.Windows.Forms.GroupBox();
+            this.cblVisao = new System.Windows.Forms.CheckedListBox();
+            this.grpOlhos = new System.Windows.Forms.GroupBox();
+            this.cblOlhos = new System.Windows.Forms.CheckedListBox();
+            this.grpNariz = new System.Windows.Forms.GroupBox();
+            this.cblNariz = new System.Windows.Forms.CheckedListBox();
+            this.grpCabeludo = new System.Windows.Forms.GroupBox();
+            this.cblCabeludo = new System.Windows.Forms.CheckedListBox();
+            this.grpPupilas = new System.Windows.Forms.GroupBox();
+            this.clbPupilas = new System.Windows.Forms.CheckedListBox();
+            this.grpTorax = new System.Windows.Forms.GroupBox();
+            this.grpCardiacas = new System.Windows.Forms.GroupBox();
+            this.cblCardiacas = new System.Windows.Forms.CheckedListBox();
+            this.grpTipo = new System.Windows.Forms.GroupBox();
+            this.cblTipo = new System.Windows.Forms.CheckedListBox();
+            this.grpToracica = new System.Windows.Forms.GroupBox();
+            this.cblToracica = new System.Windows.Forms.CheckedListBox();
+            this.grpMamilos = new System.Windows.Forms.GroupBox();
+            this.txbExpressao = new System.Windows.Forms.TextBox();
+            this.lblExpressao = new System.Windows.Forms.Label();
+            this.cblMamilos = new System.Windows.Forms.CheckedListBox();
+            this.grpMastectomia = new System.Windows.Forms.GroupBox();
+            this.cblMastectomia = new System.Windows.Forms.CheckedListBox();
+            this.grpMamas = new System.Windows.Forms.GroupBox();
+            this.cblMamas = new System.Windows.Forms.CheckedListBox();
+            this.grpFormas = new System.Windows.Forms.GroupBox();
+            this.cblFormas = new System.Windows.Forms.CheckedListBox();
+            this.grpSonsRes = new System.Windows.Forms.GroupBox();
+            this.grpAdventicios = new System.Windows.Forms.GroupBox();
+            this.cblAdventicios = new System.Windows.Forms.CheckedListBox();
+            this.grpVesticulares = new System.Windows.Forms.GroupBox();
+            this.cblVesticulares = new System.Windows.Forms.CheckedListBox();
             this.btnVoltar_Hist = new System.Windows.Forms.Button();
-            this.groupBox24 = new System.Windows.Forms.GroupBox();
-            this.groupBox25 = new System.Windows.Forms.GroupBox();
-            this.groupBox26 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.grpAnotacoes = new System.Windows.Forms.GroupBox();
+            this.txbAnotacoes = new System.Windows.Forms.TextBox();
+            this.grpDiagnostico = new System.Windows.Forms.GroupBox();
+            this.txbDiagnostico = new System.Windows.Forms.TextBox();
+            this.grpEvolucao = new System.Windows.Forms.GroupBox();
+            this.txbEvolucao = new System.Windows.Forms.TextBox();
             this.grpFatRisc.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox9.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox12.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            this.groupBox10.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox13.SuspendLayout();
-            this.groupBox17.SuspendLayout();
-            this.groupBox16.SuspendLayout();
-            this.groupBox18.SuspendLayout();
-            this.groupBox20.SuspendLayout();
-            this.groupBox19.SuspendLayout();
-            this.groupBox15.SuspendLayout();
-            this.groupBox14.SuspendLayout();
-            this.groupBox21.SuspendLayout();
-            this.groupBox23.SuspendLayout();
-            this.groupBox22.SuspendLayout();
-            this.groupBox24.SuspendLayout();
-            this.groupBox25.SuspendLayout();
-            this.groupBox26.SuspendLayout();
+            this.grpEscol.SuspendLayout();
+            this.grpCabPec.SuspendLayout();
+            this.grpMucosa.SuspendLayout();
+            this.grpBoca.SuspendLayout();
+            this.grpOuvido.SuspendLayout();
+            this.grpPescoco.SuspendLayout();
+            this.grpVisao.SuspendLayout();
+            this.grpOlhos.SuspendLayout();
+            this.grpNariz.SuspendLayout();
+            this.grpCabeludo.SuspendLayout();
+            this.grpPupilas.SuspendLayout();
+            this.grpTorax.SuspendLayout();
+            this.grpCardiacas.SuspendLayout();
+            this.grpTipo.SuspendLayout();
+            this.grpToracica.SuspendLayout();
+            this.grpMamilos.SuspendLayout();
+            this.grpMastectomia.SuspendLayout();
+            this.grpMamas.SuspendLayout();
+            this.grpFormas.SuspendLayout();
+            this.grpSonsRes.SuspendLayout();
+            this.grpAdventicios.SuspendLayout();
+            this.grpVesticulares.SuspendLayout();
+            this.grpAnotacoes.SuspendLayout();
+            this.grpDiagnostico.SuspendLayout();
+            this.grpEvolucao.SuspendLayout();
             this.SuspendLayout();
             // 
-            // checkedListBox1
+            // cblEscol
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
+            this.cblEscol.FormattingEnabled = true;
+            this.cblEscol.Items.AddRange(new object[] {
             "Analfabeto",
             "Ensino Superior Completo",
             "Ensino Médio Completo",
@@ -125,30 +125,30 @@
             "Ensino Médio Incompleto",
             "Ensino Superior Incompleto",
             "Curso Técnico"});
-            this.checkedListBox1.Location = new System.Drawing.Point(6, 19);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(175, 64);
-            this.checkedListBox1.TabIndex = 0;
+            this.cblEscol.Location = new System.Drawing.Point(6, 19);
+            this.cblEscol.Name = "cblEscol";
+            this.cblEscol.Size = new System.Drawing.Size(175, 64);
+            this.cblEscol.TabIndex = 0;
             // 
-            // checkedListBox2
+            // clbFatRisc
             // 
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
+            this.clbFatRisc.FormattingEnabled = true;
+            this.clbFatRisc.Items.AddRange(new object[] {
             "Tabagismo frequência",
             "Etilismo frequência",
             "Obesidade",
             "Cancêr",
             "Sedentarismo"});
-            this.checkedListBox2.Location = new System.Drawing.Point(6, 19);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(169, 79);
-            this.checkedListBox2.TabIndex = 2;
+            this.clbFatRisc.Location = new System.Drawing.Point(6, 19);
+            this.clbFatRisc.Name = "clbFatRisc";
+            this.clbFatRisc.Size = new System.Drawing.Size(169, 79);
+            this.clbFatRisc.TabIndex = 2;
             // 
             // grpFatRisc
             // 
-            this.grpFatRisc.Controls.Add(this.label2);
-            this.grpFatRisc.Controls.Add(this.textBox1);
-            this.grpFatRisc.Controls.Add(this.checkedListBox2);
+            this.grpFatRisc.Controls.Add(this.lblFatRisc);
+            this.grpFatRisc.Controls.Add(this.txbFatRisc);
+            this.grpFatRisc.Controls.Add(this.clbFatRisc);
             this.grpFatRisc.Location = new System.Drawing.Point(34, 80);
             this.grpFatRisc.Name = "grpFatRisc";
             this.grpFatRisc.Size = new System.Drawing.Size(181, 193);
@@ -156,88 +156,88 @@
             this.grpFatRisc.TabStop = false;
             this.grpFatRisc.Text = "Fatores de Risco";
             // 
-            // label2
+            // lblFatRisc
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Outros";
+            this.lblFatRisc.AutoSize = true;
+            this.lblFatRisc.Location = new System.Drawing.Point(6, 102);
+            this.lblFatRisc.Name = "lblFatRisc";
+            this.lblFatRisc.Size = new System.Drawing.Size(38, 13);
+            this.lblFatRisc.TabIndex = 4;
+            this.lblFatRisc.Text = "Outros";
             // 
-            // textBox1
+            // txbFatRisc
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 118);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(169, 69);
-            this.textBox1.TabIndex = 3;
+            this.txbFatRisc.Location = new System.Drawing.Point(6, 118);
+            this.txbFatRisc.Multiline = true;
+            this.txbFatRisc.Name = "txbFatRisc";
+            this.txbFatRisc.Size = new System.Drawing.Size(169, 69);
+            this.txbFatRisc.TabIndex = 3;
             // 
-            // groupBox2
+            // grpEscol
             // 
-            this.groupBox2.Controls.Add(this.checkedListBox1);
-            this.groupBox2.Location = new System.Drawing.Point(34, 279);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(184, 89);
-            this.groupBox2.TabIndex = 4;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Escolaridade";
+            this.grpEscol.Controls.Add(this.cblEscol);
+            this.grpEscol.Location = new System.Drawing.Point(34, 279);
+            this.grpEscol.Name = "grpEscol";
+            this.grpEscol.Size = new System.Drawing.Size(184, 89);
+            this.grpEscol.TabIndex = 4;
+            this.grpEscol.TabStop = false;
+            this.grpEscol.Text = "Escolaridade";
             // 
-            // groupBox3
+            // grpCabPec
             // 
-            this.groupBox3.Controls.Add(this.groupBox6);
-            this.groupBox3.Controls.Add(this.groupBox9);
-            this.groupBox3.Controls.Add(this.groupBox8);
-            this.groupBox3.Controls.Add(this.groupBox12);
-            this.groupBox3.Controls.Add(this.groupBox11);
-            this.groupBox3.Controls.Add(this.groupBox10);
-            this.groupBox3.Controls.Add(this.groupBox7);
-            this.groupBox3.Controls.Add(this.groupBox5);
-            this.groupBox3.Controls.Add(this.groupBox4);
-            this.groupBox3.Location = new System.Drawing.Point(268, 80);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(584, 247);
-            this.groupBox3.TabIndex = 5;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Cabeça e Pescoço";
+            this.grpCabPec.Controls.Add(this.grpMucosa);
+            this.grpCabPec.Controls.Add(this.grpBoca);
+            this.grpCabPec.Controls.Add(this.grpOuvido);
+            this.grpCabPec.Controls.Add(this.grpPescoco);
+            this.grpCabPec.Controls.Add(this.grpVisao);
+            this.grpCabPec.Controls.Add(this.grpOlhos);
+            this.grpCabPec.Controls.Add(this.grpNariz);
+            this.grpCabPec.Controls.Add(this.grpCabeludo);
+            this.grpCabPec.Controls.Add(this.grpPupilas);
+            this.grpCabPec.Location = new System.Drawing.Point(268, 80);
+            this.grpCabPec.Name = "grpCabPec";
+            this.grpCabPec.Size = new System.Drawing.Size(584, 247);
+            this.grpCabPec.TabIndex = 5;
+            this.grpCabPec.TabStop = false;
+            this.grpCabPec.Text = "Cabeça e Pescoço";
             // 
-            // groupBox6
+            // grpMucosa
             // 
-            this.groupBox6.Controls.Add(this.checkedListBox5);
-            this.groupBox6.Location = new System.Drawing.Point(7, 95);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(130, 70);
-            this.groupBox6.TabIndex = 3;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Mucosa";
+            this.grpMucosa.Controls.Add(this.cblMucosa);
+            this.grpMucosa.Location = new System.Drawing.Point(7, 95);
+            this.grpMucosa.Name = "grpMucosa";
+            this.grpMucosa.Size = new System.Drawing.Size(130, 70);
+            this.grpMucosa.TabIndex = 3;
+            this.grpMucosa.TabStop = false;
+            this.grpMucosa.Text = "Mucosa";
             // 
-            // checkedListBox5
+            // cblMucosa
             // 
-            this.checkedListBox5.FormattingEnabled = true;
-            this.checkedListBox5.Items.AddRange(new object[] {
+            this.cblMucosa.FormattingEnabled = true;
+            this.cblMucosa.Items.AddRange(new object[] {
             "Normocorada",
             "Hipocorada",
             "Hipercorada",
             "Ictérica"});
-            this.checkedListBox5.Location = new System.Drawing.Point(5, 15);
-            this.checkedListBox5.Name = "checkedListBox5";
-            this.checkedListBox5.Size = new System.Drawing.Size(112, 49);
-            this.checkedListBox5.TabIndex = 0;
+            this.cblMucosa.Location = new System.Drawing.Point(5, 15);
+            this.cblMucosa.Name = "cblMucosa";
+            this.cblMucosa.Size = new System.Drawing.Size(112, 49);
+            this.cblMucosa.TabIndex = 0;
             // 
-            // groupBox9
+            // grpBoca
             // 
-            this.groupBox9.Controls.Add(this.checkedListBox8);
-            this.groupBox9.Location = new System.Drawing.Point(143, 171);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(239, 70);
-            this.groupBox9.TabIndex = 2;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Boca";
+            this.grpBoca.Controls.Add(this.cblBoca);
+            this.grpBoca.Location = new System.Drawing.Point(143, 171);
+            this.grpBoca.Name = "grpBoca";
+            this.grpBoca.Size = new System.Drawing.Size(239, 70);
+            this.grpBoca.TabIndex = 2;
+            this.grpBoca.TabStop = false;
+            this.grpBoca.Text = "Boca";
             // 
-            // checkedListBox8
+            // cblBoca
             // 
-            this.checkedListBox8.FormattingEnabled = true;
-            this.checkedListBox8.Items.AddRange(new object[] {
+            this.cblBoca.FormattingEnabled = true;
+            this.cblBoca.Items.AddRange(new object[] {
             "Integridade Mucotânea",
             "Normocorada",
             "Hidratada",
@@ -248,223 +248,223 @@
             "Mucosite",
             "Dentadura",
             "Lingua Saburrosa"});
-            this.checkedListBox8.Location = new System.Drawing.Point(7, 16);
-            this.checkedListBox8.Name = "checkedListBox8";
-            this.checkedListBox8.Size = new System.Drawing.Size(222, 49);
-            this.checkedListBox8.TabIndex = 0;
+            this.cblBoca.Location = new System.Drawing.Point(7, 16);
+            this.cblBoca.Name = "cblBoca";
+            this.cblBoca.Size = new System.Drawing.Size(222, 49);
+            this.cblBoca.TabIndex = 0;
             // 
-            // groupBox8
+            // grpOuvido
             // 
-            this.groupBox8.Controls.Add(this.checkedListBox7);
-            this.groupBox8.Location = new System.Drawing.Point(7, 171);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(130, 70);
-            this.groupBox8.TabIndex = 2;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Ouvido";
+            this.grpOuvido.Controls.Add(this.cblOuvido);
+            this.grpOuvido.Location = new System.Drawing.Point(7, 171);
+            this.grpOuvido.Name = "grpOuvido";
+            this.grpOuvido.Size = new System.Drawing.Size(130, 70);
+            this.grpOuvido.TabIndex = 2;
+            this.grpOuvido.TabStop = false;
+            this.grpOuvido.Text = "Ouvido";
             // 
-            // checkedListBox7
+            // cblOuvido
             // 
-            this.checkedListBox7.FormattingEnabled = true;
-            this.checkedListBox7.Items.AddRange(new object[] {
+            this.cblOuvido.FormattingEnabled = true;
+            this.cblOuvido.Items.AddRange(new object[] {
             "Cerúmen",
             "Prurido",
             "Zumbido",
             "Otorréia"});
-            this.checkedListBox7.Location = new System.Drawing.Point(7, 16);
-            this.checkedListBox7.Name = "checkedListBox7";
-            this.checkedListBox7.Size = new System.Drawing.Size(112, 49);
-            this.checkedListBox7.TabIndex = 0;
+            this.cblOuvido.Location = new System.Drawing.Point(7, 16);
+            this.cblOuvido.Name = "cblOuvido";
+            this.cblOuvido.Size = new System.Drawing.Size(112, 49);
+            this.cblOuvido.TabIndex = 0;
             // 
-            // groupBox12
+            // grpPescoco
             // 
-            this.groupBox12.Controls.Add(this.label1);
-            this.groupBox12.Controls.Add(this.textBox2);
-            this.groupBox12.Controls.Add(this.checkedListBox11);
-            this.groupBox12.Location = new System.Drawing.Point(388, 19);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(175, 222);
-            this.groupBox12.TabIndex = 2;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Pescoço";
+            this.grpPescoco.Controls.Add(this.lblPescoco);
+            this.grpPescoco.Controls.Add(this.txbPescoco);
+            this.grpPescoco.Controls.Add(this.cblPescoco);
+            this.grpPescoco.Location = new System.Drawing.Point(388, 19);
+            this.grpPescoco.Name = "grpPescoco";
+            this.grpPescoco.Size = new System.Drawing.Size(175, 222);
+            this.grpPescoco.TabIndex = 2;
+            this.grpPescoco.TabStop = false;
+            this.grpPescoco.Text = "Pescoço";
             // 
-            // label1
+            // lblPescoco
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 83);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Outros";
+            this.lblPescoco.AutoSize = true;
+            this.lblPescoco.Location = new System.Drawing.Point(6, 83);
+            this.lblPescoco.Name = "lblPescoco";
+            this.lblPescoco.Size = new System.Drawing.Size(38, 13);
+            this.lblPescoco.TabIndex = 2;
+            this.lblPescoco.Text = "Outros";
             // 
-            // textBox2
+            // txbPescoco
             // 
-            this.textBox2.Location = new System.Drawing.Point(7, 99);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(162, 118);
-            this.textBox2.TabIndex = 1;
+            this.txbPescoco.Location = new System.Drawing.Point(7, 99);
+            this.txbPescoco.Multiline = true;
+            this.txbPescoco.Name = "txbPescoco";
+            this.txbPescoco.Size = new System.Drawing.Size(162, 118);
+            this.txbPescoco.TabIndex = 1;
             // 
-            // checkedListBox11
+            // cblPescoco
             // 
-            this.checkedListBox11.FormattingEnabled = true;
-            this.checkedListBox11.Items.AddRange(new object[] {
+            this.cblPescoco.FormattingEnabled = true;
+            this.cblPescoco.Items.AddRange(new object[] {
             "Sem Anormalidades",
             "Linfonodos",
             "Tireoide Aumentada",
             "Estase Venosa Jugular",
             "Traqueostomia"});
-            this.checkedListBox11.Location = new System.Drawing.Point(7, 16);
-            this.checkedListBox11.Name = "checkedListBox11";
-            this.checkedListBox11.Size = new System.Drawing.Size(162, 64);
-            this.checkedListBox11.TabIndex = 0;
+            this.cblPescoco.Location = new System.Drawing.Point(7, 16);
+            this.cblPescoco.Name = "cblPescoco";
+            this.cblPescoco.Size = new System.Drawing.Size(162, 64);
+            this.cblPescoco.TabIndex = 0;
             // 
-            // groupBox11
+            // grpVisao
             // 
-            this.groupBox11.Controls.Add(this.checkedListBox10);
-            this.groupBox11.Location = new System.Drawing.Point(274, 95);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(108, 70);
-            this.groupBox11.TabIndex = 2;
-            this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Visão";
+            this.grpVisao.Controls.Add(this.cblVisao);
+            this.grpVisao.Location = new System.Drawing.Point(274, 95);
+            this.grpVisao.Name = "grpVisao";
+            this.grpVisao.Size = new System.Drawing.Size(108, 70);
+            this.grpVisao.TabIndex = 2;
+            this.grpVisao.TabStop = false;
+            this.grpVisao.Text = "Visão";
             // 
-            // checkedListBox10
+            // cblVisao
             // 
-            this.checkedListBox10.FormattingEnabled = true;
-            this.checkedListBox10.Items.AddRange(new object[] {
+            this.cblVisao.FormattingEnabled = true;
+            this.cblVisao.Items.AddRange(new object[] {
             "Normal",
             "Comprometida",
             "Diploplia"});
-            this.checkedListBox10.Location = new System.Drawing.Point(7, 16);
-            this.checkedListBox10.Name = "checkedListBox10";
-            this.checkedListBox10.Size = new System.Drawing.Size(91, 49);
-            this.checkedListBox10.TabIndex = 0;
+            this.cblVisao.Location = new System.Drawing.Point(7, 16);
+            this.cblVisao.Name = "cblVisao";
+            this.cblVisao.Size = new System.Drawing.Size(91, 49);
+            this.cblVisao.TabIndex = 0;
             // 
-            // groupBox10
+            // grpOlhos
             // 
-            this.groupBox10.Controls.Add(this.checkedListBox9);
-            this.groupBox10.Location = new System.Drawing.Point(274, 19);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(108, 70);
-            this.groupBox10.TabIndex = 2;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Olhos";
+            this.grpOlhos.Controls.Add(this.cblOlhos);
+            this.grpOlhos.Location = new System.Drawing.Point(274, 19);
+            this.grpOlhos.Name = "grpOlhos";
+            this.grpOlhos.Size = new System.Drawing.Size(108, 70);
+            this.grpOlhos.TabIndex = 2;
+            this.grpOlhos.TabStop = false;
+            this.grpOlhos.Text = "Olhos";
             // 
-            // checkedListBox9
+            // cblOlhos
             // 
-            this.checkedListBox9.FormattingEnabled = true;
-            this.checkedListBox9.Items.AddRange(new object[] {
+            this.cblOlhos.FormattingEnabled = true;
+            this.cblOlhos.Items.AddRange(new object[] {
             "Normal",
             "Exoftalmia",
             "Enoftalmia"});
-            this.checkedListBox9.Location = new System.Drawing.Point(7, 16);
-            this.checkedListBox9.Name = "checkedListBox9";
-            this.checkedListBox9.Size = new System.Drawing.Size(91, 49);
-            this.checkedListBox9.TabIndex = 0;
+            this.cblOlhos.Location = new System.Drawing.Point(7, 16);
+            this.cblOlhos.Name = "cblOlhos";
+            this.cblOlhos.Size = new System.Drawing.Size(91, 49);
+            this.cblOlhos.TabIndex = 0;
             // 
-            // groupBox7
+            // grpNariz
             // 
-            this.groupBox7.Controls.Add(this.checkedListBox6);
-            this.groupBox7.Location = new System.Drawing.Point(143, 95);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(125, 70);
-            this.groupBox7.TabIndex = 2;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Nariz";
+            this.grpNariz.Controls.Add(this.cblNariz);
+            this.grpNariz.Location = new System.Drawing.Point(143, 95);
+            this.grpNariz.Name = "grpNariz";
+            this.grpNariz.Size = new System.Drawing.Size(125, 70);
+            this.grpNariz.TabIndex = 2;
+            this.grpNariz.TabStop = false;
+            this.grpNariz.Text = "Nariz";
             // 
-            // checkedListBox6
+            // cblNariz
             // 
-            this.checkedListBox6.FormattingEnabled = true;
-            this.checkedListBox6.Items.AddRange(new object[] {
+            this.cblNariz.FormattingEnabled = true;
+            this.cblNariz.Items.AddRange(new object[] {
             "Lesão",
             "Sujidade",
             "Rinorreia",
             "Obstrução",
             "Epistaxe"});
-            this.checkedListBox6.Location = new System.Drawing.Point(7, 16);
-            this.checkedListBox6.Name = "checkedListBox6";
-            this.checkedListBox6.Size = new System.Drawing.Size(112, 49);
-            this.checkedListBox6.TabIndex = 0;
+            this.cblNariz.Location = new System.Drawing.Point(7, 16);
+            this.cblNariz.Name = "cblNariz";
+            this.cblNariz.Size = new System.Drawing.Size(112, 49);
+            this.cblNariz.TabIndex = 0;
             // 
-            // groupBox5
+            // grpCabeludo
             // 
-            this.groupBox5.Controls.Add(this.checkedListBox4);
-            this.groupBox5.Location = new System.Drawing.Point(143, 19);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(125, 70);
-            this.groupBox5.TabIndex = 2;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Couro Cabeludo";
+            this.grpCabeludo.Controls.Add(this.cblCabeludo);
+            this.grpCabeludo.Location = new System.Drawing.Point(143, 19);
+            this.grpCabeludo.Name = "grpCabeludo";
+            this.grpCabeludo.Size = new System.Drawing.Size(125, 70);
+            this.grpCabeludo.TabIndex = 2;
+            this.grpCabeludo.TabStop = false;
+            this.grpCabeludo.Text = "Couro Cabeludo";
             // 
-            // checkedListBox4
+            // cblCabeludo
             // 
-            this.checkedListBox4.FormattingEnabled = true;
-            this.checkedListBox4.Items.AddRange(new object[] {
+            this.cblCabeludo.FormattingEnabled = true;
+            this.cblCabeludo.Items.AddRange(new object[] {
             "Integro",
             "Hipotricose",
             "Lesão",
             "Alopécia",
             "Hipertricose"});
-            this.checkedListBox4.Location = new System.Drawing.Point(7, 16);
-            this.checkedListBox4.Name = "checkedListBox4";
-            this.checkedListBox4.Size = new System.Drawing.Size(112, 49);
-            this.checkedListBox4.TabIndex = 0;
+            this.cblCabeludo.Location = new System.Drawing.Point(7, 16);
+            this.cblCabeludo.Name = "cblCabeludo";
+            this.cblCabeludo.Size = new System.Drawing.Size(112, 49);
+            this.cblCabeludo.TabIndex = 0;
             // 
-            // groupBox4
+            // grpPupilas
             // 
-            this.groupBox4.Controls.Add(this.checkedListBox3);
-            this.groupBox4.Location = new System.Drawing.Point(6, 19);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(131, 70);
-            this.groupBox4.TabIndex = 1;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Pupilas";
+            this.grpPupilas.Controls.Add(this.clbPupilas);
+            this.grpPupilas.Location = new System.Drawing.Point(6, 19);
+            this.grpPupilas.Name = "grpPupilas";
+            this.grpPupilas.Size = new System.Drawing.Size(131, 70);
+            this.grpPupilas.TabIndex = 1;
+            this.grpPupilas.TabStop = false;
+            this.grpPupilas.Text = "Pupilas";
             // 
-            // checkedListBox3
+            // clbPupilas
             // 
-            this.checkedListBox3.FormattingEnabled = true;
-            this.checkedListBox3.Items.AddRange(new object[] {
+            this.clbPupilas.FormattingEnabled = true;
+            this.clbPupilas.Items.AddRange(new object[] {
             "Isocóricas",
             "Anisocóricas",
             "Miose",
             "Midríase",
             "Fotorreagentes"});
-            this.checkedListBox3.Location = new System.Drawing.Point(6, 16);
-            this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.Size = new System.Drawing.Size(120, 49);
-            this.checkedListBox3.TabIndex = 0;
+            this.clbPupilas.Location = new System.Drawing.Point(6, 16);
+            this.clbPupilas.Name = "clbPupilas";
+            this.clbPupilas.Size = new System.Drawing.Size(120, 49);
+            this.clbPupilas.TabIndex = 0;
             // 
-            // groupBox13
+            // grpTorax
             // 
-            this.groupBox13.Controls.Add(this.groupBox17);
-            this.groupBox13.Controls.Add(this.groupBox16);
-            this.groupBox13.Controls.Add(this.groupBox18);
-            this.groupBox13.Controls.Add(this.groupBox20);
-            this.groupBox13.Controls.Add(this.groupBox19);
-            this.groupBox13.Controls.Add(this.groupBox15);
-            this.groupBox13.Controls.Add(this.groupBox14);
-            this.groupBox13.Location = new System.Drawing.Point(268, 333);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(584, 247);
-            this.groupBox13.TabIndex = 7;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "Torax";
+            this.grpTorax.Controls.Add(this.grpCardiacas);
+            this.grpTorax.Controls.Add(this.grpTipo);
+            this.grpTorax.Controls.Add(this.grpToracica);
+            this.grpTorax.Controls.Add(this.grpMamilos);
+            this.grpTorax.Controls.Add(this.grpMastectomia);
+            this.grpTorax.Controls.Add(this.grpMamas);
+            this.grpTorax.Controls.Add(this.grpFormas);
+            this.grpTorax.Location = new System.Drawing.Point(268, 333);
+            this.grpTorax.Name = "grpTorax";
+            this.grpTorax.Size = new System.Drawing.Size(584, 247);
+            this.grpTorax.TabIndex = 7;
+            this.grpTorax.TabStop = false;
+            this.grpTorax.Text = "Torax";
             // 
-            // groupBox17
+            // grpCardiacas
             // 
-            this.groupBox17.Controls.Add(this.checkedListBox15);
-            this.groupBox17.Location = new System.Drawing.Point(143, 164);
-            this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(158, 76);
-            this.groupBox17.TabIndex = 1;
-            this.groupBox17.TabStop = false;
-            this.groupBox17.Text = "Bulhas Cardiacas";
+            this.grpCardiacas.Controls.Add(this.cblCardiacas);
+            this.grpCardiacas.Location = new System.Drawing.Point(143, 164);
+            this.grpCardiacas.Name = "grpCardiacas";
+            this.grpCardiacas.Size = new System.Drawing.Size(158, 76);
+            this.grpCardiacas.TabIndex = 1;
+            this.grpCardiacas.TabStop = false;
+            this.grpCardiacas.Text = "Bulhas Cardiacas";
             // 
-            // checkedListBox15
+            // cblCardiacas
             // 
-            this.checkedListBox15.FormattingEnabled = true;
-            this.checkedListBox15.Items.AddRange(new object[] {
+            this.cblCardiacas.FormattingEnabled = true;
+            this.cblCardiacas.Items.AddRange(new object[] {
             "Normofonéticas",
             "Arritmico",
             "Hiperfonéticas",
@@ -472,111 +472,111 @@
             "Hipofonéticas",
             "Sopro Diastólico",
             "Sem Sopros"});
-            this.checkedListBox15.Location = new System.Drawing.Point(8, 19);
-            this.checkedListBox15.Name = "checkedListBox15";
-            this.checkedListBox15.Size = new System.Drawing.Size(144, 49);
-            this.checkedListBox15.TabIndex = 0;
+            this.cblCardiacas.Location = new System.Drawing.Point(8, 19);
+            this.cblCardiacas.Name = "cblCardiacas";
+            this.cblCardiacas.Size = new System.Drawing.Size(144, 49);
+            this.cblCardiacas.TabIndex = 0;
             // 
-            // groupBox16
+            // grpTipo
             // 
-            this.groupBox16.Controls.Add(this.checkedListBox14);
-            this.groupBox16.Location = new System.Drawing.Point(143, 98);
-            this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(158, 60);
-            this.groupBox16.TabIndex = 1;
-            this.groupBox16.TabStop = false;
-            this.groupBox16.Text = "Tipo";
+            this.grpTipo.Controls.Add(this.cblTipo);
+            this.grpTipo.Location = new System.Drawing.Point(143, 98);
+            this.grpTipo.Name = "grpTipo";
+            this.grpTipo.Size = new System.Drawing.Size(158, 60);
+            this.grpTipo.TabIndex = 1;
+            this.grpTipo.TabStop = false;
+            this.grpTipo.Text = "Tipo";
             // 
-            // checkedListBox14
+            // cblTipo
             // 
-            this.checkedListBox14.FormattingEnabled = true;
-            this.checkedListBox14.Items.AddRange(new object[] {
+            this.cblTipo.FormattingEnabled = true;
+            this.cblTipo.Items.AddRange(new object[] {
             "Costal Superior",
             "Toraco Abdominal"});
-            this.checkedListBox14.Location = new System.Drawing.Point(8, 19);
-            this.checkedListBox14.Name = "checkedListBox14";
-            this.checkedListBox14.Size = new System.Drawing.Size(144, 34);
-            this.checkedListBox14.TabIndex = 0;
+            this.cblTipo.Location = new System.Drawing.Point(8, 19);
+            this.cblTipo.Name = "cblTipo";
+            this.cblTipo.Size = new System.Drawing.Size(144, 34);
+            this.cblTipo.TabIndex = 0;
             // 
-            // groupBox18
+            // grpToracica
             // 
-            this.groupBox18.Controls.Add(this.checkedListBox16);
-            this.groupBox18.Location = new System.Drawing.Point(143, 19);
-            this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(162, 73);
-            this.groupBox18.TabIndex = 1;
-            this.groupBox18.TabStop = false;
-            this.groupBox18.Text = "Expansibilidade Torácica";
+            this.grpToracica.Controls.Add(this.cblToracica);
+            this.grpToracica.Location = new System.Drawing.Point(143, 19);
+            this.grpToracica.Name = "grpToracica";
+            this.grpToracica.Size = new System.Drawing.Size(162, 73);
+            this.grpToracica.TabIndex = 1;
+            this.grpToracica.TabStop = false;
+            this.grpToracica.Text = "Expansibilidade Torácica";
             // 
-            // checkedListBox16
+            // cblToracica
             // 
-            this.checkedListBox16.FormattingEnabled = true;
-            this.checkedListBox16.Items.AddRange(new object[] {
+            this.cblToracica.FormattingEnabled = true;
+            this.cblToracica.Items.AddRange(new object[] {
             "Normal",
             "Diminuída Unilateralmente",
             "Diminuída Bilateralmente"});
-            this.checkedListBox16.Location = new System.Drawing.Point(8, 19);
-            this.checkedListBox16.Name = "checkedListBox16";
-            this.checkedListBox16.Size = new System.Drawing.Size(150, 49);
-            this.checkedListBox16.TabIndex = 0;
+            this.cblToracica.Location = new System.Drawing.Point(8, 19);
+            this.cblToracica.Name = "cblToracica";
+            this.cblToracica.Size = new System.Drawing.Size(150, 49);
+            this.cblToracica.TabIndex = 0;
             // 
-            // groupBox20
+            // grpMamilos
             // 
-            this.groupBox20.Controls.Add(this.textBox3);
-            this.groupBox20.Controls.Add(this.label3);
-            this.groupBox20.Controls.Add(this.checkedListBox18);
-            this.groupBox20.Location = new System.Drawing.Point(448, 19);
-            this.groupBox20.Name = "groupBox20";
-            this.groupBox20.Size = new System.Drawing.Size(131, 221);
-            this.groupBox20.TabIndex = 1;
-            this.groupBox20.TabStop = false;
-            this.groupBox20.Text = "Mamilos";
+            this.grpMamilos.Controls.Add(this.txbExpressao);
+            this.grpMamilos.Controls.Add(this.lblExpressao);
+            this.grpMamilos.Controls.Add(this.cblMamilos);
+            this.grpMamilos.Location = new System.Drawing.Point(448, 19);
+            this.grpMamilos.Name = "grpMamilos";
+            this.grpMamilos.Size = new System.Drawing.Size(131, 221);
+            this.grpMamilos.TabIndex = 1;
+            this.grpMamilos.TabStop = false;
+            this.grpMamilos.Text = "Mamilos";
             // 
-            // textBox3
+            // txbExpressao
             // 
-            this.textBox3.Location = new System.Drawing.Point(10, 121);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(110, 92);
-            this.textBox3.TabIndex = 2;
+            this.txbExpressao.Location = new System.Drawing.Point(10, 121);
+            this.txbExpressao.Multiline = true;
+            this.txbExpressao.Name = "txbExpressao";
+            this.txbExpressao.Size = new System.Drawing.Size(110, 92);
+            this.txbExpressao.TabIndex = 2;
             // 
-            // label3
+            // lblExpressao
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 104);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Expressão papilar:";
+            this.lblExpressao.AutoSize = true;
+            this.lblExpressao.Location = new System.Drawing.Point(7, 104);
+            this.lblExpressao.Name = "lblExpressao";
+            this.lblExpressao.Size = new System.Drawing.Size(93, 13);
+            this.lblExpressao.TabIndex = 1;
+            this.lblExpressao.Text = "Expressão papilar:";
             // 
-            // checkedListBox18
+            // cblMamilos
             // 
-            this.checkedListBox18.FormattingEnabled = true;
-            this.checkedListBox18.Items.AddRange(new object[] {
+            this.cblMamilos.FormattingEnabled = true;
+            this.cblMamilos.Items.AddRange(new object[] {
             "Protuso",
             "Semiprotuso",
             "Pseudoumblicado",
             "Invertido",
             "Hipertrófico"});
-            this.checkedListBox18.Location = new System.Drawing.Point(8, 19);
-            this.checkedListBox18.Name = "checkedListBox18";
-            this.checkedListBox18.Size = new System.Drawing.Size(112, 79);
-            this.checkedListBox18.TabIndex = 0;
+            this.cblMamilos.Location = new System.Drawing.Point(8, 19);
+            this.cblMamilos.Name = "cblMamilos";
+            this.cblMamilos.Size = new System.Drawing.Size(112, 79);
+            this.cblMamilos.TabIndex = 0;
             // 
-            // groupBox19
+            // grpMastectomia
             // 
-            this.groupBox19.Controls.Add(this.checkedListBox17);
-            this.groupBox19.Location = new System.Drawing.Point(311, 134);
-            this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(131, 106);
-            this.groupBox19.TabIndex = 1;
-            this.groupBox19.TabStop = false;
-            this.groupBox19.Text = "Mastectomia";
+            this.grpMastectomia.Controls.Add(this.cblMastectomia);
+            this.grpMastectomia.Location = new System.Drawing.Point(311, 134);
+            this.grpMastectomia.Name = "grpMastectomia";
+            this.grpMastectomia.Size = new System.Drawing.Size(131, 106);
+            this.grpMastectomia.TabIndex = 1;
+            this.grpMastectomia.TabStop = false;
+            this.grpMastectomia.Text = "Mastectomia";
             // 
-            // checkedListBox17
+            // cblMastectomia
             // 
-            this.checkedListBox17.FormattingEnabled = true;
-            this.checkedListBox17.Items.AddRange(new object[] {
+            this.cblMastectomia.FormattingEnabled = true;
+            this.cblMastectomia.Items.AddRange(new object[] {
             "D",
             "E",
             "Blobosa",
@@ -584,49 +584,49 @@
             "Discoide",
             "Nódulos",
             "Cistos"});
-            this.checkedListBox17.Location = new System.Drawing.Point(8, 19);
-            this.checkedListBox17.Name = "checkedListBox17";
-            this.checkedListBox17.Size = new System.Drawing.Size(112, 79);
-            this.checkedListBox17.TabIndex = 0;
+            this.cblMastectomia.Location = new System.Drawing.Point(8, 19);
+            this.cblMastectomia.Name = "cblMastectomia";
+            this.cblMastectomia.Size = new System.Drawing.Size(112, 79);
+            this.cblMastectomia.TabIndex = 0;
             // 
-            // groupBox15
+            // grpMamas
             // 
-            this.groupBox15.Controls.Add(this.checkedListBox13);
-            this.groupBox15.Location = new System.Drawing.Point(311, 19);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(131, 109);
-            this.groupBox15.TabIndex = 1;
-            this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "Mamas";
+            this.grpMamas.Controls.Add(this.cblMamas);
+            this.grpMamas.Location = new System.Drawing.Point(311, 19);
+            this.grpMamas.Name = "grpMamas";
+            this.grpMamas.Size = new System.Drawing.Size(131, 109);
+            this.grpMamas.TabIndex = 1;
+            this.grpMamas.TabStop = false;
+            this.grpMamas.Text = "Mamas";
             // 
-            // checkedListBox13
+            // cblMamas
             // 
-            this.checkedListBox13.FormattingEnabled = true;
-            this.checkedListBox13.Items.AddRange(new object[] {
+            this.cblMamas.FormattingEnabled = true;
+            this.cblMamas.Items.AddRange(new object[] {
             "Simétricas",
             "Assimétricas",
             "Cicatrizes",
             "Retração",
             "Abaulamentos"});
-            this.checkedListBox13.Location = new System.Drawing.Point(8, 19);
-            this.checkedListBox13.Name = "checkedListBox13";
-            this.checkedListBox13.Size = new System.Drawing.Size(112, 79);
-            this.checkedListBox13.TabIndex = 0;
+            this.cblMamas.Location = new System.Drawing.Point(8, 19);
+            this.cblMamas.Name = "cblMamas";
+            this.cblMamas.Size = new System.Drawing.Size(112, 79);
+            this.cblMamas.TabIndex = 0;
             // 
-            // groupBox14
+            // grpFormas
             // 
-            this.groupBox14.Controls.Add(this.checkedListBox12);
-            this.groupBox14.Location = new System.Drawing.Point(14, 19);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(123, 221);
-            this.groupBox14.TabIndex = 1;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "Formas";
+            this.grpFormas.Controls.Add(this.cblFormas);
+            this.grpFormas.Location = new System.Drawing.Point(14, 19);
+            this.grpFormas.Name = "grpFormas";
+            this.grpFormas.Size = new System.Drawing.Size(123, 221);
+            this.grpFormas.TabIndex = 1;
+            this.grpFormas.TabStop = false;
+            this.grpFormas.Text = "Formas";
             // 
-            // checkedListBox12
+            // cblFormas
             // 
-            this.checkedListBox12.FormattingEnabled = true;
-            this.checkedListBox12.Items.AddRange(new object[] {
+            this.cblFormas.FormattingEnabled = true;
+            this.cblFormas.Items.AddRange(new object[] {
             "Normal",
             "Abaulamento",
             "Infundibuliforme",
@@ -639,66 +639,66 @@
             "Piriforme",
             "Tonel",
             "Chato"});
-            this.checkedListBox12.Location = new System.Drawing.Point(6, 22);
-            this.checkedListBox12.Name = "checkedListBox12";
-            this.checkedListBox12.Size = new System.Drawing.Size(112, 184);
-            this.checkedListBox12.TabIndex = 0;
+            this.cblFormas.Location = new System.Drawing.Point(6, 22);
+            this.cblFormas.Name = "cblFormas";
+            this.cblFormas.Size = new System.Drawing.Size(112, 184);
+            this.cblFormas.TabIndex = 0;
             // 
-            // groupBox21
+            // grpSonsRes
             // 
-            this.groupBox21.Controls.Add(this.groupBox23);
-            this.groupBox21.Controls.Add(this.groupBox22);
-            this.groupBox21.Location = new System.Drawing.Point(34, 374);
-            this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(184, 206);
-            this.groupBox21.TabIndex = 8;
-            this.groupBox21.TabStop = false;
-            this.groupBox21.Text = "Sons Respiratórios";
+            this.grpSonsRes.Controls.Add(this.grpAdventicios);
+            this.grpSonsRes.Controls.Add(this.grpVesticulares);
+            this.grpSonsRes.Location = new System.Drawing.Point(34, 374);
+            this.grpSonsRes.Name = "grpSonsRes";
+            this.grpSonsRes.Size = new System.Drawing.Size(184, 206);
+            this.grpSonsRes.TabIndex = 8;
+            this.grpSonsRes.TabStop = false;
+            this.grpSonsRes.Text = "Sons Respiratórios";
             // 
-            // groupBox23
+            // grpAdventicios
             // 
-            this.groupBox23.Controls.Add(this.checkedListBox20);
-            this.groupBox23.Location = new System.Drawing.Point(6, 106);
-            this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Size = new System.Drawing.Size(175, 93);
-            this.groupBox23.TabIndex = 9;
-            this.groupBox23.TabStop = false;
-            this.groupBox23.Text = "Ruidos Adventícios";
+            this.grpAdventicios.Controls.Add(this.cblAdventicios);
+            this.grpAdventicios.Location = new System.Drawing.Point(6, 106);
+            this.grpAdventicios.Name = "grpAdventicios";
+            this.grpAdventicios.Size = new System.Drawing.Size(175, 93);
+            this.grpAdventicios.TabIndex = 9;
+            this.grpAdventicios.TabStop = false;
+            this.grpAdventicios.Text = "Ruidos Adventícios";
             // 
-            // checkedListBox20
+            // cblAdventicios
             // 
-            this.checkedListBox20.FormattingEnabled = true;
-            this.checkedListBox20.Items.AddRange(new object[] {
+            this.cblAdventicios.FormattingEnabled = true;
+            this.cblAdventicios.Items.AddRange(new object[] {
             "Creptações",
             "Roncos",
             "Sibilos Inspiratórios",
             "Sibilos Expiratórios"});
-            this.checkedListBox20.Location = new System.Drawing.Point(6, 19);
-            this.checkedListBox20.Name = "checkedListBox20";
-            this.checkedListBox20.Size = new System.Drawing.Size(163, 64);
-            this.checkedListBox20.TabIndex = 0;
+            this.cblAdventicios.Location = new System.Drawing.Point(6, 19);
+            this.cblAdventicios.Name = "cblAdventicios";
+            this.cblAdventicios.Size = new System.Drawing.Size(163, 64);
+            this.cblAdventicios.TabIndex = 0;
             // 
-            // groupBox22
+            // grpVesticulares
             // 
-            this.groupBox22.Controls.Add(this.checkedListBox19);
-            this.groupBox22.Location = new System.Drawing.Point(6, 22);
-            this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(175, 73);
-            this.groupBox22.TabIndex = 9;
-            this.groupBox22.TabStop = false;
-            this.groupBox22.Text = "Murmúrios Vesticulares";
+            this.grpVesticulares.Controls.Add(this.cblVesticulares);
+            this.grpVesticulares.Location = new System.Drawing.Point(6, 22);
+            this.grpVesticulares.Name = "grpVesticulares";
+            this.grpVesticulares.Size = new System.Drawing.Size(175, 73);
+            this.grpVesticulares.TabIndex = 9;
+            this.grpVesticulares.TabStop = false;
+            this.grpVesticulares.Text = "Murmúrios Vesticulares";
             // 
-            // checkedListBox19
+            // cblVesticulares
             // 
-            this.checkedListBox19.FormattingEnabled = true;
-            this.checkedListBox19.Items.AddRange(new object[] {
+            this.cblVesticulares.FormattingEnabled = true;
+            this.cblVesticulares.Items.AddRange(new object[] {
             "Universalmente Audíveis",
             "Diminuidos",
             "Ausente"});
-            this.checkedListBox19.Location = new System.Drawing.Point(6, 19);
-            this.checkedListBox19.Name = "checkedListBox19";
-            this.checkedListBox19.Size = new System.Drawing.Size(163, 49);
-            this.checkedListBox19.TabIndex = 0;
+            this.cblVesticulares.Location = new System.Drawing.Point(6, 19);
+            this.cblVesticulares.Name = "cblVesticulares";
+            this.cblVesticulares.Size = new System.Drawing.Size(163, 49);
+            this.cblVesticulares.TabIndex = 0;
             // 
             // btnVoltar_Hist
             // 
@@ -706,68 +706,68 @@
             this.btnVoltar_Hist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnVoltar_Hist.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar_Hist.ForeColor = System.Drawing.Color.Black;
-            this.btnVoltar_Hist.Location = new System.Drawing.Point(733, 32);
+            this.btnVoltar_Hist.Location = new System.Drawing.Point(733, 21);
             this.btnVoltar_Hist.Margin = new System.Windows.Forms.Padding(2);
             this.btnVoltar_Hist.Name = "btnVoltar_Hist";
-            this.btnVoltar_Hist.Size = new System.Drawing.Size(119, 27);
+            this.btnVoltar_Hist.Size = new System.Drawing.Size(119, 43);
             this.btnVoltar_Hist.TabIndex = 20;
             this.btnVoltar_Hist.Text = "Voltar";
             this.btnVoltar_Hist.UseVisualStyleBackColor = false;
             this.btnVoltar_Hist.Click += new System.EventHandler(this.btnVoltar_Hist_Click);
             // 
-            // groupBox24
+            // grpAnotacoes
             // 
-            this.groupBox24.Controls.Add(this.textBox4);
-            this.groupBox24.Location = new System.Drawing.Point(34, 589);
-            this.groupBox24.Name = "groupBox24";
-            this.groupBox24.Size = new System.Drawing.Size(818, 129);
-            this.groupBox24.TabIndex = 21;
-            this.groupBox24.TabStop = false;
-            this.groupBox24.Text = "Anotações";
+            this.grpAnotacoes.Controls.Add(this.txbAnotacoes);
+            this.grpAnotacoes.Location = new System.Drawing.Point(34, 589);
+            this.grpAnotacoes.Name = "grpAnotacoes";
+            this.grpAnotacoes.Size = new System.Drawing.Size(818, 129);
+            this.grpAnotacoes.TabIndex = 21;
+            this.grpAnotacoes.TabStop = false;
+            this.grpAnotacoes.Text = "Anotações";
             // 
-            // groupBox25
+            // txbAnotacoes
             // 
-            this.groupBox25.Controls.Add(this.textBox5);
-            this.groupBox25.Location = new System.Drawing.Point(34, 724);
-            this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Size = new System.Drawing.Size(818, 129);
-            this.groupBox25.TabIndex = 21;
-            this.groupBox25.TabStop = false;
-            this.groupBox25.Text = "Diagnóstico de Enfermagem";
+            this.txbAnotacoes.Location = new System.Drawing.Point(12, 20);
+            this.txbAnotacoes.Multiline = true;
+            this.txbAnotacoes.Name = "txbAnotacoes";
+            this.txbAnotacoes.Size = new System.Drawing.Size(790, 103);
+            this.txbAnotacoes.TabIndex = 0;
             // 
-            // groupBox26
+            // grpDiagnostico
             // 
-            this.groupBox26.Controls.Add(this.textBox6);
-            this.groupBox26.Location = new System.Drawing.Point(34, 859);
-            this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(818, 129);
-            this.groupBox26.TabIndex = 21;
-            this.groupBox26.TabStop = false;
-            this.groupBox26.Text = "Evolução de Enfermagem";
+            this.grpDiagnostico.Controls.Add(this.txbDiagnostico);
+            this.grpDiagnostico.Location = new System.Drawing.Point(34, 724);
+            this.grpDiagnostico.Name = "grpDiagnostico";
+            this.grpDiagnostico.Size = new System.Drawing.Size(818, 129);
+            this.grpDiagnostico.TabIndex = 21;
+            this.grpDiagnostico.TabStop = false;
+            this.grpDiagnostico.Text = "Diagnóstico de Enfermagem";
             // 
-            // textBox4
+            // txbDiagnostico
             // 
-            this.textBox4.Location = new System.Drawing.Point(12, 20);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(790, 103);
-            this.textBox4.TabIndex = 0;
+            this.txbDiagnostico.Location = new System.Drawing.Point(12, 19);
+            this.txbDiagnostico.Multiline = true;
+            this.txbDiagnostico.Name = "txbDiagnostico";
+            this.txbDiagnostico.Size = new System.Drawing.Size(790, 103);
+            this.txbDiagnostico.TabIndex = 0;
             // 
-            // textBox5
+            // grpEvolucao
             // 
-            this.textBox5.Location = new System.Drawing.Point(12, 19);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(790, 103);
-            this.textBox5.TabIndex = 0;
+            this.grpEvolucao.Controls.Add(this.txbEvolucao);
+            this.grpEvolucao.Location = new System.Drawing.Point(34, 859);
+            this.grpEvolucao.Name = "grpEvolucao";
+            this.grpEvolucao.Size = new System.Drawing.Size(818, 129);
+            this.grpEvolucao.TabIndex = 21;
+            this.grpEvolucao.TabStop = false;
+            this.grpEvolucao.Text = "Evolução de Enfermagem";
             // 
-            // textBox6
+            // txbEvolucao
             // 
-            this.textBox6.Location = new System.Drawing.Point(9, 19);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(790, 103);
-            this.textBox6.TabIndex = 0;
+            this.txbEvolucao.Location = new System.Drawing.Point(9, 19);
+            this.txbEvolucao.Multiline = true;
+            this.txbEvolucao.Name = "txbEvolucao";
+            this.txbEvolucao.Size = new System.Drawing.Size(790, 103);
+            this.txbEvolucao.TabIndex = 0;
             // 
             // frmHistorico
             // 
@@ -775,110 +775,110 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(914, 592);
-            this.Controls.Add(this.groupBox26);
-            this.Controls.Add(this.groupBox25);
-            this.Controls.Add(this.groupBox24);
+            this.Controls.Add(this.grpEvolucao);
+            this.Controls.Add(this.grpDiagnostico);
+            this.Controls.Add(this.grpAnotacoes);
             this.Controls.Add(this.btnVoltar_Hist);
-            this.Controls.Add(this.groupBox21);
-            this.Controls.Add(this.groupBox13);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.grpSonsRes);
+            this.Controls.Add(this.grpTorax);
+            this.Controls.Add(this.grpCabPec);
+            this.Controls.Add(this.grpEscol);
             this.Controls.Add(this.grpFatRisc);
             this.Name = "frmHistorico";
             this.Text = "Historico";
             this.grpFatRisc.ResumeLayout(false);
             this.grpFatRisc.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox13.ResumeLayout(false);
-            this.groupBox17.ResumeLayout(false);
-            this.groupBox16.ResumeLayout(false);
-            this.groupBox18.ResumeLayout(false);
-            this.groupBox20.ResumeLayout(false);
-            this.groupBox20.PerformLayout();
-            this.groupBox19.ResumeLayout(false);
-            this.groupBox15.ResumeLayout(false);
-            this.groupBox14.ResumeLayout(false);
-            this.groupBox21.ResumeLayout(false);
-            this.groupBox23.ResumeLayout(false);
-            this.groupBox22.ResumeLayout(false);
-            this.groupBox24.ResumeLayout(false);
-            this.groupBox24.PerformLayout();
-            this.groupBox25.ResumeLayout(false);
-            this.groupBox25.PerformLayout();
-            this.groupBox26.ResumeLayout(false);
-            this.groupBox26.PerformLayout();
+            this.grpEscol.ResumeLayout(false);
+            this.grpCabPec.ResumeLayout(false);
+            this.grpMucosa.ResumeLayout(false);
+            this.grpBoca.ResumeLayout(false);
+            this.grpOuvido.ResumeLayout(false);
+            this.grpPescoco.ResumeLayout(false);
+            this.grpPescoco.PerformLayout();
+            this.grpVisao.ResumeLayout(false);
+            this.grpOlhos.ResumeLayout(false);
+            this.grpNariz.ResumeLayout(false);
+            this.grpCabeludo.ResumeLayout(false);
+            this.grpPupilas.ResumeLayout(false);
+            this.grpTorax.ResumeLayout(false);
+            this.grpCardiacas.ResumeLayout(false);
+            this.grpTipo.ResumeLayout(false);
+            this.grpToracica.ResumeLayout(false);
+            this.grpMamilos.ResumeLayout(false);
+            this.grpMamilos.PerformLayout();
+            this.grpMastectomia.ResumeLayout(false);
+            this.grpMamas.ResumeLayout(false);
+            this.grpFormas.ResumeLayout(false);
+            this.grpSonsRes.ResumeLayout(false);
+            this.grpAdventicios.ResumeLayout(false);
+            this.grpVesticulares.ResumeLayout(false);
+            this.grpAnotacoes.ResumeLayout(false);
+            this.grpAnotacoes.PerformLayout();
+            this.grpDiagnostico.ResumeLayout(false);
+            this.grpDiagnostico.PerformLayout();
+            this.grpEvolucao.ResumeLayout(false);
+            this.grpEvolucao.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.CheckedListBox checkedListBox2;
+        private System.Windows.Forms.CheckedListBox cblEscol;
+        private System.Windows.Forms.CheckedListBox clbFatRisc;
         private System.Windows.Forms.GroupBox grpFatRisc;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.CheckedListBox checkedListBox5;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.CheckedListBox checkedListBox8;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.CheckedListBox checkedListBox7;
-        private System.Windows.Forms.GroupBox groupBox12;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckedListBox checkedListBox11;
-        private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.CheckedListBox checkedListBox10;
-        private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.CheckedListBox checkedListBox9;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.CheckedListBox checkedListBox6;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.CheckedListBox checkedListBox4;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.CheckedListBox checkedListBox3;
-        private System.Windows.Forms.GroupBox groupBox13;
-        private System.Windows.Forms.GroupBox groupBox17;
-        private System.Windows.Forms.CheckedListBox checkedListBox15;
-        private System.Windows.Forms.GroupBox groupBox16;
-        private System.Windows.Forms.CheckedListBox checkedListBox14;
-        private System.Windows.Forms.GroupBox groupBox18;
-        private System.Windows.Forms.CheckedListBox checkedListBox16;
-        private System.Windows.Forms.GroupBox groupBox20;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckedListBox checkedListBox18;
-        private System.Windows.Forms.GroupBox groupBox19;
-        private System.Windows.Forms.CheckedListBox checkedListBox17;
-        private System.Windows.Forms.GroupBox groupBox15;
-        private System.Windows.Forms.CheckedListBox checkedListBox13;
-        private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.CheckedListBox checkedListBox12;
-        private System.Windows.Forms.GroupBox groupBox21;
-        private System.Windows.Forms.GroupBox groupBox23;
-        private System.Windows.Forms.CheckedListBox checkedListBox20;
-        private System.Windows.Forms.GroupBox groupBox22;
-        private System.Windows.Forms.CheckedListBox checkedListBox19;
+        private System.Windows.Forms.Label lblFatRisc;
+        private System.Windows.Forms.TextBox txbFatRisc;
+        private System.Windows.Forms.GroupBox grpEscol;
+        private System.Windows.Forms.GroupBox grpCabPec;
+        private System.Windows.Forms.GroupBox grpMucosa;
+        private System.Windows.Forms.CheckedListBox cblMucosa;
+        private System.Windows.Forms.GroupBox grpBoca;
+        private System.Windows.Forms.CheckedListBox cblBoca;
+        private System.Windows.Forms.GroupBox grpOuvido;
+        private System.Windows.Forms.CheckedListBox cblOuvido;
+        private System.Windows.Forms.GroupBox grpPescoco;
+        private System.Windows.Forms.Label lblPescoco;
+        private System.Windows.Forms.TextBox txbPescoco;
+        private System.Windows.Forms.CheckedListBox cblPescoco;
+        private System.Windows.Forms.GroupBox grpVisao;
+        private System.Windows.Forms.CheckedListBox cblVisao;
+        private System.Windows.Forms.GroupBox grpOlhos;
+        private System.Windows.Forms.CheckedListBox cblOlhos;
+        private System.Windows.Forms.GroupBox grpNariz;
+        private System.Windows.Forms.CheckedListBox cblNariz;
+        private System.Windows.Forms.GroupBox grpCabeludo;
+        private System.Windows.Forms.CheckedListBox cblCabeludo;
+        private System.Windows.Forms.GroupBox grpPupilas;
+        private System.Windows.Forms.CheckedListBox clbPupilas;
+        private System.Windows.Forms.GroupBox grpTorax;
+        private System.Windows.Forms.GroupBox grpCardiacas;
+        private System.Windows.Forms.CheckedListBox cblCardiacas;
+        private System.Windows.Forms.GroupBox grpTipo;
+        private System.Windows.Forms.CheckedListBox cblTipo;
+        private System.Windows.Forms.GroupBox grpToracica;
+        private System.Windows.Forms.CheckedListBox cblToracica;
+        private System.Windows.Forms.GroupBox grpMamilos;
+        private System.Windows.Forms.TextBox txbExpressao;
+        private System.Windows.Forms.Label lblExpressao;
+        private System.Windows.Forms.CheckedListBox cblMamilos;
+        private System.Windows.Forms.GroupBox grpMastectomia;
+        private System.Windows.Forms.CheckedListBox cblMastectomia;
+        private System.Windows.Forms.GroupBox grpMamas;
+        private System.Windows.Forms.CheckedListBox cblMamas;
+        private System.Windows.Forms.GroupBox grpFormas;
+        private System.Windows.Forms.CheckedListBox cblFormas;
+        private System.Windows.Forms.GroupBox grpSonsRes;
+        private System.Windows.Forms.GroupBox grpAdventicios;
+        private System.Windows.Forms.CheckedListBox cblAdventicios;
+        private System.Windows.Forms.GroupBox grpVesticulares;
+        private System.Windows.Forms.CheckedListBox cblVesticulares;
         private System.Windows.Forms.Button btnVoltar_Hist;
-        private System.Windows.Forms.GroupBox groupBox24;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.GroupBox groupBox25;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.GroupBox groupBox26;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.GroupBox grpAnotacoes;
+        private System.Windows.Forms.TextBox txbAnotacoes;
+        private System.Windows.Forms.GroupBox grpDiagnostico;
+        private System.Windows.Forms.TextBox txbDiagnostico;
+        private System.Windows.Forms.GroupBox grpEvolucao;
+        private System.Windows.Forms.TextBox txbEvolucao;
     }
 }

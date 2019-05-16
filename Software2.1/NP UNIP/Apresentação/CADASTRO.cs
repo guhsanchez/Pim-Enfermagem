@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace NP_UNIP
 {
-    public partial class Cadastro : Form
+    public partial class frmCadastroPaciente : Form
     {
-        public Cadastro()
+        public frmCadastroPaciente()
         {
             InitializeComponent();
+
+            this.Height = Screen.PrimaryScreen.Bounds.Height;
+            this.Width = Screen.PrimaryScreen.Bounds.Width;
+            this.TopMost = true;
         }
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
@@ -34,17 +39,14 @@ namespace NP_UNIP
 
         private void BtnCadastrarPac_Cadastro_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Cadastrado com sucesso!");
-            AreaUsuario _AU1;
-            _AU1 = new AreaUsuario();
-            _AU1.Show();
-            Hide();
+            Cadastro cad = new Cadastro(txbEmail_Cad, txbNome_Cad);
+            MessageBox.Show(cad.mensagem);
         }
 
         private void BtnVoltar_Cad_Click(object sender, EventArgs e)
         {
-            AreaUsuario _AU1;
-            _AU1 = new AreaUsuario();
+            frmAreaUsuario _AU1;
+            _AU1 = new frmAreaUsuario();
             _AU1.Show();
             Hide();
         }
@@ -156,6 +158,11 @@ namespace NP_UNIP
             {
                 e.Handled = true;
             }
+        }
+
+        private void frmCadastroPaciente_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

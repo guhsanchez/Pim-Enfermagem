@@ -15,6 +15,10 @@ namespace NP_UNIP.Apresentação
         public frmHistorico()
         {
             InitializeComponent();
+
+            this.Height = Screen.PrimaryScreen.Bounds.Height;
+            this.Width = Screen.PrimaryScreen.Bounds.Width;
+            this.TopMost = true;
         }
 
         public override bool AutoScroll { get; set; }
@@ -22,8 +26,8 @@ namespace NP_UNIP.Apresentação
 
         private void btnVoltar_Hist_Click(object sender, EventArgs e)
         {
-            AreaUsuario _AU1;
-            _AU1 = new AreaUsuario();
+            frmAreaUsuario _AU1;
+            _AU1 = new frmAreaUsuario();
             _AU1.Show();
             Hide();
         }

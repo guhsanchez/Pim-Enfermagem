@@ -10,11 +10,15 @@ using System.Windows.Forms;
 
 namespace NP_UNIP
 {
-    public partial class AreaUsuario : Form
+    public partial class frmAreaUsuario : Form
     {
-        public AreaUsuario()
+        public frmAreaUsuario()
         {
             InitializeComponent();
+
+            this.Height = Screen.PrimaryScreen.Bounds.Height;
+            this.Width = Screen.PrimaryScreen.Bounds.Width;
+            this.TopMost = true;
         }
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
@@ -29,23 +33,15 @@ namespace NP_UNIP
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
-            hora.Text = DateTime.Now.ToString("HH:mm:ss");
-
+            lblhora.Text = DateTime.Now.ToString("HH:mm:ss");
+            lbldata.Text = DateTime.Now.ToString("ddd dd/MMM/yyyy");
         }
 
         private void BtnCadPac_Au1_Click(object sender, EventArgs e)
         {
-            Cadastro _CA1;
-            _CA1 = new Cadastro();
+            frmCadastroPaciente _CA1;
+            _CA1 = new frmCadastroPaciente();
             _CA1.Show();
-            Hide();
-        }
-
-        private void BtnSair_Au1_Click(object sender, EventArgs e)
-        {
-            frmPrincipal _U1;
-            _U1 = new frmPrincipal();
-            _U1.Show();
             Hide();
         }
 
@@ -54,6 +50,19 @@ namespace NP_UNIP
             Apresentação.frmHistorico _H1;
             _H1 = new Apresentação.frmHistorico();
             _H1.Show();
+            Hide();
+        }
+
+        private void txbPesPasc_Au1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogout_Au1_Click(object sender, EventArgs e)
+        {
+            frmPrincipal _U1;
+            _U1 = new frmPrincipal();
+            _U1.Show();
             Hide();
         }
     }

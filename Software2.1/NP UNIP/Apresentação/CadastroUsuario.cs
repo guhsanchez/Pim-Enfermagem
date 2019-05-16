@@ -10,20 +10,21 @@ using System.Windows.Forms;
 
 namespace NP_UNIP
 {
-    public partial class CadastroUsuario : Form
+    public partial class frmCadastroUsuario : Form
     {
-        public CadastroUsuario()
+        public frmCadastroUsuario()
         {
             InitializeComponent();
+
+            this.Height = Screen.PrimaryScreen.Bounds.Height;
+            this.Width = Screen.PrimaryScreen.Bounds.Width;
+            this.TopMost = true;
         }
 
         private void BtnCadastrarUser_CadUser_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Cadastrado com sucesso!");
-            frmPrincipal _U1;
-            _U1 = new frmPrincipal();
-            _U1.Show();
-            Hide();
+            Cadastro cad = new Cadastro(TxbNome_CadUser_KeyPress, TxbEmail_CadUser_KeyPress);
+            MessageBox.Show(cad.mensagem);
         }
 
         private void BtnVoltar_CadUser_Click(object sender, EventArgs e)
@@ -104,6 +105,11 @@ namespace NP_UNIP
             {
                 e.Handled = true;
             }
+        }
+
+        private void frmCadastroUsuario_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

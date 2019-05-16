@@ -19,26 +19,38 @@ namespace NP_UNIP
 
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cadastro _c1;
-            _c1 = new Cadastro();
+            frmCadastroPaciente _c1;
+            _c1 = new frmCadastroPaciente();
             _c1.Show();
             Hide();
         }
 
         private void BtnCadastrar_Click(object sender, EventArgs e)
         {
-            CadastroUsuario _CU1;
-            _CU1 = new CadastroUsuario();
+            frmCadastroUsuario _CU1;
+            _CU1 = new frmCadastroUsuario();
             _CU1.Show();
             Hide();
         }
 
         private void BtnEntrar_Click(object sender, EventArgs e)
         {
-            AreaUsuario _AU1;
-            _AU1 = new AreaUsuario();
+            #region
+            frmAreaUsuario _AU1;
+            _AU1 = new frmAreaUsuario();
             _AU1.Show();
             Hide();
+            #endregion
+            #region
+            if (true)
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("Senho e/ou Login invalido!");
+            }
+            #endregion
         }
 
         private void TxbLogin_KeyPress(object sender, KeyPressEventArgs e)

@@ -31,5 +31,29 @@ namespace NP_UNIP.Apresentação
             _AU1.Show();
             Hide();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            frmAreaUsuario _AU1;
+            _AU1 = new frmAreaUsuario();
+            _AU1.Show();
+            Hide();
+        }
+
+        private void BtnVoltar_Hist_Click_1(object sender, EventArgs e)
+        {
+            frmAreaUsuario _AU1;
+            _AU1 = new frmAreaUsuario();
+            _AU1.Show();
+            Hide();
+        }
+
+        private void BtnVoltar_Hist_Click_2(object sender, EventArgs e)
+        {
+            frmAreaUsuario _AU1;
+            _AU1 = new frmAreaUsuario();
+            _AU1.Show();
+            Hide();
+        }
     }
 }

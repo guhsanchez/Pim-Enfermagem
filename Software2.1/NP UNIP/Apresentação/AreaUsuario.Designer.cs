@@ -54,7 +54,7 @@
             this.lblPesqPac_Au1.ForeColor = System.Drawing.Color.Black;
             this.lblPesqPac_Au1.Location = new System.Drawing.Point(291, 91);
             this.lblPesqPac_Au1.Name = "lblPesqPac_Au1";
-            this.lblPesqPac_Au1.Size = new System.Drawing.Size(201, 23);
+            this.lblPesqPac_Au1.Size = new System.Drawing.Size(156, 18);
             this.lblPesqPac_Au1.TabIndex = 82;
             this.lblPesqPac_Au1.Text = "Pesquisar paciente por:";
             // 
@@ -85,9 +85,9 @@
             "Nome",
             "CPF",
             "Código"});
-            this.checkedListBox1.Location = new System.Drawing.Point(498, 90);
+            this.checkedListBox1.Location = new System.Drawing.Point(466, 91);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(314, 28);
+            this.checkedListBox1.Size = new System.Drawing.Size(205, 24);
             this.checkedListBox1.TabIndex = 5;
             // 
             // btnAltDados_Au1
@@ -110,7 +110,7 @@
             this.txbPesPasc_Au1.BackColor = System.Drawing.SystemColors.Menu;
             this.txbPesPasc_Au1.Location = new System.Drawing.Point(295, 124);
             this.txbPesPasc_Au1.Name = "txbPesPasc_Au1";
-            this.txbPesPasc_Au1.Size = new System.Drawing.Size(684, 29);
+            this.txbPesPasc_Au1.Size = new System.Drawing.Size(710, 25);
             this.txbPesPasc_Au1.TabIndex = 6;
             this.txbPesPasc_Au1.TextChanged += new System.EventHandler(this.txbPesPasc_Au1_TextChanged);
             // 
@@ -165,7 +165,7 @@
             this.lbldata.ForeColor = System.Drawing.Color.Black;
             this.lbldata.Location = new System.Drawing.Point(72, 617);
             this.lbldata.Name = "lbldata";
-            this.lbldata.Size = new System.Drawing.Size(52, 22);
+            this.lbldata.Size = new System.Drawing.Size(40, 18);
             this.lbldata.TabIndex = 94;
             this.lbldata.Text = "Data";
             this.lbldata.Click += new System.EventHandler(this.timer1_Tick_1);
@@ -178,7 +178,7 @@
             this.lblhora.ForeColor = System.Drawing.Color.Black;
             this.lblhora.Location = new System.Drawing.Point(72, 579);
             this.lblhora.Name = "lblhora";
-            this.lblhora.Size = new System.Drawing.Size(54, 22);
+            this.lblhora.Size = new System.Drawing.Size(42, 18);
             this.lblhora.TabIndex = 95;
             this.lblhora.Text = "Hora";
             // 

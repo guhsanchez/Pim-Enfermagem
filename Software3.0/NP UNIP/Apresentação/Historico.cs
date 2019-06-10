@@ -55,5 +55,10 @@ namespace NP_UNIP.Apresentação
             _AU1.Show();
             Hide();
         }
+
+        private void FrmHistorico_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

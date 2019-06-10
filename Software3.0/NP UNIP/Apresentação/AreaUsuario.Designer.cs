@@ -34,7 +34,6 @@
             this.btnPesqPac_Au1 = new System.Windows.Forms.Button();
             this.grpDatePasc_Au1 = new System.Windows.Forms.GroupBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.btnAltDados_Au1 = new System.Windows.Forms.Button();
             this.txbPesPasc_Au1 = new System.Windows.Forms.TextBox();
             this.btnCadPac_Au1 = new System.Windows.Forms.Button();
             this.btnHistorico_Au1 = new System.Windows.Forms.Button();
@@ -54,7 +53,7 @@
             this.lblPesqPac_Au1.ForeColor = System.Drawing.Color.Black;
             this.lblPesqPac_Au1.Location = new System.Drawing.Point(291, 91);
             this.lblPesqPac_Au1.Name = "lblPesqPac_Au1";
-            this.lblPesqPac_Au1.Size = new System.Drawing.Size(201, 23);
+            this.lblPesqPac_Au1.Size = new System.Drawing.Size(156, 18);
             this.lblPesqPac_Au1.TabIndex = 82;
             this.lblPesqPac_Au1.Text = "Pesquisar paciente por:";
             // 
@@ -87,30 +86,15 @@
             "Código"});
             this.checkedListBox1.Location = new System.Drawing.Point(498, 91);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(205, 28);
+            this.checkedListBox1.Size = new System.Drawing.Size(205, 24);
             this.checkedListBox1.TabIndex = 5;
-            // 
-            // btnAltDados_Au1
-            // 
-            this.btnAltDados_Au1.BackColor = System.Drawing.Color.Transparent;
-            this.btnAltDados_Au1.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAltDados_Au1.FlatAppearance.BorderSize = 0;
-            this.btnAltDados_Au1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAltDados_Au1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAltDados_Au1.ForeColor = System.Drawing.Color.Black;
-            this.btnAltDados_Au1.Location = new System.Drawing.Point(52, 180);
-            this.btnAltDados_Au1.Name = "btnAltDados_Au1";
-            this.btnAltDados_Au1.Size = new System.Drawing.Size(134, 47);
-            this.btnAltDados_Au1.TabIndex = 2;
-            this.btnAltDados_Au1.Text = "Alterar dados";
-            this.btnAltDados_Au1.UseVisualStyleBackColor = false;
             // 
             // txbPesPasc_Au1
             // 
             this.txbPesPasc_Au1.BackColor = System.Drawing.SystemColors.Menu;
             this.txbPesPasc_Au1.Location = new System.Drawing.Point(295, 124);
             this.txbPesPasc_Au1.Name = "txbPesPasc_Au1";
-            this.txbPesPasc_Au1.Size = new System.Drawing.Size(710, 29);
+            this.txbPesPasc_Au1.Size = new System.Drawing.Size(710, 25);
             this.txbPesPasc_Au1.TabIndex = 6;
             this.txbPesPasc_Au1.TextChanged += new System.EventHandler(this.txbPesPasc_Au1_TextChanged);
             // 
@@ -165,7 +149,7 @@
             this.lbldata.ForeColor = System.Drawing.Color.Black;
             this.lbldata.Location = new System.Drawing.Point(72, 617);
             this.lbldata.Name = "lbldata";
-            this.lbldata.Size = new System.Drawing.Size(52, 22);
+            this.lbldata.Size = new System.Drawing.Size(40, 18);
             this.lbldata.TabIndex = 94;
             this.lbldata.Text = "Data";
             this.lbldata.Click += new System.EventHandler(this.timer1_Tick_1);
@@ -178,7 +162,7 @@
             this.lblhora.ForeColor = System.Drawing.Color.Black;
             this.lblhora.Location = new System.Drawing.Point(72, 579);
             this.lblhora.Name = "lblhora";
-            this.lblhora.Size = new System.Drawing.Size(54, 22);
+            this.lblhora.Size = new System.Drawing.Size(42, 18);
             this.lblhora.TabIndex = 95;
             this.lblhora.Text = "Hora";
             // 
@@ -215,7 +199,6 @@
             this.Controls.Add(this.lbldata);
             this.Controls.Add(this.btnHistorico_Au1);
             this.Controls.Add(this.btnCadPac_Au1);
-            this.Controls.Add(this.btnAltDados_Au1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.grpDatePasc_Au1);
             this.Controls.Add(this.lblPesqPac_Au1);
@@ -236,7 +219,6 @@
         private System.Windows.Forms.Button btnPesqPac_Au1;
         private System.Windows.Forms.GroupBox grpDatePasc_Au1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Button btnAltDados_Au1;
         private System.Windows.Forms.TextBox txbPesPasc_Au1;
         private System.Windows.Forms.Button btnCadPac_Au1;
         private System.Windows.Forms.Button btnHistorico_Au1;

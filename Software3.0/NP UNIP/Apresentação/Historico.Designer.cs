@@ -30,132 +30,389 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHistorico));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.plHistorico = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lblPescoco = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txbPescoco = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cblMucosa = new System.Windows.Forms.CheckedListBox();
+            this.cblAdventicios = new System.Windows.Forms.CheckedListBox();
+            this.cblPescoco = new System.Windows.Forms.CheckedListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.lblFatRisc = new System.Windows.Forms.Label();
+            this.cblBoca = new System.Windows.Forms.CheckedListBox();
+            this.cblVesticulares = new System.Windows.Forms.CheckedListBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cblOuvido = new System.Windows.Forms.CheckedListBox();
+            this.txbFatRisc = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cblEscol = new System.Windows.Forms.CheckedListBox();
+            this.clbPupilas = new System.Windows.Forms.CheckedListBox();
+            this.clbFatRisc = new System.Windows.Forms.CheckedListBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.btnVoltar_Hist = new System.Windows.Forms.Button();
+            this.cblOlhos = new System.Windows.Forms.CheckedListBox();
             this.btnAlterar_Hist = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.btnSalvar_Hist = new System.Windows.Forms.Button();
+            this.cblVisao = new System.Windows.Forms.CheckedListBox();
             this.lblHistorico = new System.Windows.Forms.Label();
-            this.grpTorax = new System.Windows.Forms.GroupBox();
-            this.grpCardiacas = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.cblCardiacas = new System.Windows.Forms.CheckedListBox();
-            this.grpTipo = new System.Windows.Forms.GroupBox();
             this.cblTipo = new System.Windows.Forms.CheckedListBox();
-            this.grpToracica = new System.Windows.Forms.GroupBox();
             this.cblToracica = new System.Windows.Forms.CheckedListBox();
-            this.grpMamilos = new System.Windows.Forms.GroupBox();
             this.txbExpressao = new System.Windows.Forms.TextBox();
             this.lblExpressao = new System.Windows.Forms.Label();
             this.cblMamilos = new System.Windows.Forms.CheckedListBox();
-            this.grpMastectomia = new System.Windows.Forms.GroupBox();
             this.cblMastectomia = new System.Windows.Forms.CheckedListBox();
-            this.grpMamas = new System.Windows.Forms.GroupBox();
             this.cblMamas = new System.Windows.Forms.CheckedListBox();
-            this.grpFormas = new System.Windows.Forms.GroupBox();
             this.cblFormas = new System.Windows.Forms.CheckedListBox();
-            this.grpEvolucao = new System.Windows.Forms.GroupBox();
-            this.txbEvolucao = new System.Windows.Forms.TextBox();
-            this.grpSonsRes = new System.Windows.Forms.GroupBox();
-            this.grpAdventicios = new System.Windows.Forms.GroupBox();
-            this.cblAdventicios = new System.Windows.Forms.CheckedListBox();
-            this.grpVesticulares = new System.Windows.Forms.GroupBox();
-            this.cblVesticulares = new System.Windows.Forms.CheckedListBox();
-            this.grpDiagnostico = new System.Windows.Forms.GroupBox();
-            this.txbDiagnostico = new System.Windows.Forms.TextBox();
-            this.grpAnotacoes = new System.Windows.Forms.GroupBox();
-            this.txbAnotacoes = new System.Windows.Forms.TextBox();
-            this.grpCabPec = new System.Windows.Forms.GroupBox();
-            this.grpMucosa = new System.Windows.Forms.GroupBox();
-            this.cblMucosa = new System.Windows.Forms.CheckedListBox();
-            this.grpOuvido = new System.Windows.Forms.GroupBox();
-            this.cblOuvido = new System.Windows.Forms.CheckedListBox();
-            this.grpBoca = new System.Windows.Forms.GroupBox();
-            this.cblBoca = new System.Windows.Forms.CheckedListBox();
-            this.grpPescoco = new System.Windows.Forms.GroupBox();
-            this.lblPescoco = new System.Windows.Forms.Label();
-            this.txbPescoco = new System.Windows.Forms.TextBox();
-            this.cblPescoco = new System.Windows.Forms.CheckedListBox();
-            this.grpVisao = new System.Windows.Forms.GroupBox();
-            this.cblVisao = new System.Windows.Forms.CheckedListBox();
-            this.grpOlhos = new System.Windows.Forms.GroupBox();
-            this.cblOlhos = new System.Windows.Forms.CheckedListBox();
-            this.grpNariz = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.cblNariz = new System.Windows.Forms.CheckedListBox();
-            this.grpCabeludo = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.cblCabeludo = new System.Windows.Forms.CheckedListBox();
-            this.grpPupilas = new System.Windows.Forms.GroupBox();
-            this.clbPupilas = new System.Windows.Forms.CheckedListBox();
-            this.grpFatRisc = new System.Windows.Forms.GroupBox();
-            this.lblFatRisc = new System.Windows.Forms.Label();
-            this.txbFatRisc = new System.Windows.Forms.TextBox();
-            this.clbFatRisc = new System.Windows.Forms.CheckedListBox();
-            this.grpEscol = new System.Windows.Forms.GroupBox();
-            this.cblEscol = new System.Windows.Forms.CheckedListBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.plHistorico.SuspendLayout();
-            this.grpTorax.SuspendLayout();
-            this.grpCardiacas.SuspendLayout();
-            this.grpTipo.SuspendLayout();
-            this.grpToracica.SuspendLayout();
-            this.grpMamilos.SuspendLayout();
-            this.grpMastectomia.SuspendLayout();
-            this.grpMamas.SuspendLayout();
-            this.grpFormas.SuspendLayout();
-            this.grpEvolucao.SuspendLayout();
-            this.grpSonsRes.SuspendLayout();
-            this.grpAdventicios.SuspendLayout();
-            this.grpVesticulares.SuspendLayout();
-            this.grpDiagnostico.SuspendLayout();
-            this.grpAnotacoes.SuspendLayout();
-            this.grpCabPec.SuspendLayout();
-            this.grpMucosa.SuspendLayout();
-            this.grpOuvido.SuspendLayout();
-            this.grpBoca.SuspendLayout();
-            this.grpPescoco.SuspendLayout();
-            this.grpVisao.SuspendLayout();
-            this.grpOlhos.SuspendLayout();
-            this.grpNariz.SuspendLayout();
-            this.grpCabeludo.SuspendLayout();
-            this.grpPupilas.SuspendLayout();
-            this.grpFatRisc.SuspendLayout();
-            this.grpEscol.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(45, 71);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(22, 33);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 64);
+            this.pictureBox1.Size = new System.Drawing.Size(144, 52);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
-            // plHistorico
+            // label15
             // 
-            this.plHistorico.AutoScroll = true;
-            this.plHistorico.AutoSize = true;
-            this.plHistorico.BackColor = System.Drawing.Color.Transparent;
-            this.plHistorico.Controls.Add(this.btnVoltar_Hist);
-            this.plHistorico.Controls.Add(this.btnAlterar_Hist);
-            this.plHistorico.Controls.Add(this.btnSalvar_Hist);
-            this.plHistorico.Controls.Add(this.lblHistorico);
-            this.plHistorico.Controls.Add(this.grpTorax);
-            this.plHistorico.Controls.Add(this.grpEvolucao);
-            this.plHistorico.Controls.Add(this.grpSonsRes);
-            this.plHistorico.Controls.Add(this.grpDiagnostico);
-            this.plHistorico.Controls.Add(this.grpAnotacoes);
-            this.plHistorico.Controls.Add(this.grpCabPec);
-            this.plHistorico.Controls.Add(this.grpFatRisc);
-            this.plHistorico.Controls.Add(this.grpEscol);
-            this.plHistorico.Controls.Add(this.pictureBox1);
-            this.plHistorico.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.plHistorico.Location = new System.Drawing.Point(0, 0);
-            this.plHistorico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.plHistorico.Name = "plHistorico";
-            this.plHistorico.Size = new System.Drawing.Size(1685, 838);
-            this.plHistorico.TabIndex = 24;
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(831, 12);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(119, 18);
+            this.label15.TabIndex = 39;
+            this.label15.Text = "Cabeça e Pescoço";
+            // 
+            // lblPescoco
+            // 
+            this.lblPescoco.AutoSize = true;
+            this.lblPescoco.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPescoco.Location = new System.Drawing.Point(1048, 305);
+            this.lblPescoco.Name = "lblPescoco";
+            this.lblPescoco.Size = new System.Drawing.Size(51, 18);
+            this.lblPescoco.TabIndex = 2;
+            this.lblPescoco.Text = "Outros";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(291, 419);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(126, 18);
+            this.label14.TabIndex = 38;
+            this.label14.Text = "Sons Respiratórios";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(1046, 183);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(60, 18);
+            this.label13.TabIndex = 12;
+            this.label13.Text = "Pescoço";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(292, 559);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(128, 18);
+            this.label4.TabIndex = 37;
+            this.label4.Text = "Ruidos Adventícios";
+            // 
+            // txbPescoco
+            // 
+            this.txbPescoco.BackColor = System.Drawing.Color.Gainsboro;
+            this.txbPescoco.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbPescoco.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txbPescoco.Location = new System.Drawing.Point(1051, 326);
+            this.txbPescoco.Multiline = true;
+            this.txbPescoco.Name = "txbPescoco";
+            this.txbPescoco.Size = new System.Drawing.Size(182, 93);
+            this.txbPescoco.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(296, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(111, 18);
+            this.label2.TabIndex = 36;
+            this.label2.Text = "Fatores de Risco";
+            // 
+            // cblMucosa
+            // 
+            this.cblMucosa.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblMucosa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cblMucosa.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblMucosa.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.cblMucosa.FormattingEnabled = true;
+            this.cblMucosa.Items.AddRange(new object[] {
+            "Normocorada",
+            "Hipocorada",
+            "Hipercorada",
+            "Ictérica"});
+            this.cblMucosa.Location = new System.Drawing.Point(897, 224);
+            this.cblMucosa.Name = "cblMucosa";
+            this.cblMucosa.Size = new System.Drawing.Size(115, 86);
+            this.cblMucosa.TabIndex = 0;
+            // 
+            // cblAdventicios
+            // 
+            this.cblAdventicios.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblAdventicios.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblAdventicios.FormattingEnabled = true;
+            this.cblAdventicios.Items.AddRange(new object[] {
+            "Creptações",
+            "Roncos",
+            "Sibilos Inspiratórios",
+            "Sibilos Expiratórios"});
+            this.cblAdventicios.Location = new System.Drawing.Point(260, 580);
+            this.cblAdventicios.Name = "cblAdventicios";
+            this.cblAdventicios.Size = new System.Drawing.Size(197, 67);
+            this.cblAdventicios.TabIndex = 0;
+            // 
+            // cblPescoco
+            // 
+            this.cblPescoco.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblPescoco.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cblPescoco.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblPescoco.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.cblPescoco.FormattingEnabled = true;
+            this.cblPescoco.Items.AddRange(new object[] {
+            "Sem Anormalidades",
+            "Linfonodos",
+            "Tireoide Aumentada",
+            "Estase Venosa Jugular",
+            "Traqueostomia"});
+            this.cblPescoco.Location = new System.Drawing.Point(1051, 215);
+            this.cblPescoco.Name = "cblPescoco";
+            this.cblPescoco.Size = new System.Drawing.Size(182, 86);
+            this.cblPescoco.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(276, 451);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(160, 18);
+            this.label3.TabIndex = 37;
+            this.label3.Text = "Murmúrios Vesticulares";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(907, 203);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(57, 18);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "Mucosa";
+            // 
+            // lblFatRisc
+            // 
+            this.lblFatRisc.AutoSize = true;
+            this.lblFatRisc.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFatRisc.Location = new System.Drawing.Point(257, 129);
+            this.lblFatRisc.Name = "lblFatRisc";
+            this.lblFatRisc.Size = new System.Drawing.Size(51, 18);
+            this.lblFatRisc.TabIndex = 4;
+            this.lblFatRisc.Text = "Outros";
+            // 
+            // cblBoca
+            // 
+            this.cblBoca.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblBoca.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cblBoca.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblBoca.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.cblBoca.FormattingEnabled = true;
+            this.cblBoca.Items.AddRange(new object[] {
+            "Integridade Mucotânea",
+            "Normocorada",
+            "Hidratada",
+            "Hipocorada",
+            "Desidratada",
+            "Hipercorada",
+            "Lesões Aftuosas",
+            "Mucosite",
+            "Dentadura",
+            "Lingua Saburrosa"});
+            this.cblBoca.Location = new System.Drawing.Point(700, 208);
+            this.cblBoca.Name = "cblBoca";
+            this.cblBoca.Size = new System.Drawing.Size(173, 191);
+            this.cblBoca.TabIndex = 0;
+            // 
+            // cblVesticulares
+            // 
+            this.cblVesticulares.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblVesticulares.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblVesticulares.FormattingEnabled = true;
+            this.cblVesticulares.Items.AddRange(new object[] {
+            "Universalmente Audíveis",
+            "Diminuidos",
+            "Ausente"});
+            this.cblVesticulares.Location = new System.Drawing.Point(260, 472);
+            this.cblVesticulares.Name = "cblVesticulares";
+            this.cblVesticulares.Size = new System.Drawing.Size(197, 67);
+            this.cblVesticulares.TabIndex = 0;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(697, 183);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(39, 18);
+            this.label11.TabIndex = 10;
+            this.label11.Text = "Boca";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(318, 260);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 18);
+            this.label1.TabIndex = 35;
+            this.label1.Text = "Escolaridade";
+            // 
+            // cblOuvido
+            // 
+            this.cblOuvido.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblOuvido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cblOuvido.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblOuvido.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.cblOuvido.FormattingEnabled = true;
+            this.cblOuvido.Items.AddRange(new object[] {
+            "Cerúmen",
+            "Prurido",
+            "Zumbido",
+            "Otorréia"});
+            this.cblOuvido.Location = new System.Drawing.Point(1151, 65);
+            this.cblOuvido.Name = "cblOuvido";
+            this.cblOuvido.Size = new System.Drawing.Size(88, 86);
+            this.cblOuvido.TabIndex = 0;
+            // 
+            // txbFatRisc
+            // 
+            this.txbFatRisc.BackColor = System.Drawing.Color.Gainsboro;
+            this.txbFatRisc.Location = new System.Drawing.Point(258, 150);
+            this.txbFatRisc.Multiline = true;
+            this.txbFatRisc.Name = "txbFatRisc";
+            this.txbFatRisc.Size = new System.Drawing.Size(181, 88);
+            this.txbFatRisc.TabIndex = 3;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(1157, 39);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(53, 18);
+            this.label10.TabIndex = 9;
+            this.label10.Text = "Ouvido";
+            // 
+            // cblEscol
+            // 
+            this.cblEscol.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblEscol.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblEscol.FormattingEnabled = true;
+            this.cblEscol.Items.AddRange(new object[] {
+            "Analfabeto",
+            "Ensino Superior Completo",
+            "Ensino Médio Completo",
+            "Ensino Superior Completo",
+            "Semialfabetizado",
+            "Ensino Fundamental Incompleto",
+            "Ensino Médio Incompleto",
+            "Ensino Superior Incompleto",
+            "Curso Técnico"});
+            this.cblEscol.Location = new System.Drawing.Point(242, 290);
+            this.cblEscol.Name = "cblEscol";
+            this.cblEscol.Size = new System.Drawing.Size(254, 109);
+            this.cblEscol.TabIndex = 0;
+            // 
+            // clbPupilas
+            // 
+            this.clbPupilas.BackColor = System.Drawing.Color.Gainsboro;
+            this.clbPupilas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.clbPupilas.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clbPupilas.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.clbPupilas.FormattingEnabled = true;
+            this.clbPupilas.Items.AddRange(new object[] {
+            "Isocóricas",
+            "Anisocóricas",
+            "Miose",
+            "Midríase",
+            "Fotorreagentes"});
+            this.clbPupilas.Location = new System.Drawing.Point(990, 65);
+            this.clbPupilas.Name = "clbPupilas";
+            this.clbPupilas.Size = new System.Drawing.Size(124, 86);
+            this.clbPupilas.TabIndex = 0;
+            // 
+            // clbFatRisc
+            // 
+            this.clbFatRisc.BackColor = System.Drawing.Color.Gainsboro;
+            this.clbFatRisc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.clbFatRisc.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clbFatRisc.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.clbFatRisc.FormattingEnabled = true;
+            this.clbFatRisc.Items.AddRange(new object[] {
+            "Tabagismo frequência",
+            "Etilismo frequência",
+            "Obesidade",
+            "Cancêr",
+            "Sedentarismo"});
+            this.clbFatRisc.Location = new System.Drawing.Point(258, 33);
+            this.clbFatRisc.Name = "clbFatRisc";
+            this.clbFatRisc.Size = new System.Drawing.Size(181, 86);
+            this.clbFatRisc.TabIndex = 2;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(987, 39);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 18);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Pupilas";
             // 
             // btnVoltar_Hist
             // 
@@ -165,14 +422,29 @@
             this.btnVoltar_Hist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar_Hist.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar_Hist.ForeColor = System.Drawing.Color.Black;
-            this.btnVoltar_Hist.Location = new System.Drawing.Point(45, 526);
-            this.btnVoltar_Hist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnVoltar_Hist.Location = new System.Drawing.Point(22, 451);
             this.btnVoltar_Hist.Name = "btnVoltar_Hist";
-            this.btnVoltar_Hist.Size = new System.Drawing.Size(192, 58);
+            this.btnVoltar_Hist.Size = new System.Drawing.Size(144, 47);
             this.btnVoltar_Hist.TabIndex = 34;
             this.btnVoltar_Hist.Text = "Voltar";
             this.btnVoltar_Hist.UseVisualStyleBackColor = false;
             this.btnVoltar_Hist.Click += new System.EventHandler(this.BtnVoltar_Hist_Click_2);
+            // 
+            // cblOlhos
+            // 
+            this.cblOlhos.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblOlhos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cblOlhos.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblOlhos.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.cblOlhos.FormattingEnabled = true;
+            this.cblOlhos.Items.AddRange(new object[] {
+            "Normal",
+            "Exoftalmia",
+            "Enoftalmia"});
+            this.cblOlhos.Location = new System.Drawing.Point(855, 65);
+            this.cblOlhos.Name = "cblOlhos";
+            this.cblOlhos.Size = new System.Drawing.Size(100, 65);
+            this.cblOlhos.TabIndex = 0;
             // 
             // btnAlterar_Hist
             // 
@@ -182,13 +454,22 @@
             this.btnAlterar_Hist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar_Hist.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterar_Hist.ForeColor = System.Drawing.Color.Black;
-            this.btnAlterar_Hist.Location = new System.Drawing.Point(45, 384);
-            this.btnAlterar_Hist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAlterar_Hist.Location = new System.Drawing.Point(22, 313);
             this.btnAlterar_Hist.Name = "btnAlterar_Hist";
-            this.btnAlterar_Hist.Size = new System.Drawing.Size(192, 58);
+            this.btnAlterar_Hist.Size = new System.Drawing.Size(144, 47);
             this.btnAlterar_Hist.TabIndex = 34;
             this.btnAlterar_Hist.Text = "Alterar Dados";
             this.btnAlterar_Hist.UseVisualStyleBackColor = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(866, 39);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(44, 18);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Olhos";
             // 
             // btnSalvar_Hist
             // 
@@ -198,62 +479,55 @@
             this.btnSalvar_Hist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvar_Hist.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar_Hist.ForeColor = System.Drawing.Color.Black;
-            this.btnSalvar_Hist.Location = new System.Drawing.Point(45, 319);
-            this.btnSalvar_Hist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalvar_Hist.Location = new System.Drawing.Point(22, 260);
             this.btnSalvar_Hist.Name = "btnSalvar_Hist";
-            this.btnSalvar_Hist.Size = new System.Drawing.Size(192, 58);
+            this.btnSalvar_Hist.Size = new System.Drawing.Size(144, 47);
             this.btnSalvar_Hist.TabIndex = 34;
             this.btnSalvar_Hist.Text = "Salvar";
             this.btnSalvar_Hist.UseVisualStyleBackColor = false;
+            // 
+            // cblVisao
+            // 
+            this.cblVisao.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblVisao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cblVisao.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblVisao.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.cblVisao.FormattingEnabled = true;
+            this.cblVisao.Items.AddRange(new object[] {
+            "Normal",
+            "Comprometida",
+            "Diploplia"});
+            this.cblVisao.Location = new System.Drawing.Point(693, 65);
+            this.cblVisao.Name = "cblVisao";
+            this.cblVisao.Size = new System.Drawing.Size(125, 65);
+            this.cblVisao.TabIndex = 0;
             // 
             // lblHistorico
             // 
             this.lblHistorico.AutoSize = true;
             this.lblHistorico.BackColor = System.Drawing.Color.Transparent;
             this.lblHistorico.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHistorico.Location = new System.Drawing.Point(49, 176);
+            this.lblHistorico.Location = new System.Drawing.Point(25, 150);
+            this.lblHistorico.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHistorico.Name = "lblHistorico";
-            this.lblHistorico.Size = new System.Drawing.Size(177, 49);
+            this.lblHistorico.Size = new System.Drawing.Size(141, 39);
             this.lblHistorico.TabIndex = 32;
             this.lblHistorico.Text = "Histórico";
             // 
-            // grpTorax
+            // label7
             // 
-            this.grpTorax.BackColor = System.Drawing.Color.Transparent;
-            this.grpTorax.Controls.Add(this.grpCardiacas);
-            this.grpTorax.Controls.Add(this.grpTipo);
-            this.grpTorax.Controls.Add(this.grpToracica);
-            this.grpTorax.Controls.Add(this.grpMamilos);
-            this.grpTorax.Controls.Add(this.grpMastectomia);
-            this.grpTorax.Controls.Add(this.grpMamas);
-            this.grpTorax.Controls.Add(this.grpFormas);
-            this.grpTorax.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpTorax.ForeColor = System.Drawing.Color.Black;
-            this.grpTorax.Location = new System.Drawing.Point(623, 1206);
-            this.grpTorax.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpTorax.Name = "grpTorax";
-            this.grpTorax.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpTorax.Size = new System.Drawing.Size(771, 726);
-            this.grpTorax.TabIndex = 27;
-            this.grpTorax.TabStop = false;
-            this.grpTorax.Text = "Torax";
-            // 
-            // grpCardiacas
-            // 
-            this.grpCardiacas.Controls.Add(this.cblCardiacas);
-            this.grpCardiacas.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpCardiacas.Location = new System.Drawing.Point(276, 303);
-            this.grpCardiacas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpCardiacas.Name = "grpCardiacas";
-            this.grpCardiacas.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpCardiacas.Size = new System.Drawing.Size(211, 218);
-            this.grpCardiacas.TabIndex = 1;
-            this.grpCardiacas.TabStop = false;
-            this.grpCardiacas.Text = "Bulhas Cardiacas";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(530, 60);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(108, 18);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Couro Cabeludo";
             // 
             // cblCardiacas
             // 
             this.cblCardiacas.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblCardiacas.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblCardiacas.FormattingEnabled = true;
             this.cblCardiacas.Items.AddRange(new object[] {
             "Normofonéticas",
@@ -263,103 +537,62 @@
             "Hipofonéticas",
             "Sopro Diastólico",
             "Sem Sopros"});
-            this.cblCardiacas.Location = new System.Drawing.Point(11, 23);
-            this.cblCardiacas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblCardiacas.Location = new System.Drawing.Point(724, 629);
             this.cblCardiacas.Name = "cblCardiacas";
-            this.cblCardiacas.Size = new System.Drawing.Size(191, 179);
+            this.cblCardiacas.Size = new System.Drawing.Size(156, 109);
             this.cblCardiacas.TabIndex = 0;
-            // 
-            // grpTipo
-            // 
-            this.grpTipo.Controls.Add(this.cblTipo);
-            this.grpTipo.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpTipo.Location = new System.Drawing.Point(19, 422);
-            this.grpTipo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpTipo.Name = "grpTipo";
-            this.grpTipo.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpTipo.Size = new System.Drawing.Size(219, 90);
-            this.grpTipo.TabIndex = 1;
-            this.grpTipo.TabStop = false;
-            this.grpTipo.Text = "Tipo";
             // 
             // cblTipo
             // 
             this.cblTipo.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblTipo.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblTipo.FormattingEnabled = true;
             this.cblTipo.Items.AddRange(new object[] {
             "Costal Superior",
             "Toraco Abdominal"});
-            this.cblTipo.Location = new System.Drawing.Point(11, 23);
-            this.cblTipo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblTipo.Location = new System.Drawing.Point(1071, 466);
             this.cblTipo.Name = "cblTipo";
-            this.cblTipo.Size = new System.Drawing.Size(199, 54);
+            this.cblTipo.Size = new System.Drawing.Size(146, 46);
             this.cblTipo.TabIndex = 0;
-            // 
-            // grpToracica
-            // 
-            this.grpToracica.Controls.Add(this.cblToracica);
-            this.grpToracica.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpToracica.Location = new System.Drawing.Point(276, 560);
-            this.grpToracica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpToracica.Name = "grpToracica";
-            this.grpToracica.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpToracica.Size = new System.Drawing.Size(216, 117);
-            this.grpToracica.TabIndex = 1;
-            this.grpToracica.TabStop = false;
-            this.grpToracica.Text = "Expansibilidade Torácica";
             // 
             // cblToracica
             // 
             this.cblToracica.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblToracica.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblToracica.FormattingEnabled = true;
             this.cblToracica.Items.AddRange(new object[] {
             "Normal",
             "Diminuída Unilateralmente",
             "Diminuída Bilateralmente"});
-            this.cblToracica.Location = new System.Drawing.Point(8, 23);
-            this.cblToracica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblToracica.Location = new System.Drawing.Point(506, 632);
             this.cblToracica.Name = "cblToracica";
-            this.cblToracica.Size = new System.Drawing.Size(199, 79);
+            this.cblToracica.Size = new System.Drawing.Size(205, 67);
             this.cblToracica.TabIndex = 0;
-            // 
-            // grpMamilos
-            // 
-            this.grpMamilos.Controls.Add(this.txbExpressao);
-            this.grpMamilos.Controls.Add(this.lblExpressao);
-            this.grpMamilos.Controls.Add(this.cblMamilos);
-            this.grpMamilos.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpMamilos.Location = new System.Drawing.Point(523, 105);
-            this.grpMamilos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpMamilos.Name = "grpMamilos";
-            this.grpMamilos.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpMamilos.Size = new System.Drawing.Size(221, 517);
-            this.grpMamilos.TabIndex = 1;
-            this.grpMamilos.TabStop = false;
-            this.grpMamilos.Text = "Mamilos";
             // 
             // txbExpressao
             // 
             this.txbExpressao.BackColor = System.Drawing.Color.Gainsboro;
-            this.txbExpressao.Location = new System.Drawing.Point(13, 212);
-            this.txbExpressao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbExpressao.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbExpressao.Location = new System.Drawing.Point(896, 585);
             this.txbExpressao.Multiline = true;
             this.txbExpressao.Name = "txbExpressao";
-            this.txbExpressao.Size = new System.Drawing.Size(199, 290);
+            this.txbExpressao.Size = new System.Drawing.Size(150, 154);
             this.txbExpressao.TabIndex = 2;
             // 
             // lblExpressao
             // 
             this.lblExpressao.AutoSize = true;
-            this.lblExpressao.Location = new System.Drawing.Point(9, 186);
-            this.lblExpressao.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblExpressao.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExpressao.Location = new System.Drawing.Point(893, 564);
             this.lblExpressao.Name = "lblExpressao";
-            this.lblExpressao.Size = new System.Drawing.Size(160, 23);
+            this.lblExpressao.Size = new System.Drawing.Size(124, 18);
             this.lblExpressao.TabIndex = 1;
             this.lblExpressao.Text = "Expressão papilar:";
             // 
             // cblMamilos
             // 
             this.cblMamilos.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblMamilos.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblMamilos.FormattingEnabled = true;
             this.cblMamilos.Items.AddRange(new object[] {
             "Protuso",
@@ -367,28 +600,15 @@
             "Pseudoumblicado",
             "Invertido",
             "Hipertrófico"});
-            this.cblMamilos.Location = new System.Drawing.Point(11, 32);
-            this.cblMamilos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblMamilos.Location = new System.Drawing.Point(896, 463);
             this.cblMamilos.Name = "cblMamilos";
-            this.cblMamilos.Size = new System.Drawing.Size(199, 129);
+            this.cblMamilos.Size = new System.Drawing.Size(150, 88);
             this.cblMamilos.TabIndex = 0;
-            // 
-            // grpMastectomia
-            // 
-            this.grpMastectomia.Controls.Add(this.cblMastectomia);
-            this.grpMastectomia.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpMastectomia.Location = new System.Drawing.Point(293, 43);
-            this.grpMastectomia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpMastectomia.Name = "grpMastectomia";
-            this.grpMastectomia.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpMastectomia.Size = new System.Drawing.Size(184, 229);
-            this.grpMastectomia.TabIndex = 1;
-            this.grpMastectomia.TabStop = false;
-            this.grpMastectomia.Text = "Mastectomia";
             // 
             // cblMastectomia
             // 
             this.cblMastectomia.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblMastectomia.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblMastectomia.FormattingEnabled = true;
             this.cblMastectomia.Items.AddRange(new object[] {
             "D",
@@ -398,28 +618,15 @@
             "Discoide",
             "Nódulos",
             "Cistos"});
-            this.cblMastectomia.Location = new System.Drawing.Point(12, 31);
-            this.cblMastectomia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblMastectomia.Location = new System.Drawing.Point(724, 473);
             this.cblMastectomia.Name = "cblMastectomia";
-            this.cblMastectomia.Size = new System.Drawing.Size(164, 179);
+            this.cblMastectomia.Size = new System.Drawing.Size(124, 109);
             this.cblMastectomia.TabIndex = 0;
-            // 
-            // grpMamas
-            // 
-            this.grpMamas.Controls.Add(this.cblMamas);
-            this.grpMamas.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpMamas.Location = new System.Drawing.Point(19, 540);
-            this.grpMamas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpMamas.Name = "grpMamas";
-            this.grpMamas.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpMamas.Size = new System.Drawing.Size(184, 167);
-            this.grpMamas.TabIndex = 1;
-            this.grpMamas.TabStop = false;
-            this.grpMamas.Text = "Mamas";
             // 
             // cblMamas
             // 
             this.cblMamas.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblMamas.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblMamas.FormattingEnabled = true;
             this.cblMamas.Items.AddRange(new object[] {
             "Simétricas",
@@ -427,28 +634,15 @@
             "Cicatrizes",
             "Retração",
             "Abaulamentos"});
-            this.cblMamas.Location = new System.Drawing.Point(11, 23);
-            this.cblMamas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblMamas.Location = new System.Drawing.Point(1071, 562);
             this.cblMamas.Name = "cblMamas";
-            this.cblMamas.Size = new System.Drawing.Size(163, 129);
+            this.cblMamas.Size = new System.Drawing.Size(133, 67);
             this.cblMamas.TabIndex = 0;
-            // 
-            // grpFormas
-            // 
-            this.grpFormas.Controls.Add(this.cblFormas);
-            this.grpFormas.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpFormas.Location = new System.Drawing.Point(19, 43);
-            this.grpFormas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpFormas.Name = "grpFormas";
-            this.grpFormas.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpFormas.Size = new System.Drawing.Size(197, 353);
-            this.grpFormas.TabIndex = 1;
-            this.grpFormas.TabStop = false;
-            this.grpFormas.Text = "Formas";
             // 
             // cblFormas
             // 
             this.cblFormas.BackColor = System.Drawing.Color.Gainsboro;
+            this.cblFormas.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblFormas.FormattingEnabled = true;
             this.cblFormas.Items.AddRange(new object[] {
             "Normal",
@@ -463,414 +657,26 @@
             "Piriforme",
             "Tonel",
             "Chato"});
-            this.cblFormas.Location = new System.Drawing.Point(8, 27);
-            this.cblFormas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblFormas.Location = new System.Drawing.Point(552, 473);
             this.cblFormas.Name = "cblFormas";
-            this.cblFormas.Size = new System.Drawing.Size(180, 304);
+            this.cblFormas.Size = new System.Drawing.Size(151, 109);
             this.cblFormas.TabIndex = 0;
             // 
-            // grpEvolucao
+            // label6
             // 
-            this.grpEvolucao.BackColor = System.Drawing.Color.Transparent;
-            this.grpEvolucao.Controls.Add(this.txbEvolucao);
-            this.grpEvolucao.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpEvolucao.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpEvolucao.Location = new System.Drawing.Point(340, 2609);
-            this.grpEvolucao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpEvolucao.Name = "grpEvolucao";
-            this.grpEvolucao.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpEvolucao.Size = new System.Drawing.Size(1289, 276);
-            this.grpEvolucao.TabIndex = 29;
-            this.grpEvolucao.TabStop = false;
-            this.grpEvolucao.Text = "Evolução de Enfermagem";
-            // 
-            // txbEvolucao
-            // 
-            this.txbEvolucao.BackColor = System.Drawing.Color.Gainsboro;
-            this.txbEvolucao.Location = new System.Drawing.Point(16, 31);
-            this.txbEvolucao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txbEvolucao.Multiline = true;
-            this.txbEvolucao.Name = "txbEvolucao";
-            this.txbEvolucao.Size = new System.Drawing.Size(1264, 238);
-            this.txbEvolucao.TabIndex = 0;
-            // 
-            // grpSonsRes
-            // 
-            this.grpSonsRes.BackColor = System.Drawing.Color.Transparent;
-            this.grpSonsRes.Controls.Add(this.grpAdventicios);
-            this.grpSonsRes.Controls.Add(this.grpVesticulares);
-            this.grpSonsRes.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpSonsRes.ForeColor = System.Drawing.Color.Black;
-            this.grpSonsRes.Location = new System.Drawing.Point(1211, 145);
-            this.grpSonsRes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpSonsRes.Name = "grpSonsRes";
-            this.grpSonsRes.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpSonsRes.Size = new System.Drawing.Size(349, 330);
-            this.grpSonsRes.TabIndex = 28;
-            this.grpSonsRes.TabStop = false;
-            this.grpSonsRes.Text = "Sons Respiratórios";
-            // 
-            // grpAdventicios
-            // 
-            this.grpAdventicios.Controls.Add(this.cblAdventicios);
-            this.grpAdventicios.ForeColor = System.Drawing.Color.Black;
-            this.grpAdventicios.Location = new System.Drawing.Point(32, 166);
-            this.grpAdventicios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpAdventicios.Name = "grpAdventicios";
-            this.grpAdventicios.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpAdventicios.Size = new System.Drawing.Size(279, 145);
-            this.grpAdventicios.TabIndex = 9;
-            this.grpAdventicios.TabStop = false;
-            this.grpAdventicios.Text = "Ruidos Adventícios";
-            // 
-            // cblAdventicios
-            // 
-            this.cblAdventicios.BackColor = System.Drawing.Color.Gainsboro;
-            this.cblAdventicios.FormattingEnabled = true;
-            this.cblAdventicios.Items.AddRange(new object[] {
-            "Creptações",
-            "Roncos",
-            "Sibilos Inspiratórios",
-            "Sibilos Expiratórios"});
-            this.cblAdventicios.Location = new System.Drawing.Point(8, 23);
-            this.cblAdventicios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cblAdventicios.Name = "cblAdventicios";
-            this.cblAdventicios.Size = new System.Drawing.Size(261, 104);
-            this.cblAdventicios.TabIndex = 0;
-            // 
-            // grpVesticulares
-            // 
-            this.grpVesticulares.Controls.Add(this.cblVesticulares);
-            this.grpVesticulares.ForeColor = System.Drawing.Color.Black;
-            this.grpVesticulares.Location = new System.Drawing.Point(24, 31);
-            this.grpVesticulares.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpVesticulares.Name = "grpVesticulares";
-            this.grpVesticulares.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpVesticulares.Size = new System.Drawing.Size(296, 117);
-            this.grpVesticulares.TabIndex = 9;
-            this.grpVesticulares.TabStop = false;
-            this.grpVesticulares.Text = "Murmúrios Vesticulares";
-            // 
-            // cblVesticulares
-            // 
-            this.cblVesticulares.BackColor = System.Drawing.Color.Gainsboro;
-            this.cblVesticulares.FormattingEnabled = true;
-            this.cblVesticulares.Items.AddRange(new object[] {
-            "Universalmente Audíveis",
-            "Diminuidos",
-            "Ausente"});
-            this.cblVesticulares.Location = new System.Drawing.Point(8, 25);
-            this.cblVesticulares.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cblVesticulares.Name = "cblVesticulares";
-            this.cblVesticulares.Size = new System.Drawing.Size(277, 79);
-            this.cblVesticulares.TabIndex = 0;
-            // 
-            // grpDiagnostico
-            // 
-            this.grpDiagnostico.BackColor = System.Drawing.Color.Transparent;
-            this.grpDiagnostico.Controls.Add(this.txbDiagnostico);
-            this.grpDiagnostico.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpDiagnostico.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpDiagnostico.Location = new System.Drawing.Point(340, 2308);
-            this.grpDiagnostico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpDiagnostico.Name = "grpDiagnostico";
-            this.grpDiagnostico.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpDiagnostico.Size = new System.Drawing.Size(1289, 277);
-            this.grpDiagnostico.TabIndex = 30;
-            this.grpDiagnostico.TabStop = false;
-            this.grpDiagnostico.Text = "Diagnóstico de Enfermagem";
-            // 
-            // txbDiagnostico
-            // 
-            this.txbDiagnostico.BackColor = System.Drawing.Color.Gainsboro;
-            this.txbDiagnostico.Location = new System.Drawing.Point(16, 31);
-            this.txbDiagnostico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txbDiagnostico.Multiline = true;
-            this.txbDiagnostico.Name = "txbDiagnostico";
-            this.txbDiagnostico.Size = new System.Drawing.Size(1264, 238);
-            this.txbDiagnostico.TabIndex = 0;
-            // 
-            // grpAnotacoes
-            // 
-            this.grpAnotacoes.BackColor = System.Drawing.Color.Transparent;
-            this.grpAnotacoes.Controls.Add(this.txbAnotacoes);
-            this.grpAnotacoes.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpAnotacoes.ForeColor = System.Drawing.SystemColors.Window;
-            this.grpAnotacoes.Location = new System.Drawing.Point(340, 2015);
-            this.grpAnotacoes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpAnotacoes.Name = "grpAnotacoes";
-            this.grpAnotacoes.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpAnotacoes.Size = new System.Drawing.Size(1289, 271);
-            this.grpAnotacoes.TabIndex = 31;
-            this.grpAnotacoes.TabStop = false;
-            this.grpAnotacoes.Text = "Anotações";
-            // 
-            // txbAnotacoes
-            // 
-            this.txbAnotacoes.BackColor = System.Drawing.Color.Gainsboro;
-            this.txbAnotacoes.Location = new System.Drawing.Point(16, 25);
-            this.txbAnotacoes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txbAnotacoes.Multiline = true;
-            this.txbAnotacoes.Name = "txbAnotacoes";
-            this.txbAnotacoes.Size = new System.Drawing.Size(1264, 238);
-            this.txbAnotacoes.TabIndex = 0;
-            // 
-            // grpCabPec
-            // 
-            this.grpCabPec.BackColor = System.Drawing.Color.Transparent;
-            this.grpCabPec.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpCabPec.Controls.Add(this.grpMucosa);
-            this.grpCabPec.Controls.Add(this.grpOuvido);
-            this.grpCabPec.Controls.Add(this.grpBoca);
-            this.grpCabPec.Controls.Add(this.grpPescoco);
-            this.grpCabPec.Controls.Add(this.grpVisao);
-            this.grpCabPec.Controls.Add(this.grpOlhos);
-            this.grpCabPec.Controls.Add(this.grpNariz);
-            this.grpCabPec.Controls.Add(this.grpCabeludo);
-            this.grpCabPec.Controls.Add(this.grpPupilas);
-            this.grpCabPec.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpCabPec.ForeColor = System.Drawing.Color.Black;
-            this.grpCabPec.Location = new System.Drawing.Point(435, 553);
-            this.grpCabPec.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpCabPec.Name = "grpCabPec";
-            this.grpCabPec.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpCabPec.Size = new System.Drawing.Size(1125, 575);
-            this.grpCabPec.TabIndex = 26;
-            this.grpCabPec.TabStop = false;
-            this.grpCabPec.Text = "Cabeça e Pescoço";
-            // 
-            // grpMucosa
-            // 
-            this.grpMucosa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpMucosa.Controls.Add(this.cblMucosa);
-            this.grpMucosa.ForeColor = System.Drawing.Color.Black;
-            this.grpMucosa.Location = new System.Drawing.Point(583, 251);
-            this.grpMucosa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpMucosa.Name = "grpMucosa";
-            this.grpMucosa.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpMucosa.Size = new System.Drawing.Size(177, 145);
-            this.grpMucosa.TabIndex = 3;
-            this.grpMucosa.TabStop = false;
-            this.grpMucosa.Text = "Mucosa";
-            // 
-            // cblMucosa
-            // 
-            this.cblMucosa.BackColor = System.Drawing.Color.Gainsboro;
-            this.cblMucosa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cblMucosa.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cblMucosa.FormattingEnabled = true;
-            this.cblMucosa.Items.AddRange(new object[] {
-            "Normocorada",
-            "Hipocorada",
-            "Hipercorada",
-            "Ictérica"});
-            this.cblMucosa.Location = new System.Drawing.Point(8, 31);
-            this.cblMucosa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cblMucosa.Name = "cblMucosa";
-            this.cblMucosa.Size = new System.Drawing.Size(153, 102);
-            this.cblMucosa.TabIndex = 0;
-            // 
-            // grpOuvido
-            // 
-            this.grpOuvido.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpOuvido.Controls.Add(this.cblOuvido);
-            this.grpOuvido.ForeColor = System.Drawing.Color.Black;
-            this.grpOuvido.Location = new System.Drawing.Point(936, 49);
-            this.grpOuvido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpOuvido.Name = "grpOuvido";
-            this.grpOuvido.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpOuvido.Size = new System.Drawing.Size(145, 148);
-            this.grpOuvido.TabIndex = 2;
-            this.grpOuvido.TabStop = false;
-            this.grpOuvido.Text = "Ouvido";
-            // 
-            // cblOuvido
-            // 
-            this.cblOuvido.BackColor = System.Drawing.Color.Gainsboro;
-            this.cblOuvido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cblOuvido.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cblOuvido.FormattingEnabled = true;
-            this.cblOuvido.Items.AddRange(new object[] {
-            "Cerúmen",
-            "Prurido",
-            "Zumbido",
-            "Otorréia"});
-            this.cblOuvido.Location = new System.Drawing.Point(8, 31);
-            this.cblOuvido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cblOuvido.Name = "cblOuvido";
-            this.cblOuvido.Size = new System.Drawing.Size(117, 102);
-            this.cblOuvido.TabIndex = 0;
-            // 
-            // grpBoca
-            // 
-            this.grpBoca.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpBoca.Controls.Add(this.cblBoca);
-            this.grpBoca.ForeColor = System.Drawing.Color.Black;
-            this.grpBoca.Location = new System.Drawing.Point(288, 185);
-            this.grpBoca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpBoca.Name = "grpBoca";
-            this.grpBoca.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpBoca.Size = new System.Drawing.Size(249, 304);
-            this.grpBoca.TabIndex = 2;
-            this.grpBoca.TabStop = false;
-            this.grpBoca.Text = "Boca";
-            // 
-            // cblBoca
-            // 
-            this.cblBoca.BackColor = System.Drawing.Color.Gainsboro;
-            this.cblBoca.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cblBoca.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cblBoca.FormattingEnabled = true;
-            this.cblBoca.Items.AddRange(new object[] {
-            "Integridade Mucotânea",
-            "Normocorada",
-            "Hidratada",
-            "Hipocorada",
-            "Desidratada",
-            "Hipercorada",
-            "Lesões Aftuosas",
-            "Mucosite",
-            "Dentadura",
-            "Lingua Saburrosa"});
-            this.cblBoca.Location = new System.Drawing.Point(8, 31);
-            this.cblBoca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cblBoca.Name = "cblBoca";
-            this.cblBoca.Size = new System.Drawing.Size(230, 252);
-            this.cblBoca.TabIndex = 0;
-            // 
-            // grpPescoco
-            // 
-            this.grpPescoco.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpPescoco.Controls.Add(this.lblPescoco);
-            this.grpPescoco.Controls.Add(this.txbPescoco);
-            this.grpPescoco.Controls.Add(this.cblPescoco);
-            this.grpPescoco.ForeColor = System.Drawing.Color.Black;
-            this.grpPescoco.Location = new System.Drawing.Point(853, 235);
-            this.grpPescoco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpPescoco.Name = "grpPescoco";
-            this.grpPescoco.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpPescoco.Size = new System.Drawing.Size(244, 324);
-            this.grpPescoco.TabIndex = 2;
-            this.grpPescoco.TabStop = false;
-            this.grpPescoco.Text = "Pescoço";
-            // 
-            // lblPescoco
-            // 
-            this.lblPescoco.AutoSize = true;
-            this.lblPescoco.Location = new System.Drawing.Point(4, 159);
-            this.lblPescoco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblPescoco.Name = "lblPescoco";
-            this.lblPescoco.Size = new System.Drawing.Size(66, 23);
-            this.lblPescoco.TabIndex = 2;
-            this.lblPescoco.Text = "Outros";
-            // 
-            // txbPescoco
-            // 
-            this.txbPescoco.BackColor = System.Drawing.Color.Gainsboro;
-            this.txbPescoco.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txbPescoco.Location = new System.Drawing.Point(8, 185);
-            this.txbPescoco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txbPescoco.Multiline = true;
-            this.txbPescoco.Name = "txbPescoco";
-            this.txbPescoco.Size = new System.Drawing.Size(220, 131);
-            this.txbPescoco.TabIndex = 1;
-            // 
-            // cblPescoco
-            // 
-            this.cblPescoco.BackColor = System.Drawing.Color.Gainsboro;
-            this.cblPescoco.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cblPescoco.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cblPescoco.FormattingEnabled = true;
-            this.cblPescoco.Items.AddRange(new object[] {
-            "Sem Anormalidades",
-            "Linfonodos",
-            "Tireoide Aumentada",
-            "Estase Venosa Jugular",
-            "Traqueostomia"});
-            this.cblPescoco.Location = new System.Drawing.Point(8, 23);
-            this.cblPescoco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cblPescoco.Name = "cblPescoco";
-            this.cblPescoco.Size = new System.Drawing.Size(221, 127);
-            this.cblPescoco.TabIndex = 0;
-            // 
-            // grpVisao
-            // 
-            this.grpVisao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpVisao.Controls.Add(this.cblVisao);
-            this.grpVisao.ForeColor = System.Drawing.Color.Black;
-            this.grpVisao.Location = new System.Drawing.Point(267, 49);
-            this.grpVisao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpVisao.Name = "grpVisao";
-            this.grpVisao.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpVisao.Size = new System.Drawing.Size(184, 117);
-            this.grpVisao.TabIndex = 2;
-            this.grpVisao.TabStop = false;
-            this.grpVisao.Text = "Visão";
-            // 
-            // cblVisao
-            // 
-            this.cblVisao.BackColor = System.Drawing.Color.Gainsboro;
-            this.cblVisao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cblVisao.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cblVisao.FormattingEnabled = true;
-            this.cblVisao.Items.AddRange(new object[] {
-            "Normal",
-            "Comprometida",
-            "Diploplia"});
-            this.cblVisao.Location = new System.Drawing.Point(9, 26);
-            this.cblVisao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cblVisao.Name = "cblVisao";
-            this.cblVisao.Size = new System.Drawing.Size(166, 77);
-            this.cblVisao.TabIndex = 0;
-            // 
-            // grpOlhos
-            // 
-            this.grpOlhos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpOlhos.Controls.Add(this.cblOlhos);
-            this.grpOlhos.ForeColor = System.Drawing.Color.Black;
-            this.grpOlhos.Location = new System.Drawing.Point(483, 49);
-            this.grpOlhos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpOlhos.Name = "grpOlhos";
-            this.grpOlhos.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpOlhos.Size = new System.Drawing.Size(145, 112);
-            this.grpOlhos.TabIndex = 2;
-            this.grpOlhos.TabStop = false;
-            this.grpOlhos.Text = "Olhos";
-            // 
-            // cblOlhos
-            // 
-            this.cblOlhos.BackColor = System.Drawing.Color.Gainsboro;
-            this.cblOlhos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cblOlhos.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cblOlhos.FormattingEnabled = true;
-            this.cblOlhos.Items.AddRange(new object[] {
-            "Normal",
-            "Exoftalmia",
-            "Enoftalmia"});
-            this.cblOlhos.Location = new System.Drawing.Point(8, 23);
-            this.cblOlhos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cblOlhos.Name = "cblOlhos";
-            this.cblOlhos.Size = new System.Drawing.Size(129, 77);
-            this.cblOlhos.TabIndex = 0;
-            // 
-            // grpNariz
-            // 
-            this.grpNariz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpNariz.Controls.Add(this.cblNariz);
-            this.grpNariz.ForeColor = System.Drawing.Color.Black;
-            this.grpNariz.Location = new System.Drawing.Point(24, 235);
-            this.grpNariz.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpNariz.Name = "grpNariz";
-            this.grpNariz.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpNariz.Size = new System.Drawing.Size(163, 167);
-            this.grpNariz.TabIndex = 2;
-            this.grpNariz.TabStop = false;
-            this.grpNariz.Text = "Nariz";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(718, 39);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(42, 18);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Visão";
             // 
             // cblNariz
             // 
             this.cblNariz.BackColor = System.Drawing.Color.Gainsboro;
             this.cblNariz.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cblNariz.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblNariz.ForeColor = System.Drawing.SystemColors.WindowText;
             this.cblNariz.FormattingEnabled = true;
             this.cblNariz.Items.AddRange(new object[] {
@@ -879,30 +685,26 @@
             "Rinorreia",
             "Obstrução",
             "Epistaxe"});
-            this.cblNariz.Location = new System.Drawing.Point(9, 27);
-            this.cblNariz.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblNariz.Location = new System.Drawing.Point(540, 215);
             this.cblNariz.Name = "cblNariz";
-            this.cblNariz.Size = new System.Drawing.Size(141, 127);
+            this.cblNariz.Size = new System.Drawing.Size(106, 86);
             this.cblNariz.TabIndex = 0;
             // 
-            // grpCabeludo
+            // label5
             // 
-            this.grpCabeludo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpCabeludo.Controls.Add(this.cblCabeludo);
-            this.grpCabeludo.ForeColor = System.Drawing.Color.Black;
-            this.grpCabeludo.Location = new System.Drawing.Point(24, 49);
-            this.grpCabeludo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpCabeludo.Name = "grpCabeludo";
-            this.grpCabeludo.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpCabeludo.Size = new System.Drawing.Size(163, 162);
-            this.grpCabeludo.TabIndex = 2;
-            this.grpCabeludo.TabStop = false;
-            this.grpCabeludo.Text = "Couro Cabeludo";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(537, 194);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(42, 18);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Nariz";
             // 
             // cblCabeludo
             // 
             this.cblCabeludo.BackColor = System.Drawing.Color.Gainsboro;
             this.cblCabeludo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cblCabeludo.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblCabeludo.ForeColor = System.Drawing.SystemColors.WindowText;
             this.cblCabeludo.FormattingEnabled = true;
             this.cblCabeludo.Items.AddRange(new object[] {
@@ -911,185 +713,218 @@
             "Lesão",
             "Alopécia",
             "Hipertricose"});
-            this.cblCabeludo.Location = new System.Drawing.Point(8, 23);
-            this.cblCabeludo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblCabeludo.Location = new System.Drawing.Point(517, 85);
             this.cblCabeludo.Name = "cblCabeludo";
-            this.cblCabeludo.Size = new System.Drawing.Size(142, 127);
+            this.cblCabeludo.Size = new System.Drawing.Size(122, 86);
             this.cblCabeludo.TabIndex = 0;
             // 
-            // grpPupilas
+            // label16
             // 
-            this.grpPupilas.BackColor = System.Drawing.Color.Transparent;
-            this.grpPupilas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.grpPupilas.Controls.Add(this.clbPupilas);
-            this.grpPupilas.ForeColor = System.Drawing.Color.Black;
-            this.grpPupilas.Location = new System.Drawing.Point(701, 49);
-            this.grpPupilas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpPupilas.Name = "grpPupilas";
-            this.grpPupilas.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpPupilas.Size = new System.Drawing.Size(184, 162);
-            this.grpPupilas.TabIndex = 1;
-            this.grpPupilas.TabStop = false;
-            this.grpPupilas.Text = "Pupilas";
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(550, 442);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(54, 18);
+            this.label16.TabIndex = 40;
+            this.label16.Text = "Formas";
             // 
-            // clbPupilas
+            // label17
             // 
-            this.clbPupilas.BackColor = System.Drawing.Color.Gainsboro;
-            this.clbPupilas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.clbPupilas.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.clbPupilas.FormattingEnabled = true;
-            this.clbPupilas.Items.AddRange(new object[] {
-            "Isocóricas",
-            "Anisocóricas",
-            "Miose",
-            "Midríase",
-            "Fotorreagentes"});
-            this.clbPupilas.Location = new System.Drawing.Point(8, 23);
-            this.clbPupilas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.clbPupilas.Name = "clbPupilas";
-            this.clbPupilas.Size = new System.Drawing.Size(165, 127);
-            this.clbPupilas.TabIndex = 0;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(723, 442);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(90, 18);
+            this.label17.TabIndex = 41;
+            this.label17.Text = "Mastectomia";
             // 
-            // grpFatRisc
+            // label18
             // 
-            this.grpFatRisc.BackColor = System.Drawing.Color.Transparent;
-            this.grpFatRisc.Controls.Add(this.lblFatRisc);
-            this.grpFatRisc.Controls.Add(this.txbFatRisc);
-            this.grpFatRisc.Controls.Add(this.clbFatRisc);
-            this.grpFatRisc.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpFatRisc.ForeColor = System.Drawing.Color.Black;
-            this.grpFatRisc.Location = new System.Drawing.Point(869, 145);
-            this.grpFatRisc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpFatRisc.Name = "grpFatRisc";
-            this.grpFatRisc.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpFatRisc.Size = new System.Drawing.Size(249, 330);
-            this.grpFatRisc.TabIndex = 24;
-            this.grpFatRisc.TabStop = false;
-            this.grpFatRisc.Text = "Fatores de Risco";
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(920, 442);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(62, 18);
+            this.label18.TabIndex = 42;
+            this.label18.Text = "Mamilos";
             // 
-            // lblFatRisc
+            // label19
             // 
-            this.lblFatRisc.AutoSize = true;
-            this.lblFatRisc.Location = new System.Drawing.Point(8, 174);
-            this.lblFatRisc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblFatRisc.Name = "lblFatRisc";
-            this.lblFatRisc.Size = new System.Drawing.Size(66, 23);
-            this.lblFatRisc.TabIndex = 4;
-            this.lblFatRisc.Text = "Outros";
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(723, 605);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(113, 18);
+            this.label19.TabIndex = 43;
+            this.label19.Text = "Bulhas Cardiacas";
             // 
-            // txbFatRisc
+            // label20
             // 
-            this.txbFatRisc.BackColor = System.Drawing.Color.Gainsboro;
-            this.txbFatRisc.Location = new System.Drawing.Point(12, 199);
-            this.txbFatRisc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txbFatRisc.Multiline = true;
-            this.txbFatRisc.Name = "txbFatRisc";
-            this.txbFatRisc.Size = new System.Drawing.Size(225, 114);
-            this.txbFatRisc.TabIndex = 3;
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(1069, 442);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(36, 18);
+            this.label20.TabIndex = 44;
+            this.label20.Text = "Tipo";
             // 
-            // clbFatRisc
+            // label21
             // 
-            this.clbFatRisc.BackColor = System.Drawing.Color.Gainsboro;
-            this.clbFatRisc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.clbFatRisc.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.clbFatRisc.FormattingEnabled = true;
-            this.clbFatRisc.Items.AddRange(new object[] {
-            "Tabagismo frequência",
-            "Etilismo frequência",
-            "Obesidade",
-            "Cancêr",
-            "Sedentarismo"});
-            this.clbFatRisc.Location = new System.Drawing.Point(12, 31);
-            this.clbFatRisc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.clbFatRisc.Name = "clbFatRisc";
-            this.clbFatRisc.Size = new System.Drawing.Size(226, 127);
-            this.clbFatRisc.TabIndex = 2;
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(1068, 541);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(53, 18);
+            this.label21.TabIndex = 45;
+            this.label21.Text = "Mamas";
             // 
-            // grpEscol
+            // label22
             // 
-            this.grpEscol.BackColor = System.Drawing.Color.Transparent;
-            this.grpEscol.Controls.Add(this.cblEscol);
-            this.grpEscol.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpEscol.ForeColor = System.Drawing.Color.Black;
-            this.grpEscol.Location = new System.Drawing.Point(435, 145);
-            this.grpEscol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpEscol.Name = "grpEscol";
-            this.grpEscol.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpEscol.Size = new System.Drawing.Size(332, 279);
-            this.grpEscol.TabIndex = 25;
-            this.grpEscol.TabStop = false;
-            this.grpEscol.Text = "Escolaridade";
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(536, 611);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(108, 18);
+            this.label22.TabIndex = 46;
+            this.label22.Text = "Expansibilidade";
             // 
-            // cblEscol
+            // label23
             // 
-            this.cblEscol.BackColor = System.Drawing.Color.Gainsboro;
-            this.cblEscol.FormattingEnabled = true;
-            this.cblEscol.Items.AddRange(new object[] {
-            "Analfabeto",
-            "Ensino Superior Completo",
-            "Ensino Médio Completo",
-            "Ensino Superior Completo",
-            "Semialfabetizado",
-            "Ensino Fundamental Incompleto",
-            "Ensino Médio Incompleto",
-            "Ensino Superior Incompleto",
-            "Curso Técnico"});
-            this.cblEscol.Location = new System.Drawing.Point(8, 31);
-            this.cblEscol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cblEscol.Name = "cblEscol";
-            this.cblEscol.Size = new System.Drawing.Size(307, 229);
-            this.cblEscol.TabIndex = 0;
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(634, 410);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(44, 18);
+            this.label23.TabIndex = 47;
+            this.label23.Text = "Torax";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(266, 1086);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(973, 108);
+            this.textBox1.TabIndex = 49;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(266, 788);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(973, 108);
+            this.textBox2.TabIndex = 50;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(266, 936);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(973, 108);
+            this.textBox3.TabIndex = 51;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(291, 759);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(53, 13);
+            this.label24.TabIndex = 52;
+            this.label24.Text = "Anotação";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(292, 910);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(140, 13);
+            this.label25.TabIndex = 52;
+            this.label25.Text = "Diagnóstico de Enfermagem";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(292, 1058);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(129, 13);
+            this.label26.TabIndex = 52;
+            this.label26.Text = "Evolução de Enfermagem";
             // 
             // frmHistorico
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1685, 838);
-            this.Controls.Add(this.plHistorico);
+            this.ClientSize = new System.Drawing.Size(1284, 749);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.cblMamas);
+            this.Controls.Add(this.cblNariz);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.cblToracica);
+            this.Controls.Add(this.cblCabeludo);
+            this.Controls.Add(this.lblPescoco);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.cblCardiacas);
+            this.Controls.Add(this.lblHistorico);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.cblVisao);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.btnSalvar_Hist);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.cblTipo);
+            this.Controls.Add(this.btnAlterar_Hist);
+            this.Controls.Add(this.txbPescoco);
+            this.Controls.Add(this.cblOlhos);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.btnVoltar_Hist);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txbExpressao);
+            this.Controls.Add(this.clbFatRisc);
+            this.Controls.Add(this.cblMucosa);
+            this.Controls.Add(this.clbPupilas);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.cblEscol);
+            this.Controls.Add(this.cblAdventicios);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.cblMastectomia);
+            this.Controls.Add(this.txbFatRisc);
+            this.Controls.Add(this.cblPescoco);
+            this.Controls.Add(this.cblOuvido);
+            this.Controls.Add(this.lblExpressao);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.cblFormas);
+            this.Controls.Add(this.cblVesticulares);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.cblBoca);
+            this.Controls.Add(this.cblMamilos);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.lblFatRisc);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmHistorico";
             this.Text = "Historico";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmHistorico_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.plHistorico.ResumeLayout(false);
-            this.plHistorico.PerformLayout();
-            this.grpTorax.ResumeLayout(false);
-            this.grpCardiacas.ResumeLayout(false);
-            this.grpTipo.ResumeLayout(false);
-            this.grpToracica.ResumeLayout(false);
-            this.grpMamilos.ResumeLayout(false);
-            this.grpMamilos.PerformLayout();
-            this.grpMastectomia.ResumeLayout(false);
-            this.grpMamas.ResumeLayout(false);
-            this.grpFormas.ResumeLayout(false);
-            this.grpEvolucao.ResumeLayout(false);
-            this.grpEvolucao.PerformLayout();
-            this.grpSonsRes.ResumeLayout(false);
-            this.grpAdventicios.ResumeLayout(false);
-            this.grpVesticulares.ResumeLayout(false);
-            this.grpDiagnostico.ResumeLayout(false);
-            this.grpDiagnostico.PerformLayout();
-            this.grpAnotacoes.ResumeLayout(false);
-            this.grpAnotacoes.PerformLayout();
-            this.grpCabPec.ResumeLayout(false);
-            this.grpMucosa.ResumeLayout(false);
-            this.grpOuvido.ResumeLayout(false);
-            this.grpBoca.ResumeLayout(false);
-            this.grpPescoco.ResumeLayout(false);
-            this.grpPescoco.PerformLayout();
-            this.grpVisao.ResumeLayout(false);
-            this.grpOlhos.ResumeLayout(false);
-            this.grpNariz.ResumeLayout(false);
-            this.grpCabeludo.ResumeLayout(false);
-            this.grpPupilas.ResumeLayout(false);
-            this.grpFatRisc.ResumeLayout(false);
-            this.grpFatRisc.PerformLayout();
-            this.grpEscol.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1097,65 +932,64 @@
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel plHistorico;
         private System.Windows.Forms.Label lblHistorico;
-        private System.Windows.Forms.GroupBox grpTorax;
-        private System.Windows.Forms.GroupBox grpCardiacas;
         private System.Windows.Forms.CheckedListBox cblCardiacas;
-        private System.Windows.Forms.GroupBox grpTipo;
         private System.Windows.Forms.CheckedListBox cblTipo;
-        private System.Windows.Forms.GroupBox grpToracica;
         private System.Windows.Forms.CheckedListBox cblToracica;
-        private System.Windows.Forms.GroupBox grpMamilos;
         private System.Windows.Forms.TextBox txbExpressao;
         private System.Windows.Forms.Label lblExpressao;
         private System.Windows.Forms.CheckedListBox cblMamilos;
-        private System.Windows.Forms.GroupBox grpMastectomia;
         private System.Windows.Forms.CheckedListBox cblMastectomia;
-        private System.Windows.Forms.GroupBox grpMamas;
         private System.Windows.Forms.CheckedListBox cblMamas;
-        private System.Windows.Forms.GroupBox grpFormas;
         private System.Windows.Forms.CheckedListBox cblFormas;
-        private System.Windows.Forms.GroupBox grpEvolucao;
-        private System.Windows.Forms.TextBox txbEvolucao;
-        private System.Windows.Forms.GroupBox grpSonsRes;
-        private System.Windows.Forms.GroupBox grpAdventicios;
-        private System.Windows.Forms.CheckedListBox cblAdventicios;
-        private System.Windows.Forms.GroupBox grpVesticulares;
         private System.Windows.Forms.CheckedListBox cblVesticulares;
-        private System.Windows.Forms.GroupBox grpDiagnostico;
-        private System.Windows.Forms.TextBox txbDiagnostico;
-        private System.Windows.Forms.GroupBox grpAnotacoes;
-        private System.Windows.Forms.TextBox txbAnotacoes;
-        private System.Windows.Forms.GroupBox grpCabPec;
-        private System.Windows.Forms.GroupBox grpMucosa;
         private System.Windows.Forms.CheckedListBox cblMucosa;
-        private System.Windows.Forms.GroupBox grpOuvido;
         private System.Windows.Forms.CheckedListBox cblOuvido;
-        private System.Windows.Forms.GroupBox grpBoca;
         private System.Windows.Forms.CheckedListBox cblBoca;
-        private System.Windows.Forms.GroupBox grpPescoco;
         private System.Windows.Forms.Label lblPescoco;
         private System.Windows.Forms.TextBox txbPescoco;
         private System.Windows.Forms.CheckedListBox cblPescoco;
-        private System.Windows.Forms.GroupBox grpVisao;
         private System.Windows.Forms.CheckedListBox cblVisao;
-        private System.Windows.Forms.GroupBox grpOlhos;
         private System.Windows.Forms.CheckedListBox cblOlhos;
-        private System.Windows.Forms.GroupBox grpNariz;
         private System.Windows.Forms.CheckedListBox cblNariz;
-        private System.Windows.Forms.GroupBox grpCabeludo;
         private System.Windows.Forms.CheckedListBox cblCabeludo;
-        private System.Windows.Forms.GroupBox grpPupilas;
         private System.Windows.Forms.CheckedListBox clbPupilas;
-        private System.Windows.Forms.GroupBox grpFatRisc;
         private System.Windows.Forms.Label lblFatRisc;
         private System.Windows.Forms.TextBox txbFatRisc;
         private System.Windows.Forms.CheckedListBox clbFatRisc;
-        private System.Windows.Forms.GroupBox grpEscol;
         private System.Windows.Forms.CheckedListBox cblEscol;
         private System.Windows.Forms.Button btnVoltar_Hist;
         private System.Windows.Forms.Button btnAlterar_Hist;
         private System.Windows.Forms.Button btnSalvar_Hist;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckedListBox cblAdventicios;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
     }
 }

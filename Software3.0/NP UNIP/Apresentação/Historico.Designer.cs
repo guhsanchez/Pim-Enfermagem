@@ -29,39 +29,39 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHistorico));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.lblPescoco = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.ptbUnip = new System.Windows.Forms.PictureBox();
+            this.lblCabecaPesc = new System.Windows.Forms.Label();
+            this.lblOutroPesc = new System.Windows.Forms.Label();
+            this.lblSonsResp = new System.Windows.Forms.Label();
+            this.lblPesc = new System.Windows.Forms.Label();
+            this.lblRuidos = new System.Windows.Forms.Label();
             this.txbPescoco = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblFatoresRisc = new System.Windows.Forms.Label();
             this.cblMucosa = new System.Windows.Forms.CheckedListBox();
             this.cblAdventicios = new System.Windows.Forms.CheckedListBox();
             this.cblPescoco = new System.Windows.Forms.CheckedListBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.lblFatRisc = new System.Windows.Forms.Label();
+            this.lblMurmurios = new System.Windows.Forms.Label();
+            this.lblMucosa = new System.Windows.Forms.Label();
+            this.lblOutosFatRisc = new System.Windows.Forms.Label();
             this.cblBoca = new System.Windows.Forms.CheckedListBox();
             this.cblVesticulares = new System.Windows.Forms.CheckedListBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblBoca = new System.Windows.Forms.Label();
+            this.lblEscol = new System.Windows.Forms.Label();
             this.cblOuvido = new System.Windows.Forms.CheckedListBox();
             this.txbFatRisc = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblOuvido = new System.Windows.Forms.Label();
             this.cblEscol = new System.Windows.Forms.CheckedListBox();
             this.clbPupilas = new System.Windows.Forms.CheckedListBox();
             this.clbFatRisc = new System.Windows.Forms.CheckedListBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblPupilas = new System.Windows.Forms.Label();
             this.btnVoltar_Hist = new System.Windows.Forms.Button();
             this.cblOlhos = new System.Windows.Forms.CheckedListBox();
             this.btnAlterar_Hist = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblOlhos = new System.Windows.Forms.Label();
             this.btnSalvar_Hist = new System.Windows.Forms.Button();
             this.cblVisao = new System.Windows.Forms.CheckedListBox();
             this.lblHistorico = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblCouroC = new System.Windows.Forms.Label();
             this.cblCardiacas = new System.Windows.Forms.CheckedListBox();
             this.cblTipo = new System.Windows.Forms.CheckedListBox();
             this.cblToracica = new System.Windows.Forms.CheckedListBox();
@@ -71,95 +71,95 @@
             this.cblMastectomia = new System.Windows.Forms.CheckedListBox();
             this.cblMamas = new System.Windows.Forms.CheckedListBox();
             this.cblFormas = new System.Windows.Forms.CheckedListBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblVisao = new System.Windows.Forms.Label();
             this.cblNariz = new System.Windows.Forms.CheckedListBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblNariz = new System.Windows.Forms.Label();
             this.cblCabeludo = new System.Windows.Forms.CheckedListBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
+            this.lblFormas = new System.Windows.Forms.Label();
+            this.lblMastec = new System.Windows.Forms.Label();
+            this.lblMamilos = new System.Windows.Forms.Label();
+            this.lblBulhas = new System.Windows.Forms.Label();
+            this.lblTipo = new System.Windows.Forms.Label();
+            this.lblMamas = new System.Windows.Forms.Label();
+            this.lblExpans = new System.Windows.Forms.Label();
+            this.lblTorax = new System.Windows.Forms.Label();
             this.txbEvolucao = new System.Windows.Forms.TextBox();
             this.txbAnotacao = new System.Windows.Forms.TextBox();
             this.txbDiagnostico = new System.Windows.Forms.TextBox();
             this.lblAnotacao = new System.Windows.Forms.Label();
             this.lblDiagnostico = new System.Windows.Forms.Label();
             this.lblEvolução = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbUnip)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // ptbUnip
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 33);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 52);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 22;
-            this.pictureBox1.TabStop = false;
+            this.ptbUnip.BackColor = System.Drawing.Color.Transparent;
+            this.ptbUnip.Image = ((System.Drawing.Image)(resources.GetObject("ptbUnip.Image")));
+            this.ptbUnip.Location = new System.Drawing.Point(22, 33);
+            this.ptbUnip.Margin = new System.Windows.Forms.Padding(2);
+            this.ptbUnip.Name = "ptbUnip";
+            this.ptbUnip.Size = new System.Drawing.Size(144, 52);
+            this.ptbUnip.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbUnip.TabIndex = 22;
+            this.ptbUnip.TabStop = false;
             // 
-            // label15
+            // lblCabecaPesc
             // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.SystemColors.InfoText;
-            this.label15.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label15.Location = new System.Drawing.Point(755, 60);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(148, 23);
-            this.label15.TabIndex = 39;
-            this.label15.Text = "Cabeça e Pescoço";
+            this.lblCabecaPesc.AutoSize = true;
+            this.lblCabecaPesc.BackColor = System.Drawing.SystemColors.InfoText;
+            this.lblCabecaPesc.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCabecaPesc.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.lblCabecaPesc.Location = new System.Drawing.Point(755, 60);
+            this.lblCabecaPesc.Name = "lblCabecaPesc";
+            this.lblCabecaPesc.Size = new System.Drawing.Size(148, 23);
+            this.lblCabecaPesc.TabIndex = 39;
+            this.lblCabecaPesc.Text = "Cabeça e Pescoço";
             // 
-            // lblPescoco
+            // lblOutroPesc
             // 
-            this.lblPescoco.AutoSize = true;
-            this.lblPescoco.BackColor = System.Drawing.Color.Transparent;
-            this.lblPescoco.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPescoco.Location = new System.Drawing.Point(1037, 293);
-            this.lblPescoco.Name = "lblPescoco";
-            this.lblPescoco.Size = new System.Drawing.Size(51, 18);
-            this.lblPescoco.TabIndex = 2;
-            this.lblPescoco.Text = "Outros";
+            this.lblOutroPesc.AutoSize = true;
+            this.lblOutroPesc.BackColor = System.Drawing.Color.Transparent;
+            this.lblOutroPesc.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutroPesc.Location = new System.Drawing.Point(1037, 293);
+            this.lblOutroPesc.Name = "lblOutroPesc";
+            this.lblOutroPesc.Size = new System.Drawing.Size(51, 18);
+            this.lblOutroPesc.TabIndex = 2;
+            this.lblOutroPesc.Text = "Outros";
             // 
-            // label14
+            // lblSonsResp
             // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.SystemColors.InfoText;
-            this.label14.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label14.Location = new System.Drawing.Point(275, 414);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(159, 23);
-            this.label14.TabIndex = 38;
-            this.label14.Text = "Sons Respiratórios";
+            this.lblSonsResp.AutoSize = true;
+            this.lblSonsResp.BackColor = System.Drawing.SystemColors.InfoText;
+            this.lblSonsResp.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSonsResp.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.lblSonsResp.Location = new System.Drawing.Point(275, 414);
+            this.lblSonsResp.Name = "lblSonsResp";
+            this.lblSonsResp.Size = new System.Drawing.Size(159, 23);
+            this.lblSonsResp.TabIndex = 38;
+            this.lblSonsResp.Text = "Sons Respiratórios";
             // 
-            // label13
+            // lblPesc
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(1104, 183);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(60, 18);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "Pescoço";
+            this.lblPesc.AutoSize = true;
+            this.lblPesc.BackColor = System.Drawing.Color.Transparent;
+            this.lblPesc.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPesc.Location = new System.Drawing.Point(1104, 183);
+            this.lblPesc.Name = "lblPesc";
+            this.lblPesc.Size = new System.Drawing.Size(60, 18);
+            this.lblPesc.TabIndex = 12;
+            this.lblPesc.Text = "Pescoço";
             // 
-            // label4
+            // lblRuidos
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(290, 548);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(128, 18);
-            this.label4.TabIndex = 37;
-            this.label4.Text = "Ruidos Adventícios";
+            this.lblRuidos.AutoSize = true;
+            this.lblRuidos.BackColor = System.Drawing.Color.Transparent;
+            this.lblRuidos.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRuidos.Location = new System.Drawing.Point(290, 548);
+            this.lblRuidos.Name = "lblRuidos";
+            this.lblRuidos.Size = new System.Drawing.Size(128, 18);
+            this.lblRuidos.TabIndex = 37;
+            this.lblRuidos.Text = "Ruidos Adventícios";
             // 
             // txbPescoco
             // 
@@ -173,17 +173,17 @@
             this.txbPescoco.Size = new System.Drawing.Size(182, 64);
             this.txbPescoco.TabIndex = 1;
             // 
-            // label2
+            // lblFatoresRisc
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.InfoText;
-            this.label2.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(292, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 23);
-            this.label2.TabIndex = 36;
-            this.label2.Text = "Fatores de Risco";
+            this.lblFatoresRisc.AutoSize = true;
+            this.lblFatoresRisc.BackColor = System.Drawing.SystemColors.InfoText;
+            this.lblFatoresRisc.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFatoresRisc.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.lblFatoresRisc.Location = new System.Drawing.Point(292, 33);
+            this.lblFatoresRisc.Name = "lblFatoresRisc";
+            this.lblFatoresRisc.Size = new System.Drawing.Size(138, 23);
+            this.lblFatoresRisc.TabIndex = 36;
+            this.lblFatoresRisc.Text = "Fatores de Risco";
             // 
             // cblMucosa
             // 
@@ -235,38 +235,38 @@
             this.cblPescoco.Size = new System.Drawing.Size(182, 86);
             this.cblPescoco.TabIndex = 0;
             // 
-            // label3
+            // lblMurmurios
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(276, 451);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(160, 18);
-            this.label3.TabIndex = 37;
-            this.label3.Text = "Murmúrios Vesticulares";
+            this.lblMurmurios.AutoSize = true;
+            this.lblMurmurios.BackColor = System.Drawing.Color.Transparent;
+            this.lblMurmurios.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMurmurios.Location = new System.Drawing.Point(276, 451);
+            this.lblMurmurios.Name = "lblMurmurios";
+            this.lblMurmurios.Size = new System.Drawing.Size(160, 18);
+            this.lblMurmurios.TabIndex = 37;
+            this.lblMurmurios.Text = "Murmúrios Vesticulares";
             // 
-            // label12
+            // lblMucosa
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(917, 216);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(57, 18);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Mucosa";
+            this.lblMucosa.AutoSize = true;
+            this.lblMucosa.BackColor = System.Drawing.Color.Transparent;
+            this.lblMucosa.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMucosa.Location = new System.Drawing.Point(914, 224);
+            this.lblMucosa.Name = "lblMucosa";
+            this.lblMucosa.Size = new System.Drawing.Size(57, 18);
+            this.lblMucosa.TabIndex = 11;
+            this.lblMucosa.Text = "Mucosa";
             // 
-            // lblFatRisc
+            // lblOutosFatRisc
             // 
-            this.lblFatRisc.AutoSize = true;
-            this.lblFatRisc.BackColor = System.Drawing.Color.Transparent;
-            this.lblFatRisc.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFatRisc.Location = new System.Drawing.Point(266, 149);
-            this.lblFatRisc.Name = "lblFatRisc";
-            this.lblFatRisc.Size = new System.Drawing.Size(51, 18);
-            this.lblFatRisc.TabIndex = 4;
-            this.lblFatRisc.Text = "Outros";
+            this.lblOutosFatRisc.AutoSize = true;
+            this.lblOutosFatRisc.BackColor = System.Drawing.Color.Transparent;
+            this.lblOutosFatRisc.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutosFatRisc.Location = new System.Drawing.Point(266, 149);
+            this.lblOutosFatRisc.Name = "lblOutosFatRisc";
+            this.lblOutosFatRisc.Size = new System.Drawing.Size(51, 18);
+            this.lblOutosFatRisc.TabIndex = 4;
+            this.lblOutosFatRisc.Text = "Outros";
             // 
             // cblBoca
             // 
@@ -305,28 +305,28 @@
             this.cblVesticulares.Size = new System.Drawing.Size(197, 67);
             this.cblVesticulares.TabIndex = 0;
             // 
-            // label11
+            // lblBoca
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(741, 216);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(39, 18);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "Boca";
+            this.lblBoca.AutoSize = true;
+            this.lblBoca.BackColor = System.Drawing.Color.Transparent;
+            this.lblBoca.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBoca.Location = new System.Drawing.Point(741, 216);
+            this.lblBoca.Name = "lblBoca";
+            this.lblBoca.Size = new System.Drawing.Size(39, 18);
+            this.lblBoca.TabIndex = 10;
+            this.lblBoca.Text = "Boca";
             // 
-            // label1
+            // lblEscol
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.InfoText;
-            this.label1.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(318, 260);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 23);
-            this.label1.TabIndex = 35;
-            this.label1.Text = "Escolaridade";
+            this.lblEscol.AutoSize = true;
+            this.lblEscol.BackColor = System.Drawing.SystemColors.InfoText;
+            this.lblEscol.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEscol.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.lblEscol.Location = new System.Drawing.Point(318, 260);
+            this.lblEscol.Name = "lblEscol";
+            this.lblEscol.Size = new System.Drawing.Size(112, 23);
+            this.lblEscol.TabIndex = 35;
+            this.lblEscol.Text = "Escolaridade";
             // 
             // cblOuvido
             // 
@@ -356,16 +356,16 @@
             this.txbFatRisc.Size = new System.Drawing.Size(181, 72);
             this.txbFatRisc.TabIndex = 3;
             // 
-            // label10
+            // lblOuvido
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(1136, 67);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 18);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "Ouvido";
+            this.lblOuvido.AutoSize = true;
+            this.lblOuvido.BackColor = System.Drawing.Color.Transparent;
+            this.lblOuvido.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOuvido.Location = new System.Drawing.Point(1136, 67);
+            this.lblOuvido.Name = "lblOuvido";
+            this.lblOuvido.Size = new System.Drawing.Size(53, 18);
+            this.lblOuvido.TabIndex = 9;
+            this.lblOuvido.Text = "Ouvido";
             // 
             // cblEscol
             // 
@@ -423,16 +423,16 @@
             this.clbFatRisc.Size = new System.Drawing.Size(181, 86);
             this.clbFatRisc.TabIndex = 2;
             // 
-            // label9
+            // lblPupilas
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(992, 67);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 18);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Pupilas";
+            this.lblPupilas.AutoSize = true;
+            this.lblPupilas.BackColor = System.Drawing.Color.Transparent;
+            this.lblPupilas.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPupilas.Location = new System.Drawing.Point(992, 67);
+            this.lblPupilas.Name = "lblPupilas";
+            this.lblPupilas.Size = new System.Drawing.Size(53, 18);
+            this.lblPupilas.TabIndex = 8;
+            this.lblPupilas.Text = "Pupilas";
             // 
             // btnVoltar_Hist
             // 
@@ -481,16 +481,16 @@
             this.btnAlterar_Hist.Text = "Alterar Dados";
             this.btnAlterar_Hist.UseVisualStyleBackColor = false;
             // 
-            // label8
+            // lblOlhos
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(859, 112);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 18);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Olhos";
+            this.lblOlhos.AutoSize = true;
+            this.lblOlhos.BackColor = System.Drawing.Color.Transparent;
+            this.lblOlhos.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOlhos.Location = new System.Drawing.Point(859, 112);
+            this.lblOlhos.Name = "lblOlhos";
+            this.lblOlhos.Size = new System.Drawing.Size(44, 18);
+            this.lblOlhos.TabIndex = 7;
+            this.lblOlhos.Text = "Olhos";
             // 
             // btnSalvar_Hist
             // 
@@ -535,16 +535,16 @@
             this.lblHistorico.TabIndex = 32;
             this.lblHistorico.Text = "Histórico";
             // 
-            // label7
+            // lblCouroC
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(543, 91);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 18);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Couro Cabeludo";
+            this.lblCouroC.AutoSize = true;
+            this.lblCouroC.BackColor = System.Drawing.Color.Transparent;
+            this.lblCouroC.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCouroC.Location = new System.Drawing.Point(543, 91);
+            this.lblCouroC.Name = "lblCouroC";
+            this.lblCouroC.Size = new System.Drawing.Size(108, 18);
+            this.lblCouroC.TabIndex = 6;
+            this.lblCouroC.Text = "Couro Cabeludo";
             // 
             // cblCardiacas
             // 
@@ -686,16 +686,16 @@
             this.cblFormas.Size = new System.Drawing.Size(151, 88);
             this.cblFormas.TabIndex = 0;
             // 
-            // label6
+            // lblVisao
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(721, 112);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 18);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Visão";
+            this.lblVisao.AutoSize = true;
+            this.lblVisao.BackColor = System.Drawing.Color.Transparent;
+            this.lblVisao.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVisao.Location = new System.Drawing.Point(721, 112);
+            this.lblVisao.Name = "lblVisao";
+            this.lblVisao.Size = new System.Drawing.Size(42, 18);
+            this.lblVisao.TabIndex = 5;
+            this.lblVisao.Text = "Visão";
             // 
             // cblNariz
             // 
@@ -715,16 +715,16 @@
             this.cblNariz.Size = new System.Drawing.Size(114, 86);
             this.cblNariz.TabIndex = 0;
             // 
-            // label5
+            // lblNariz
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(569, 216);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 18);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Nariz";
+            this.lblNariz.AutoSize = true;
+            this.lblNariz.BackColor = System.Drawing.Color.Transparent;
+            this.lblNariz.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNariz.Location = new System.Drawing.Point(569, 216);
+            this.lblNariz.Name = "lblNariz";
+            this.lblNariz.Size = new System.Drawing.Size(42, 18);
+            this.lblNariz.TabIndex = 4;
+            this.lblNariz.Text = "Nariz";
             // 
             // cblCabeludo
             // 
@@ -744,94 +744,94 @@
             this.cblCabeludo.Size = new System.Drawing.Size(122, 86);
             this.cblCabeludo.TabIndex = 0;
             // 
-            // label16
+            // lblFormas
             // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(565, 403);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(54, 18);
-            this.label16.TabIndex = 40;
-            this.label16.Text = "Formas";
+            this.lblFormas.AutoSize = true;
+            this.lblFormas.BackColor = System.Drawing.Color.Transparent;
+            this.lblFormas.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFormas.Location = new System.Drawing.Point(565, 403);
+            this.lblFormas.Name = "lblFormas";
+            this.lblFormas.Size = new System.Drawing.Size(54, 18);
+            this.lblFormas.TabIndex = 40;
+            this.lblFormas.Text = "Formas";
             // 
-            // label17
+            // lblMastec
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(721, 403);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(90, 18);
-            this.label17.TabIndex = 41;
-            this.label17.Text = "Mastectomia";
+            this.lblMastec.AutoSize = true;
+            this.lblMastec.BackColor = System.Drawing.Color.Transparent;
+            this.lblMastec.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMastec.Location = new System.Drawing.Point(721, 403);
+            this.lblMastec.Name = "lblMastec";
+            this.lblMastec.Size = new System.Drawing.Size(90, 18);
+            this.lblMastec.TabIndex = 41;
+            this.lblMastec.Text = "Mastectomia";
             // 
-            // label18
+            // lblMamilos
             // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(1093, 403);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(62, 18);
-            this.label18.TabIndex = 42;
-            this.label18.Text = "Mamilos";
+            this.lblMamilos.AutoSize = true;
+            this.lblMamilos.BackColor = System.Drawing.Color.Transparent;
+            this.lblMamilos.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMamilos.Location = new System.Drawing.Point(1093, 403);
+            this.lblMamilos.Name = "lblMamilos";
+            this.lblMamilos.Size = new System.Drawing.Size(62, 18);
+            this.lblMamilos.TabIndex = 42;
+            this.lblMamilos.Text = "Mamilos";
             // 
-            // label19
+            // lblBulhas
             // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(721, 527);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(113, 18);
-            this.label19.TabIndex = 43;
-            this.label19.Text = "Bulhas Cardiacas";
+            this.lblBulhas.AutoSize = true;
+            this.lblBulhas.BackColor = System.Drawing.Color.Transparent;
+            this.lblBulhas.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBulhas.Location = new System.Drawing.Point(721, 527);
+            this.lblBulhas.Name = "lblBulhas";
+            this.lblBulhas.Size = new System.Drawing.Size(113, 18);
+            this.lblBulhas.TabIndex = 43;
+            this.lblBulhas.Text = "Bulhas Cardiacas";
             // 
-            // label20
+            // lblTipo
             // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(901, 403);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(36, 18);
-            this.label20.TabIndex = 44;
-            this.label20.Text = "Tipo";
+            this.lblTipo.AutoSize = true;
+            this.lblTipo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTipo.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipo.Location = new System.Drawing.Point(901, 403);
+            this.lblTipo.Name = "lblTipo";
+            this.lblTipo.Size = new System.Drawing.Size(36, 18);
+            this.lblTipo.TabIndex = 44;
+            this.lblTipo.Text = "Tipo";
             // 
-            // label21
+            // lblMamas
             // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(929, 480);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(53, 18);
-            this.label21.TabIndex = 45;
-            this.label21.Text = "Mamas";
+            this.lblMamas.AutoSize = true;
+            this.lblMamas.BackColor = System.Drawing.Color.Transparent;
+            this.lblMamas.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMamas.Location = new System.Drawing.Point(929, 480);
+            this.lblMamas.Name = "lblMamas";
+            this.lblMamas.Size = new System.Drawing.Size(53, 18);
+            this.lblMamas.TabIndex = 45;
+            this.lblMamas.Text = "Mamas";
             // 
-            // label22
+            // lblExpans
             // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(536, 527);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(108, 18);
-            this.label22.TabIndex = 46;
-            this.label22.Text = "Expansibilidade";
+            this.lblExpans.AutoSize = true;
+            this.lblExpans.BackColor = System.Drawing.Color.Transparent;
+            this.lblExpans.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExpans.Location = new System.Drawing.Point(536, 527);
+            this.lblExpans.Name = "lblExpans";
+            this.lblExpans.Size = new System.Drawing.Size(108, 18);
+            this.lblExpans.TabIndex = 46;
+            this.lblExpans.Text = "Expansibilidade";
             // 
-            // label23
+            // lblTorax
             // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Black;
-            this.label23.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label23.Location = new System.Drawing.Point(819, 371);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(57, 23);
-            this.label23.TabIndex = 47;
-            this.label23.Text = "Torax";
+            this.lblTorax.AutoSize = true;
+            this.lblTorax.BackColor = System.Drawing.Color.Black;
+            this.lblTorax.Font = new System.Drawing.Font("Candara", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTorax.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTorax.Location = new System.Drawing.Point(819, 371);
+            this.lblTorax.Name = "lblTorax";
+            this.lblTorax.Size = new System.Drawing.Size(57, 23);
+            this.lblTorax.TabIndex = 47;
+            this.lblTorax.Text = "Torax";
             // 
             // txbEvolucao
             // 
@@ -908,74 +908,74 @@
             this.Controls.Add(this.txbDiagnostico);
             this.Controls.Add(this.txbAnotacao);
             this.Controls.Add(this.txbEvolucao);
-            this.Controls.Add(this.label23);
+            this.Controls.Add(this.lblTorax);
             this.Controls.Add(this.cblMamas);
             this.Controls.Add(this.cblNariz);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lblCabecaPesc);
+            this.Controls.Add(this.ptbUnip);
             this.Controls.Add(this.cblToracica);
             this.Controls.Add(this.cblCabeludo);
-            this.Controls.Add(this.lblPescoco);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblOutroPesc);
+            this.Controls.Add(this.lblNariz);
+            this.Controls.Add(this.lblExpans);
+            this.Controls.Add(this.lblVisao);
+            this.Controls.Add(this.lblSonsResp);
+            this.Controls.Add(this.lblCouroC);
             this.Controls.Add(this.cblCardiacas);
             this.Controls.Add(this.lblHistorico);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.lblPesc);
             this.Controls.Add(this.cblVisao);
-            this.Controls.Add(this.label21);
+            this.Controls.Add(this.lblMamas);
             this.Controls.Add(this.btnSalvar_Hist);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblRuidos);
+            this.Controls.Add(this.lblOlhos);
             this.Controls.Add(this.cblTipo);
             this.Controls.Add(this.btnAlterar_Hist);
             this.Controls.Add(this.txbPescoco);
             this.Controls.Add(this.cblOlhos);
-            this.Controls.Add(this.label19);
+            this.Controls.Add(this.lblBulhas);
             this.Controls.Add(this.btnVoltar_Hist);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.lblFatoresRisc);
+            this.Controls.Add(this.lblPupilas);
             this.Controls.Add(this.txbExpressao);
             this.Controls.Add(this.clbFatRisc);
             this.Controls.Add(this.cblMucosa);
             this.Controls.Add(this.clbPupilas);
-            this.Controls.Add(this.label20);
+            this.Controls.Add(this.lblTipo);
             this.Controls.Add(this.cblEscol);
             this.Controls.Add(this.cblAdventicios);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lblOuvido);
             this.Controls.Add(this.cblMastectomia);
             this.Controls.Add(this.txbFatRisc);
             this.Controls.Add(this.cblPescoco);
             this.Controls.Add(this.cblOuvido);
             this.Controls.Add(this.lblExpressao);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblEscol);
+            this.Controls.Add(this.lblMurmurios);
+            this.Controls.Add(this.lblBoca);
             this.Controls.Add(this.cblFormas);
             this.Controls.Add(this.cblVesticulares);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.lblMamilos);
+            this.Controls.Add(this.lblFormas);
+            this.Controls.Add(this.lblMucosa);
             this.Controls.Add(this.cblBoca);
             this.Controls.Add(this.cblMamilos);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.lblFatRisc);
+            this.Controls.Add(this.lblMastec);
+            this.Controls.Add(this.lblOutosFatRisc);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmHistorico";
             this.Text = "Historico";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmHistorico_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbUnip)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox ptbUnip;
         private System.Windows.Forms.Label lblHistorico;
         private System.Windows.Forms.CheckedListBox cblCardiacas;
         private System.Windows.Forms.CheckedListBox cblTipo;
@@ -990,7 +990,7 @@
         private System.Windows.Forms.CheckedListBox cblMucosa;
         private System.Windows.Forms.CheckedListBox cblOuvido;
         private System.Windows.Forms.CheckedListBox cblBoca;
-        private System.Windows.Forms.Label lblPescoco;
+        private System.Windows.Forms.Label lblOutroPesc;
         private System.Windows.Forms.TextBox txbPescoco;
         private System.Windows.Forms.CheckedListBox cblPescoco;
         private System.Windows.Forms.CheckedListBox cblVisao;
@@ -998,37 +998,37 @@
         private System.Windows.Forms.CheckedListBox cblNariz;
         private System.Windows.Forms.CheckedListBox cblCabeludo;
         private System.Windows.Forms.CheckedListBox clbPupilas;
-        private System.Windows.Forms.Label lblFatRisc;
+        private System.Windows.Forms.Label lblOutosFatRisc;
         private System.Windows.Forms.TextBox txbFatRisc;
         private System.Windows.Forms.CheckedListBox clbFatRisc;
         private System.Windows.Forms.CheckedListBox cblEscol;
         private System.Windows.Forms.Button btnVoltar_Hist;
         private System.Windows.Forms.Button btnAlterar_Hist;
         private System.Windows.Forms.Button btnSalvar_Hist;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblFatoresRisc;
+        private System.Windows.Forms.Label lblEscol;
+        private System.Windows.Forms.Label lblRuidos;
         private System.Windows.Forms.CheckedListBox cblAdventicios;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lblMurmurios;
+        private System.Windows.Forms.Label lblPesc;
+        private System.Windows.Forms.Label lblMucosa;
+        private System.Windows.Forms.Label lblBoca;
+        private System.Windows.Forms.Label lblOuvido;
+        private System.Windows.Forms.Label lblPupilas;
+        private System.Windows.Forms.Label lblOlhos;
+        private System.Windows.Forms.Label lblCouroC;
+        private System.Windows.Forms.Label lblVisao;
+        private System.Windows.Forms.Label lblNariz;
+        private System.Windows.Forms.Label lblCabecaPesc;
+        private System.Windows.Forms.Label lblSonsResp;
+        private System.Windows.Forms.Label lblTorax;
+        private System.Windows.Forms.Label lblExpans;
+        private System.Windows.Forms.Label lblMamas;
+        private System.Windows.Forms.Label lblBulhas;
+        private System.Windows.Forms.Label lblTipo;
+        private System.Windows.Forms.Label lblMamilos;
+        private System.Windows.Forms.Label lblMastec;
+        private System.Windows.Forms.Label lblFormas;
         private System.Windows.Forms.TextBox txbEvolucao;
         private System.Windows.Forms.TextBox txbAnotacao;
         private System.Windows.Forms.TextBox txbDiagnostico;

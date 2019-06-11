@@ -33,5 +33,15 @@ namespace NP_UNIP.Properties {
                 return ((string)(this["pimConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-9GAM6R9;Initial Catalog=teste;User ID=sa;Password=root")]
+        public string testeConnectionString {
+            get {
+                return ((string)(this["testeConnectionString"]));
+            }
+        }
     }
 }

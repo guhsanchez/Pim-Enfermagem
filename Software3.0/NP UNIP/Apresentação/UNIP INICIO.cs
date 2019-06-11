@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace NP_UNIP
 {
     public partial class frmPrincipal : Form
     {
+        Thread nt;
+
         public frmPrincipal()
         {
             InitializeComponent();
@@ -35,22 +38,22 @@ namespace NP_UNIP
 
         private void BtnEntrar_Click(object sender, EventArgs e)
         {
-            #region
-            frmAreaUsuario _AU1;
-            _AU1 = new frmAreaUsuario();
-            _AU1.Show();
-            Hide();
-            #endregion
-            #region
-            if (true)
+            if (txbLogin.Text == "ADM" && txbSenha.Text == "123")
             {
-
+                this.Close();
+                nt = new Thread(areaUser);
+                nt.SetApartmentState(ApartmentState.STA);
+                nt.Start();
             }
             else
             {
-                MessageBox.Show("Senho e/ou Login invalido!");
+                MessageBox.Show("Senha ou Login Incorretos! ");
             }
-            #endregion
+        }
+
+        private void areaUser()
+        {
+            Application.Run(new frmAreaUsuario());
         }
 
         private void TxbLogin_KeyPress(object sender, KeyPressEventArgs e)

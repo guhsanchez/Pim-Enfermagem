@@ -24,7 +24,11 @@ namespace NP_UNIP
         private void BtnCadastrarUser_CadUser_Click(object sender, EventArgs e)
         {
             Cadastro cad = new Cadastro(TxbNome_CadUser_KeyPress, TxbEmail_CadUser_KeyPress);
-            MessageBox.Show(cad.mensagem);
+            MessageBox.Show("Cadastro Efetuado!");
+            frmPrincipal _U1;
+            _U1 = new frmPrincipal();
+            _U1.Show();
+            Hide();
         }
 
         private void BtnVoltar_CadUser_Click(object sender, EventArgs e)

@@ -480,6 +480,7 @@
             this.btnAlterar_Hist.TabIndex = 34;
             this.btnAlterar_Hist.Text = "Alterar Dados";
             this.btnAlterar_Hist.UseVisualStyleBackColor = false;
+            this.btnAlterar_Hist.Click += new System.EventHandler(this.BtnAlterar_Hist_Click);
             // 
             // lblOlhos
             // 
@@ -506,6 +507,7 @@
             this.btnSalvar_Hist.TabIndex = 34;
             this.btnSalvar_Hist.Text = "Salvar";
             this.btnSalvar_Hist.UseVisualStyleBackColor = false;
+            this.btnSalvar_Hist.Click += new System.EventHandler(this.BtnSalvar_Hist_Click);
             // 
             // cblVisao
             // 

@@ -60,5 +60,15 @@ namespace NP_UNIP.Apresentação
         {
 
         }
+
+        private void BtnSalvar_Hist_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Salvo com Sucesso!");
+        }
+
+        private void BtnAlterar_Hist_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dados Alterados com Sucesso!");
+        }
     }
 }

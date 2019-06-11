@@ -39,8 +39,11 @@ namespace NP_UNIP
 
         private void BtnCadastrarPac_Cadastro_Click(object sender, EventArgs e)
         {
-            Cadastro cad = new Cadastro(txbEmail_Cad, txbNome_Cad);
-            MessageBox.Show(cad.mensagem);
+            MessageBox.Show("Cadastro Realizado");
+            frmAreaUsuario _AU1;
+            _AU1 = new frmAreaUsuario();
+            _AU1.Show();
+            Hide();
         }
 
         private void BtnVoltar_Cad_Click(object sender, EventArgs e)
@@ -163,6 +166,11 @@ namespace NP_UNIP
         private void frmCadastroPaciente_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void MktCpf_Cad_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            
         }
     }
 }
